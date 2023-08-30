@@ -1,0 +1,25 @@
+{
+  "name": "venusxk_site",
+  "version": "2.0.0",
+  "description": "blog site on vitepress",
+  "main": "index.js",
+  "author": "VenusXK",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "markdown-it-katex": "^2.0.3",
+    "postcss": "^8.4.26",
+    "tailwindcss": "^3.3.3",
+    "vitepress": "^1.0.0-beta.5"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs --port 80",
+    "docs:preview": "vitepress preview docs",
+    "tailwind:dev": "npx tailwind -i ./docs/public/input.css -o ./docs/public/output.css --watch"
+  },
+  "dependencies": {
+    "@rollup/plugin-alias": "^5.0.0"
+  }
+}
