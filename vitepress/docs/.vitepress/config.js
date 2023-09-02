@@ -110,7 +110,7 @@ module.exports = {
         // ---------------------------------- nav ----------------------------------
         nav: [
           { text: 'News', link: '/_news/' },
-          { text: 'Blog', link: 'https://zjh.asia/blog/' },
+          { text: 'Blog', link: 'https://zjh.asia/blog/blog/' },
           { text: '知识库', link: 'https://rpomlp892j.feishu.cn/wiki/space/7271613755518255106?ccm_open_type=lark_wiki_spaceLink' },
         ],
 

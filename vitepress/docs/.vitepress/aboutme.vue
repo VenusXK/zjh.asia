@@ -226,7 +226,6 @@
                             2022/6
                             &nbsp;
                             <span class="font-bold">Link: </span>
-                            <a href="/_project/major_trans.html#excel-文件和-html-文件解析">visit</a>;
                             <a href="https://blog.csdn.net/m0_50939789/article/details/126796403">csdn</a>
                         </p>
                     </td>

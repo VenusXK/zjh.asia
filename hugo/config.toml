@@ -6,7 +6,7 @@ baseURL = "https://zjh.asia/blog"
 theme = 'hugo-bearblog-local'
 
 # Basic metadata configuration for your blog.
-title = "博客：按 Alt+F4 了解更多"
+title = "Blog"
 author = "Jinghe Zhang"
 copyright = "Copyright © 2020, Jinghe Zhang."
 languageCode = "en-US"
