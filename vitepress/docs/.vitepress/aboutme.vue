@@ -3,7 +3,7 @@
 
 </script>
 <template>
-<div class="w-[70%] sm:w-full h-auto bg-repeat m-auto" id="academic">
+<div class="w-[1000px] sm:w-full h-auto bg-repeat m-auto " id="academic">
 
         <div class="zone">
             <table>
