@@ -719,5 +719,9 @@ video {
   .sm\:w-\[90\%\] {
     width: 90%;
   }
+
+  .sm\:font-medium {
+    font-weight: 500;
+  }
 }
 
