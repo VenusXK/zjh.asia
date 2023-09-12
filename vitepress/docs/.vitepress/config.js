@@ -92,6 +92,7 @@ const customElements = [
 
 
 module.exports = {
+    base: '/academic/',
     title: 'Jinghe Zhang',
     description: '张景赫',
     head:[
@@ -105,13 +106,11 @@ module.exports = {
         outlineTitle: '内容目录',
         outlineBadges: true,
         outline: 'deep',
-        siteTitle: 'ZJH.ASIA',
+        siteTitle: 'ACADEMIC',
 
         // ---------------------------------- nav ----------------------------------
         nav: [
           { text: 'News', link: '/_news/' },
-          { text: '博客', link: 'https://zjh.asia/blog/blog/' },
-          { text: '知识库', link: 'https://rpomlp892j.feishu.cn/wiki/space/7271613755518255106?ccm_open_type=lark_wiki_spaceLink' },
         ],
 
 
@@ -141,9 +140,9 @@ module.exports = {
         externalLinkIcon: true,
 
         // search
-        search: {
-          provider: 'local'
-        }
+        // search: {
+        //   provider: 'local'
+        // }
         
     },
 

@@ -68,6 +68,10 @@
 .follow_svg_t{
   @apply w-[30px] h-[30px]  sm:w-[23px] sm:h-[23px] follow_svg
 }
+.follow_svg_1{
+  @apply w-[28px] h-[30px]  sm:w-[23px] sm:h-[23px] follow_svg
+}
+
 
 .prj_label{
   @apply line-clamp-1 hover:line-clamp-none
