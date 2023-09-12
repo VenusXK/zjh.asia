@@ -7,7 +7,7 @@
 }
 @media screen and (min-width: 1000px) {
     #card_bg{
-        @apply hover:scale-[1.02] hover:shadow-2xl ease-in-out duration-1000
+        @apply hover:scale-[1.02] hover:shadow-lg ease-out duration-300
   }
 }
 
