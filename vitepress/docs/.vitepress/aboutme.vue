@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="/output_vitepress.css" />
+<!-- <link rel="stylesheet" type="text/css" href="/output_vitepress.css" /> -->
 <script setup>
 
 </script>
@@ -27,12 +27,12 @@
         
         <div class="zone">
             <p class="text-3xl sm:text-base font-bold">Jinghe Zhang (张景赫)</p>
-                    <p class="pt-2 line-clamp-none">Student of <a href="http://computer.upc.edu.cn/">College of Computer Science and Technology</a>, <a href="https://www.upc.edu.cn/">UPC</a>.</p>
+                    <p class="pt-2 line-clamp-1">Student of <a href="http://computer.upc.edu.cn/">College of Computer Science and Technology</a>, <a href="https://www.upc.edu.cn/">UPC</a>.</p>
         </div>
 
 
         <div class="zone">
-            <p class="zone_title">Link</p>
+            <!-- <p class="zone_title">Link</p> -->
             <div class="h-[35px] w-full">
                 <ul class="zone_ul zone_ul_left">
                     <li class="float-left">

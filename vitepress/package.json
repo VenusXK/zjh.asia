@@ -17,7 +17,7 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs --port 80",
     "docs:preview": "vitepress preview docs",
-    "tailwind:dev": "npx tailwind -i ./docs/public/input.css -o ./docs/public/output.css --watch"
+    "tw:dev": "npx tailwind -i ./docs/.vitepress/theme/input.css -o ./docs/.vitepress/theme/output_vitepress.css --watch"
   },
   "dependencies": {
     "@rollup/plugin-alias": "^5.0.0"
