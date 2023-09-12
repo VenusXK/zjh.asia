@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="/output.css" />
+<link rel="stylesheet" type="text/css" href="/output_vitepress.css" />
 <script setup>
 
 </script>

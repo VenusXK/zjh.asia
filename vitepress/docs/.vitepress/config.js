@@ -97,7 +97,7 @@ module.exports = {
     description: '张景赫',
     head:[
       ['link', {rel: 'icon', href: 'https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/avator/zjh_roundfull.png?x-oss-process=style/small_size_rule'}],
-      ['link', {rel: 'stylesheet', href: '/output.css'}],
+      ['link', {rel: 'stylesheet', href: '/output_vitepress.css'}],
       ['link', { rel: 'stylesheet', href: '/katex.min.css', crossorigin: '' }]
     ],
     // Theme related configurations.
