@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "tailwindcss": "^3.3.3"
-  },
-  "scripts": {
-    "tw:dev": "npx tailwind -i input.css -o output_game.css --watch"
-  }
-}
