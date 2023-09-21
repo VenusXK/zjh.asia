@@ -14,7 +14,7 @@
     @apply text-purple-500 font-bold underline decoration-dotted ;
 }
 .para-cn{
-    @apply p-2 text-lg leading-7 italic sm:not-italic  sm:text-base;
+    @apply p-2 text-lg leading-7 sm:text-base;
 }
 .para-en{
     @apply p-2 text-base leading-6 italic sm:not-italic;
