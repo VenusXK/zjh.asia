@@ -573,6 +573,10 @@ video {
   color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .link {
   font-weight: 700;
   --tw-text-opacity: 1;
@@ -635,7 +639,13 @@ video {
     padding-top: 100px;
     padding-bottom: 2.5rem;
   }
+}
 
+.disabled\:inline:disabled {
+  display: inline;
+}
+
+@media (max-width: 900px) {
   .sm\:max-w-none {
     max-width: none;
   }
