@@ -277,8 +277,10 @@
             </span>
             <br>
             <span style="font-size: smaller;">Copyright © 2023, 张景赫</span>
-            &nbsp;
-            <span style="font-size: smaller;"><a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备2023030802号</a></span>
+            <div class="hidden sm:block h-[10px]"></div>
+            <span style="font-size: smaller;">&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备2023030802号</a> &nbsp;</span>
+            <div class="hidden sm:block h-[0px]"></div>
+            <img  src="https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/other_icon/%E5%A4%87%E6%A1%88%E5%9B%BE%E6%A0%87.png" style="display: inline; height: 15px; margin-right: -5px; margin-bottom: -2px;" alt="">&nbsp;<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13010202003482" style="font-size: smaller;" class="sm:ml-1">冀公网安备13010202003482号</a>
 
         </div>
 
