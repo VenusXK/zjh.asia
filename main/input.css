@@ -10,7 +10,21 @@
         @apply hover:scale-[1.02] hover:shadow-xl ease-out duration-300
   }
 }
-
+.link{
+    @apply text-purple-500 font-bold underline decoration-dotted ;
+}
+.para-cn{
+    @apply p-2 text-lg leading-7 italic sm:not-italic  sm:text-base;
+}
+.para-en{
+    @apply p-2 text-base leading-6 italic sm:not-italic;
+}
+.para-bottom{
+    @apply p-1 pl-2 italic sm:not-italic text-sm;
+}
+.title{
+    @apply pt-[150px] sm:pt-[100px] font-bold text-5xl p-2 sm:p-1 pb-10 sm:pb-10 tracking-wide
+}
 .follow_svg{
     @apply  text-black hover:text-gray-200 mr-2
 }
