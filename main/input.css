@@ -5,6 +5,9 @@
 .link{
     @apply text-purple-500 font-bold underline decoration-dotted ;
 }
+.link_sm{
+    @apply underline decoration-dotted ;
+}
 .para-cn{
     @apply p-2 text-lg leading-7 sm:text-base;
 }

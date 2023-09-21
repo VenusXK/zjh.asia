@@ -534,62 +534,32 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.fixed {
-  position: fixed;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.float-left {
-  float: left;
-}
-
 .m-auto {
   margin: auto;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
-.mt-\[5px\] {
-  margin-top: 5px;
-}
-
-.mt-\[60px\] {
-  margin-top: 60px;
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .inline {
   display: inline;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.w-full {
-  width: 100%;
+.w-\[20px\] {
+  width: 20px;
 }
 
 .max-w-\[40\%\] {
   max-width: 40%;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.bg-\[\#f4f4f5\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .p-10 {
@@ -600,41 +570,13 @@ video {
   padding: 0.5rem;
 }
 
-.pb-0 {
-  padding-bottom: 0px;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
 .pt-20 {
   padding-top: 5rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.font-medium {
-  font-weight: 500;
-}
-
-.font-thin {
-  font-weight: 100;
-}
-
-.italic {
-  font-style: italic;
 }
 
 .text-gray-400 {
@@ -647,15 +589,15 @@ video {
   color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .link {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(168 85 247 / var(--tw-text-opacity));
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.link_sm {
   text-decoration-line: underline;
   text-decoration-style: dotted;
 }
@@ -717,10 +659,6 @@ video {
     padding-bottom: 2.5rem;
   }
 
-  .sm\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
   .sm\:max-w-none {
     max-width: none;
   }
@@ -731,13 +669,5 @@ video {
 
   .sm\:pt-10 {
     padding-top: 2.5rem;
-  }
-
-  .sm\:font-medium {
-    font-weight: 500;
-  }
-
-  .sm\:not-italic {
-    font-style: normal;
   }
 }
