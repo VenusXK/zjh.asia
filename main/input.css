@@ -2,20 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+.lang{
+    @apply text-purple-500 hover:bg-purple-600 hover:text-white duration-200
+}
 .link{
-    @apply text-purple-500 font-bold underline decoration-dotted ;
+    @apply text-purple-500 underline decoration-dotted hover:bg-purple-600 p-[1px]  hover:text-white duration-300;
 }
 .link_sm{
     @apply underline decoration-dotted ;
 }
 .para-cn{
-    @apply p-2 text-lg leading-7 sm:text-base;
+    @apply p-2 text-2xl leading-9 sm:text-lg tracking-wider;
 }
 .para-en{
-    @apply p-2 text-base leading-6 italic sm:not-italic;
+    @apply p-2 text-xl leading-9 italic sm:not-italic;
 }
 .para-bottom{
-    @apply p-1 pl-2 text-sm;
+    @apply p-1 pl-2 text-lg sm:text-base;
 }
 .title{
     @apply pt-[150px] sm:pt-[100px] font-bold text-5xl p-2 sm:p-1 pb-10 sm:pb-10 tracking-wide

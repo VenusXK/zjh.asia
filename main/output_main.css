@@ -538,8 +538,27 @@ video {
   margin: auto;
 }
 
+.mt-\[-2px\] {
+  margin-top: -2px;
+}
+
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
 .inline {
   display: inline;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .max-w-\[40\%\] {
@@ -573,16 +592,33 @@ video {
   color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 
-.filter {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+.lang {
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
+  transition-duration: 200ms;
+}
+
+.lang:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 51 234 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .link {
-  font-weight: 700;
+  padding: 1px;
   --tw-text-opacity: 1;
   color: rgb(168 85 247 / var(--tw-text-opacity));
   text-decoration-line: underline;
   text-decoration-style: dotted;
+  transition-duration: 300ms;
+}
+
+.link:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 51 234 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .link_sm {
@@ -592,22 +628,23 @@ video {
 
 .para-cn {
   padding: 0.5rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  letter-spacing: 0.05em;
 }
 
 @media (max-width: 900px) {
   .para-cn {
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
 .para-en {
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-style: italic;
-  line-height: 1.5rem;
+  line-height: 2.25rem;
 }
 
 @media (max-width: 900px) {
@@ -619,8 +656,15 @@ video {
 .para-bottom {
   padding: 0.25rem;
   padding-left: 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+@media (max-width: 900px) {
+  .para-bottom {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 .title {
@@ -639,13 +683,7 @@ video {
     padding-top: 100px;
     padding-bottom: 2.5rem;
   }
-}
 
-.disabled\:inline:disabled {
-  display: inline;
-}
-
-@media (max-width: 900px) {
   .sm\:max-w-none {
     max-width: none;
   }
