@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.contact-text{
+    @apply underline decoration-dashed hover:bg-purple-600 hover:text-white duration-300
+}
 .lang{
     @apply text-purple-500 hover:bg-purple-600 hover:text-white duration-200
 }
