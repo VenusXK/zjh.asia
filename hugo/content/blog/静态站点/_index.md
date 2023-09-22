@@ -1,3 +1,3 @@
 +++
-title = "[合集]静态站点管理"
+title = "[合集]Static Sites"
 +++
