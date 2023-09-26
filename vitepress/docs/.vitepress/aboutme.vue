@@ -1,6 +1,12 @@
 <!-- <link rel="stylesheet" type="text/css" href="/output_vitepress.css" /> -->
 <script setup>
-
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?14cbf31d308b52bde5568c925a860fe2";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
 </script>
 <template>
 <div class="w-[1000px] sm:w-full h-auto bg-repeat m-auto " id="academic">
