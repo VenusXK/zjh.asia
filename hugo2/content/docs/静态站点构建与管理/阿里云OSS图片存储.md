@@ -1,7 +1,7 @@
 ---
 title: 阿里云 OSS 图片存储
 description: 描述
-summary: 插画图的使用很重要，可以让网站更加生动，收集了一些插画图分享社区
+summary: 阿里云付费图床使用经历
 date: "2023-08-29"
 categories:
   - 静态站点构建与管理

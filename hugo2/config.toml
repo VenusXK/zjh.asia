@@ -32,7 +32,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   list = "right"   # Configure layout for list pages
   single = "" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["recent", "categories", "taglist"]
+  widgets = ["recent", "taglist"]
 
 [Params.widgets.social]
   cached = false # activate cache if true
