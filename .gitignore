@@ -2,4 +2,5 @@
 /vitepress/docs/.vitepress/dist/
 /vitepress/docs/.vitepress/cache/
 /hugo/public/
+/hugo2/public/
 # /hugo/content/
