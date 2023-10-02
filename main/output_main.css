@@ -674,6 +674,10 @@ video {
   margin-top: 2px;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .inline {
   display: inline;
 }
@@ -731,6 +735,10 @@ video {
   height: 100vh;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .min-h-\[150px\] {
   min-height: 150px;
 }
@@ -778,6 +786,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .max-w-\[1024px\] {
@@ -1372,6 +1388,7 @@ td {
 .learned-right {
   float: left;
   padding: 0.5rem;
+  padding-left: 1.25rem;
   --tw-text-opacity: 1;
   color: rgb(136 136 136 / var(--tw-text-opacity));
 }

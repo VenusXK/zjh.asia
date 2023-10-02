@@ -64,7 +64,7 @@ td{
     /* @apply  */
 /* } */
 .learned-right{
-    @apply float-left p-2 text-[#888] 
+    @apply float-left p-2 pl-5 text-[#888] 
 }
 .learned-old{
     @apply learned sm:hidden
