@@ -39,5 +39,8 @@
     @apply text-white bottom-link text-lg
 }
 .bottom-link-social{
-    @apply text-gray-200 bottom-link text-base hover:text-white
+    @apply text-gray-200 bottom-link text-base hover:text-white pr-1
+}
+.bottom-link-contact{
+    @apply text-gray-200 bottom-link text-sm hover:text-white
 }
