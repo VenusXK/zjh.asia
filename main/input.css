@@ -24,5 +24,20 @@
     @apply p-1 pl-2 text-lg sm:text-base;
 }
 .title{
-    @apply pt-[70px] sm:pt-[60px] font-bold text-5xl p-2 sm:p-1 pb-10 sm:pb-10 tracking-wide
+    @apply pt-[70px] sm:pt-[60px] font-bold text-5xl p-2 sm:p-1 pb-10 sm:pb-10 tracking-wide text-[#0574e4]
+}
+.bottom-list div{
+    @apply p-1 
+}
+.bottom-link{
+    @apply  font-bold hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.5)]
+}
+.bottom-link-sm{
+    @apply text-white bottom-link text-base
+}
+.bottom-link-lg{
+    @apply text-white bottom-link text-lg
+}
+.bottom-link-social{
+    @apply text-gray-200 bottom-link text-base hover:text-white
 }
