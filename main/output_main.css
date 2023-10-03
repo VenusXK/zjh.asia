@@ -678,6 +678,10 @@ video {
   margin-top: 70px;
 }
 
+.block {
+  display: block;
+}
+
 .inline {
   display: inline;
 }
