@@ -15,7 +15,7 @@
     @apply underline decoration-dotted ;
 }
 .para-cn{
-    @apply p-2 text-2xl leading-9 sm:text-lg tracking-wider text-[#888];
+    @apply p-2 text-2xl leading-9 sm:text-lg tracking-wider text-[#444];
 }
 .para-en{
     @apply p-2 text-xl leading-9 italic sm:not-italic;
@@ -24,7 +24,7 @@
     @apply p-1 pl-2 text-lg sm:text-base;
 }
 .title{
-    @apply pt-[70px] sm:pt-[60px] font-bold text-5xl p-2 sm:p-1 pb-10 sm:pb-10 tracking-wide text-[rgb(5,116,228)]
+    @apply pt-[70px] sm:text-center sm:pt-0 font-bold text-5xl p-2 sm:p-1 pb-10 sm:pb-10 tracking-wide text-[#444]
 }
 .bottom-list div{
     @apply p-1 
@@ -64,14 +64,14 @@ td{
     /* @apply  */
 /* } */
 .learned-right{
-    @apply float-left p-2 pl-5 text-[#888] 
+    @apply float-left p-2 pl-5 
 }
 .learned-old{
     @apply learned sm:hidden
 }
 .learned-title{
-    @apply font-bold text-sm pt-[5px]
+    @apply font-bold text-sm pt-[5px] text-[#444]
 }
 .learned-info{
-    @apply text-xs
+    @apply text-xs text-[#888] 
 }
