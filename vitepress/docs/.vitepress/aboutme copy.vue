@@ -23,20 +23,13 @@
         
         
         <div class="zone">
-            <p class="text-3xl sm:text-base font-bold">张景赫 (Jinghe Zhang)</p>
-                <p class="pt-2 line-clamp-1">
-                    就读于&nbsp;
-                    <a href="https://www.upc.edu.cn/">
-                        中国石油大学(华东)</a>
-                    &nbsp;
-                    <a href="http://computer.upc.edu.cn/">
-                        计算机科学与技术学院
-                    </a>
-                </p>
+            <p class="text-3xl sm:text-base font-bold">Jinghe Zhang (张景赫)</p>
+                    <p class="pt-2 line-clamp-1">Student of <a href="http://computer.upc.edu.cn/">College of Computer Science and Technology</a>, <a href="https://www.upc.edu.cn/">UPC</a>.</p>
         </div>
 
 
         <div class="zone">
+            <!-- <p class="zone_title">Link</p> -->
             <div class="h-[35px] w-full">
                 <ul class="zone_ul zone_ul_left">
                     <li class="float-left">
@@ -72,41 +65,43 @@
 
 
         <div class="zone">
-            <p class="zone_title">联系方式</p>
+            <p class="zone_title">Contact</p>
             <ul class="zone_ul">
-                <li>电话号码：<a href="tel:15830697501">(+86)158 3069 7501</a></li>
-                <li>邮箱：<a href="mailto:jinghe.zhang@hotmail.com">jinghe.zhang@hotmail.com</a></li>
+                <li>Phone: <a href="tel:15830697501">(+86)158 3069 7501</a></li>
+                <li>E-mail: <a href="mailto:jinghe.zhang@hotmail.com">jinghe.zhang@hotmail.com</a></li>
             </ul>
         </div>
 
-        <!-- <div class="zone">
-            <p class="zone_title">研究方向</p>
+        <div class="zone">
+            <p class="zone_title">Research Interests</p>
             <ul class="zone_ul">
-                <li><span class="underline">总体方向</span>: 暂无</li>
-                <li><span class="underline">具体方向</span>: 暂无</li>
-                <li><span class="underline">应用方向</span>: 暂无</li>
-            </ul>
-        </div> -->
-
-        <div class="zone">
-            <p class="zone_title">荣誉称号</p>
-            <ul class="zone_ul ">
-                <li>中国石油大学(华东)优秀学生干部</li>
+                <li><span class="underline">General Interests</span>: Computer Graphics and Visualization</li>
+                <li><span class="underline">Specific Interests</span>: Temporarily None</li>
+                <li><span class="underline">Applications</span>: Temporarily None</li>
             </ul>
         </div>
 
         <div class="zone">
-            <p class="zone_title">竞赛获奖</p>
+            <p class="zone_title">Honorary Title</p>
             <ul class="zone_ul ">
-                <li>中国高校计算机大赛(C4) 网络技术挑战赛 省赛二等奖 & 省赛三等奖</li>
-                <li>中国大学生服务外包创新创业大赛 国赛三等奖 & 省赛二等奖</li>
-                <li>第三届腾讯Light·技术公益创造营 复选项目</li>
-                <li>全国大学生电子设计大赛 省赛赛年 省赛二等奖</li>
+                <li>Outstanding student leaders of China University of Petroleum (East China).</li>
             </ul>
         </div>
 
         <div class="zone">
-            <p class="zone_title">项目经历</p>
+            <p class="zone_title">Competition Awards</p>
+            <ul class="zone_ul ">
+                <li>2nd prize in the C4 Network Technology Challenge (Provincial);</li>
+                <li>3rd prize of China College Student Service Outsourcing Innovation and Entrepreneurship Competition (National);</li>
+                <li>2nd prize of China College Student Service Outsourcing Innovation and Entrepreneurship Competition (Provincial);</li>
+                <li>Re-selection Project of Tencent Light Technology Public Welfare Camp Creation Camp (National);</li>
+                <li>3rd prize in the College Computer Skills Challenge (National);</li>
+                <li>2nd prize of the Shandong Provincial College Student Electronic Design Competition;</li>
+            </ul>
+        </div>
+
+        <div class="zone">
+            <p class="zone_title">Projects</p>
             <table class="zone_table">
                 <tr>
                     <td class="table_td1">
@@ -114,15 +109,19 @@
                     </td>
                     <td class="table_td2">
                         <p class="prj_name">
-                            <span class="font-bold">主题：</span>`SmartKnob` 项目复刻及51单片机电子设计移植
+                            <span class="font-bold">Name: </span>
+                            `SmartKnob` Project reproduction and 51 MCU transplantation
                         </p>
                         <p class="prj_label">
-                            <span class="font-bold">描述：</span>复现了基于 esp32 的只能旋钮项目，并用 Altumin Desinger 设计了类似的基于 stc89c51 的智能旋钮；
+                            <span class="font-bold">Label: </span>
+                            esp32; stc89c51; embedded; hardware; microcontroller
                         </p>
                         <p class="prj_info">
-                            <span class="font-bold">时间：</span>2023 年 7 至 8 月
+                            <span class="font-bold">Time: </span>
+                            2023/7
                             &nbsp;
-                            <span class="font-bold">链接：</span><a href="https://github.com/VenusXK/project.smart_knob">Github(VenusXK/project.smart_knob)</a>
+                            <span class="font-bold">Link: </span>
+                            <a href="https://github.com/VenusXK/project.smart_knob">github</a>
                         </p>
                     </td>
                 </tr>

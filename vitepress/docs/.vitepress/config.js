@@ -111,6 +111,7 @@ module.exports = {
         // ---------------------------------- nav ----------------------------------
         nav: [
           { text: 'News', link: '/_news/' },
+          { text: '简历', link: 'https://zjh.asia/academic/简历.pdf' },
         ],
 
 
