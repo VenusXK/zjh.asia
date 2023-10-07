@@ -1,23 +1,23 @@
 #!/bin/bash
 
 # 初中
-wget --no-clobber --content-disposition --directory-prefix=content/初中/ "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E9%BE%995.jpg?x-oss-process=style/small_size_rule"
+wget --no-clobber --content-disposition --directory-prefix=content/初中/ "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E9%BE%995.jpg"
 
 # 初中/其他一些
-wget --no-clobber --content-disposition --directory-prefix=content/初中/ "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%85%B6%E4%BB%962.jpg?x-oss-process=style/small_size_rule"
+wget --no-clobber --content-disposition --directory-prefix=content/初中/ "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%85%B6%E4%BB%962.jpg"
 
 # 初中/重锤
-wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E9%87%8D%E9%94%A41.jpeg?x-oss-process=style/small_size_rule"
-wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E9%87%8D%E9%94%A42.jpeg?x-oss-process=style/small_size_rule"
-wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E9%87%8D%E9%94%A43.jpeg?x-oss-process=style/small_size_rule"
-wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E9%87%8D%E9%94%A44.jpeg?x-oss-process=style/small_size_rule"
-wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E9%87%8D%E9%94%A45.jpg?x-oss-process=style/small_size_rule"
-wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E6%AD%BB%E7%A5%9E6.jpg?x-oss-process=style/small_size_rule"
+wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E9%87%8D%E9%94%A41.jpeg"
+wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E9%87%8D%E9%94%A42.jpeg"
+wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E9%87%8D%E9%94%A43.jpeg"
+wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E9%87%8D%E9%94%A44.jpeg"
+wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E9%87%8D%E9%94%A45.jpg"
+wget --no-clobber --content-disposition --directory-prefix=content/初中/重锤 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E5%88%9D%E4%B8%AD-%E6%AD%BB%E7%A5%9E6.jpg"
 
 # 初中/龙
 
-wget --no-clobber --content-disposition --directory-prefix=content/初中/龙 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E9%BE%995.jpg?x-oss-process=style/small_size_rule"
-wget --no-clobber --content-disposition --directory-prefix=content/初中/龙 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E9%BE%996.jpg?x-oss-process=style/small_size_rule"
+wget --no-clobber --content-disposition --directory-prefix=content/初中/龙 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E9%BE%995.jpg"
+wget --no-clobber --content-disposition --directory-prefix=content/初中/龙 "https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/artworks/%E9%BE%996.jpg"
 
 
 # # Animals
