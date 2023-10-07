@@ -23,7 +23,7 @@ baseURL = "https://zjh.asia/artworks"
 
 [imaging]
   resampleFilter = "CatmullRom"
-  quality = 75
+  quality = 45
   [imaging.exif]
     disableDate = false
     disableLatLong = true
