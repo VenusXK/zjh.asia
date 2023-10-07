@@ -6,6 +6,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 timeZone = "Europe/Berlin"
 theme = "Gallery"
+baseURL = "https://zjh.asia/artworks"
 
 [params]
   title = "艺术作品"
