@@ -1,25 +1,26 @@
 ---
 layout: home
-siteTitle: false
+
+hero:
+  name: 技术博客
+  text: 为学之实，固在践履。
+  # tagline: 为学之实，固在践履。苟徒知而不行，诚与不学无异。
+  image:
+    src: https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/tech_blog_img/computer.png?x-oss-process=style/small_size_rule
+    alt: VitePress
+  actions:
+    - theme: alt
+      text: 静态站点管理方案
+      link: /Static-Site-Development/
+
+features:
+  - icon: 
+      light:
+    title: Sartaj Sahni：数据结构、算法与应用
+    details: 一本用C++实现各种数据结构和算法，并将其应用于实际问题的很好的书
+    link: Sartaj_Sahni-DataStruct/
+    linkText: 学习笔记
+    rel: 学习笔记 - Sartaj Sahni：数据结构、算法与应用
+
 ---
-<link rel="stylesheet" type="text/css" href="/output.css" />
 
-<style>
-  :root {
-    --vp-home-hero-name-color: #a4a4a4;
-    --vp-button-brand-hover-bg: purple;
-    }
-    body{
-      overflow-x: hidden;
-    }
-
-</style>
-
-<style>
-
-</style>
-<script setup>
-    import aboutme from '/.vitepress/aboutme.vue'
-</script>
-
-<aboutme />

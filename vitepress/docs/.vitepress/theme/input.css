@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* :root {
+  --vp-home-hero-name-color: blue;
+} */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #e4e4e4, #a4a4a4);
+  --vp-button-brand-bg: #b8b8b8;
+  --vp-button-brand-hover-bg: #a4a4a4;
+  --vp-c-brand: #a4a4a4;
+  --vp-c-brand-light: #e4e4e4;
+  --vp-c-brand-lighter: #f5f5f7;
+}
+.VPHomeHero .container{
+  max-width: 960px !important;
+  @apply pt-[30px] sm:pt-0
+}
+.VPHomeFeatures .container{
+  max-width: 960px !important;
+}
+.VPHomeHero .text{
+  @apply  text-gray-300;
+}
+.VPButton{
+  @apply rounded-lg
+}
+/* .VPImage {
+  @apply  drop-shadow-[0_0_100px_rgba(80,200,200,1)]
+} */
+
 ::-webkit-scrollbar {
   /* @apply bg-[#6661] h-[20px] transition  duration-300 hidden */
   @apply hidden
@@ -15,76 +44,6 @@
   width: screen;
   overflow-x: hidden;
 }
-
-/* .img{
-  @apply h-40 bg-white rounded-lg shadow-xl shrink-0;
-  @apply hover:shadow-2xl duration-300 hover:scale-105
-} */
-
-
-.table_td1{
-  @apply w-[100px] sm:w-[68px] p-2 pl-0 sm:p-0
-}
-.table_td2{
-  @apply w-max p-2
-}
-
-#academic a{
-  @apply text-purple-400 underline hover:text-purple-600
-}
-#academic{
-  @apply sm:text-xs
-}
-.zone_table{
-  @apply mt-2
-}
-/* .zone_table td{
-  @apply border-gray-200 dark:border-white border-collapse border sm:border-0
-} */
-.zone_table td td{
-  @apply border-0
-}
-.zone_ul{
-  @apply pt-1
-}
-.zone_ul li{
-  @apply line-clamp-1 hover:line-clamp-none
-}
-.zone_ul_left li{
-  @apply float-left pr-2
-}
-.zone{
-  @apply p-5 pb-0
-}
-.zone_title{
-  @apply pt-2 font-bold
-}
-.follow_svg{
-  @apply  text-black dark:text-white
-}
-.follow_svg_r{ 
-  @apply w-[25px] h-[25px] m-[2px]  sm:w-[20px] sm:h-[20px] sm:m-[1px] follow_svg
-}
-.follow_svg_t{
-  @apply w-[30px] h-[30px]  sm:w-[23px] sm:h-[23px] follow_svg
-}
-.follow_svg_1{
-  @apply w-[28px] h-[30px]  sm:w-[23px] sm:h-[23px] follow_svg
-}
-
-
-.prj_label{
-  @apply line-clamp-1 hover:line-clamp-none
-}
-.prj_name{
-  @apply line-clamp-1 hover:line-clamp-none
-}
-/* .prj_label{
-  @apply line-clamp-1
-}*/
-.prj_info{
-  @apply line-clamp-1 hover:line-clamp-none
-} 
 .VPHome[data-v-d8beba3b]{
   padding-bottom: 20px;
 }

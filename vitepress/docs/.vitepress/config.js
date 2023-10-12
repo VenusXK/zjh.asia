@@ -92,9 +92,10 @@ const customElements = [
 
 
 module.exports = {
-    base: '/academic/',
-    title: 'Jinghe Zhang',
+    base: '/tech/',
+    title: '技术博客',
     description: '张景赫',
+    lastUpdated: true,
     head:[
       ['link', {rel: 'icon', href: 'https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/avator/zjh_roundfull.png?x-oss-process=style/small_size_rule'}],
       // ['link', {rel: 'stylesheet', href: '/output_vitepress.css'}],
@@ -106,45 +107,68 @@ module.exports = {
         outlineTitle: '内容目录',
         outlineBadges: true,
         outline: 'deep',
-        siteTitle: 'ACADEMIC',
+        siteTitle: 'ZJH.ASIA/TECH',
 
         // ---------------------------------- nav ----------------------------------
         nav: [
-          { text: 'News', link: '/_news/' },
-          { text: '简历', link: 'https://zjh.asia/academic/简历.pdf' },
+          {
+            text: '读书笔记',
+            items:[
+              {text: 'Sartaj Sahni：数据结构、算法与应用', link: 'Sartaj_Sahni-DataStruct/'}
+            ]
+          },
+          {
+            text: '开发经验',
+            items:[
+              {text: '静态站点的解决方案', link: '/Static-Site-Development/'}
+            ]
+          },
+          // { text: '简历', link: 'https://zjh.asia/academic/简历.pdf' },
         ],
 
-
-        // footer
-        footer: false,
-        // footer: {
-        //   message: '技术支持:\
-        //   <img src="/vitepress-logo.png" width="20px" style="display:inline;margin-bottom:5px"> \
-        //   &&nbsp;&nbsp;<img src="/aliyun.png" width="25px" style="display:inline;margin-bottom:2px">&nbsp; \
-        //   &nbsp;|&nbsp;\
-        //   <a href="mailto:venusxk6214@foxmail.com" title="venusxk6214@foxmail.com">联系我</a>',
-        //   copyright: 'Copyright © 2023 张景赫, All rights reserved. '
-        //   // <a href="https://beian.miit.gov.cn/" target="_blank">备案号</a>
-        // },
-
-        // last update
-        // lastUpdated: {
-        //   text: 'Updated at',
-        //   formatOptions: {
-        //     dateStyle: 'full',
-        //     timeStyle: 'medium'
-        //   }
-        // },
+        footer: {
+          
+          message: '<span style="color: #d4d4d7; font-size: small">Copyright © 2023, 张景赫\
+          &nbsp;\
+          <a href="https://beian.miit.gov.cn/">冀ICP备2023030802号</a> \
+          &nbsp;\
+          <img src="https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/other_icon/%E5%A4%87%E6%A1%88%E5%9B%BE%E6%A0%87.png" style="display: inline">\
+              冀公网安备13010202003482号</a>\
+            </span>'
+        },
 
         // external
         sidebarMenuLabel: "Menu",
-        externalLinkIcon: true,
+        sidebar: {
+          '/Sartaj_Sahni-DataStruct/': [
+            {
+              text: '开篇', link: '/Sartaj_Sahni-DataStruct/index'
+              // items: [
+              //   // This shows `/guide/index.md` page.
+              //   { text: '介绍本书', link: '/Sartaj_Sahni-DataStruct/index' }
+              // ]
+            }
+          ],
+          '/Static-Site-Development/': [
+            {
+              text: '开发经验', 
+              items: [
+                // This shows `/guide/index.md` page.
+                { text: '开篇：为什么要搭建静态博客', link: '/Static-Site-Development/index'},
+                { text: '使用阿里云OSS进行图片存储', link: '/Static-Site-Development/阿里云OSS图片存储'},
+              ]
+            },
+            {
+              text: '有用的资源', 
+              items: [
+                // This shows `/guide/index.md` page.
+                { text: '插入一些插画图', link: '/Static-Site-Development/插入一些插画图' },
+              ]
+            }
+          ],
+        },
 
-        // search
-        // search: {
-        //   provider: 'local'
-        // }
-        
+        externalLinkIcon: true,
     },
 
     // plugins
