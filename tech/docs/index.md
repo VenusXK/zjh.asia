@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: 来看看
-  text: 我搞电脑的故事
+  text: 电脑糕手的故事
   # tagline: 总结实践中的经验到理论
   image:
     src: https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/tech_blog_img/computer.png
