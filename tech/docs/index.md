@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: 来看看
-  text: 电脑糕手的故事
+  name: ZJH.ASIA
+  text: 景赫的小网站
   # tagline: 总结实践中的经验到理论
   image:
     src: https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/tech_blog_img/computer.png

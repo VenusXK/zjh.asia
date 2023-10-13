@@ -94,12 +94,10 @@ const customElements = [
 module.exports = {
     base: '/',
     title: 'ZJH.ASIA',
-    // description: '张景赫',
+    // description: 'Jinghe Zhang',
     lastUpdated: true,
     head:[
       ['link', {rel: 'icon', href: 'https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/avator/zjh_roundfull.png?x-oss-process=style/small_size_rule'}],
-      // ['link', {rel: 'stylesheet', href: '/output_vitepress.css'}],
-      // ['link', { rel: 'stylesheet', href: '/katex.min.css', crossorigin: '' }]
     ],
     // Theme related configurations.
     themeConfig: {
@@ -107,7 +105,7 @@ module.exports = {
         outlineTitle: '内容目录',
         outlineBadges: true,
         outline: 'deep',
-        // siteTitle: 'Jinghe\'s BLOG',
+        // siteTitle: '景赫的小网站',
 
         // ---------------------------------- nav ----------------------------------
         nav: [
@@ -124,16 +122,16 @@ module.exports = {
             ]
           },
           {
-            text: '生活记录', link: 'https://zjh.asia/life/blog/'
+            text: '生活记录', link: './blog/'
           },
           {
-            text: '关于我', link: 'https://zjh.asia/aboutme/'
+            text: '关于我', link: './aboutme/'
           },
         ],
 
         footer: {
           
-          message: '<span style="color: #d4d4d7; font-size: small">Copyright © 2023, 张景赫\
+          message: '<span style="color: #d4d4d7; font-size: small">Copyright © 2023, Jinghe Zhang\
           &nbsp;\
           <a href="https://beian.miit.gov.cn/">冀ICP备2023030802号</a> \
           &nbsp;\
