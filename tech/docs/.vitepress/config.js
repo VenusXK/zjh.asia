@@ -143,6 +143,18 @@ module.exports = {
         // external
         sidebarMenuLabel: "Menu",
         sidebar: {
+          '/CPP-with-LIXIN/': [
+            {
+              text: '关于', link: '/CPP-with-LIXIN/关于',
+            },
+            {
+              text: '编程基础',
+              items: [
+                // This shows `/guide/index.md` page.
+                { text: '第二章', link: '/CPP-with-LIXIN/chapter-2' }
+              ]
+            }
+          ],
           '/Sartaj_Sahni-DataStruct/': [
             {
               text: '关于：数据结构、算法与应用', link: '/Sartaj_Sahni-DataStruct/index',
