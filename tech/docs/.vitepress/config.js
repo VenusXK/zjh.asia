@@ -110,6 +110,12 @@ module.exports = {
         // ---------------------------------- nav ----------------------------------
         nav: [
           {
+            text: '一些OJ',
+            items:[
+              {text: '和李昕老师一起重温 CPP', link: 'Sartaj_Sahni-DataStruct/'}
+            ]
+          },
+          {
             text: '读书笔记',
             items:[
               {text: 'Sartaj Sahni：数据结构、算法与应用', link: 'Sartaj_Sahni-DataStruct/'}
@@ -143,15 +149,23 @@ module.exports = {
         // external
         sidebarMenuLabel: "Menu",
         sidebar: {
+          '/SFTang-Computer-Consist/': [
+            {
+              text: '关于: 高教版计算机组成原理', link: '/SFTang-Computer-Consist/关于',
+            },
+            {
+              text: '存储器设计', link: '/SFTang-Computer-Consist/存储器设计',
+            },
+          ],
           '/CPP-with-LIXIN/': [
             {
-              text: '关于', link: '/CPP-with-LIXIN/关于',
+              text: '关于: 和李昕老师一起重温CPP', link: '/CPP-with-LIXIN/关于',
             },
             {
               text: '编程基础',
               items: [
                 // This shows `/guide/index.md` page.
-                { text: '第二章', link: '/CPP-with-LIXIN/chapter-2' }
+                { text: '第二章 CPP基础', link: '/CPP-with-LIXIN/chapter-2' }
               ]
             }
           ],
@@ -184,6 +198,7 @@ module.exports = {
               ]
             }
           ],
+          
         },
 
         externalLinkIcon: true,
