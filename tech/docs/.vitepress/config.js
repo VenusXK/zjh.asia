@@ -122,10 +122,10 @@ module.exports = {
             ]
           },
           {
-            text: '生活记录', link: './blog/'
+            text: '生活记录', link: 'https://zjh.asia/life/blog/'
           },
           {
-            text: '关于我', link: './aboutme/'
+            text: '关于我', link: 'https://zjh.asia/aboutme/'
           },
         ],
 
