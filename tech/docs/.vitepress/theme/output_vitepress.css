@@ -553,13 +553,19 @@ video {
   margin-top: 1.25rem;
 }
 
+@media (max-width: 900px) {
+  .VPImage {
+    margin-top: 0px;
+  }
+}
+
 .image-bg {
   margin-top: 0.5rem;
 }
 
 @media (max-width: 900px) {
   .image-bg {
-    margin: 0px;
+    margin-top: 0px;
   }
 }
 
@@ -614,7 +620,16 @@ video {
 } */
 
 .VPHomeHero .text {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  line-height: 70px;
   color: #37c8b976;
+}
+
+@media (max-width: 900px) {
+  .VPHomeHero .text {
+    line-height: 40px;
+  }
 }
 
 .VPButton {

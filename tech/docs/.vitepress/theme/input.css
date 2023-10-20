@@ -17,17 +17,17 @@
   /* 2 */
 }
 .VPImage {
-  @apply mt-5 
+  @apply mt-5 sm:mt-0
 }
 .image-bg{
-  @apply sm:m-0  mt-2;
+  @apply sm:mt-0 mt-2;
 }
 .VPHome{
   @apply bg-gradient-to-b from-emerald-500/30 via-emerald-50/10 to-white dark:bg-none 
 }
 
 .VPFeatures .title{
-  @apply text-[#21635c9a] 
+  @apply text-[#21635c9a]
 }
 .VPButton{
   border: none !important;
@@ -58,7 +58,7 @@
   max-width: 960px !important;
 } */
 .VPHomeHero .text{
-  @apply  text-[#37c8b976];
+  @apply  text-[#37c8b976] pb-2 pt-2 leading-[70px] sm:leading-[40px]
 }
 .VPButton{
   @apply rounded-lg
