@@ -4,8 +4,9 @@ layout: home
 hero:
   name: ZJH.ASIA
   text: 连载一些我学习中遇到的值得思考的问题
+  tagline: 最近更新：2023.10.21.
   image:
-    src: https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/illustrations/3d-fluency-approval.png
+    src: https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/illustrations/3d-fluency-hard-working.png
     alt: VitePress
   actions:
     - theme: brand
