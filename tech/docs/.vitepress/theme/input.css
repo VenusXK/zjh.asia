@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* :root {
   --vp-home-hero-name-color: blue;
 } */
@@ -15,24 +16,49 @@
   border-color: #000;
   /* 2 */
 }
+.VPImage {
+  @apply p-10 ml-20 sm:p-5 sm:m-0;
+}
+.image-bg{
+  @apply ml-20 sm:m-0;
+}
+.VPHome{
+  @apply bg-gradient-to-b from-emerald-500/30 via-emerald-50/10 to-white dark:bg-none
+}
+
+.VPFeatures .title{
+  @apply text-[#21635c9a] 
+}
+.VPButton{
+  border: none !important;
+  @apply text-[#3eb7aa];
+}
 :root {
+  --vp-home-hero-image-filter: blur(64px);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, rgba(86, 166, 99, 0.6) 30%, rgba(0, 255, 42, 0.532) 10%);
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #e4e4e4, #a4a4a4);
-  --vp-button-brand-bg: #b8b8b8;
-  --vp-button-brand-hover-bg: #a4a4a4;
-  --vp-c-brand: #a4a4a4;
-  --vp-c-brand-light: #e4e4e4;
+  --vp-home-hero-name-background: #35baa2;
+  --vp-c-text-2: #30a79b;
+  --vp-button-alt-border: none;
+  --vp-button-alt-hover-border: none;
+  --vp-button-alt-hover-bg: #369b913c;
+  --vp-button-alt-text: #3eb7aa;
+  --vp-button-alt-hover-text: #3eb7aa;
+  --vp-button-brand-bg: #2ea599a9;
+  --vp-button-brand-hover-bg: #37c8b9;
+  --vp-c-brand: #37c8b9;
+  --vp-c-brand-light: #37c8b9;
   --vp-c-brand-lighter: #f5f5f7;
 }
-.VPHomeHero .container{
+/* .VPHomeHero .container{
   max-width: 960px !important;
   @apply pt-[30px] sm:pt-0
 }
 .VPHomeFeatures .container{
   max-width: 960px !important;
-}
+} */
 .VPHomeHero .text{
-  @apply  text-gray-300;
+  @apply  text-[#37c8b976];
 }
 .VPButton{
   @apply rounded-lg

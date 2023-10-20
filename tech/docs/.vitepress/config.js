@@ -101,6 +101,7 @@ module.exports = {
     ],
     // Theme related configurations.
     themeConfig: {
+        darkModeSwitchLabel: false,
         aside: true,
         outlineTitle: '内容目录',
         outlineBadges: true,
@@ -112,7 +113,8 @@ module.exports = {
           {
             text: '一些OJ',
             items:[
-              {text: '和李昕老师一起重温 CPP', link: 'Sartaj_Sahni-DataStruct/'}
+              {text: '何海涛：剑指Offer & 剑指OfferII', link: 'OfferI&II/'},
+              {text: '和李昕老师一起重温CPP', link: 'CPP-with-LIXIN/about'},
             ]
           },
           {
@@ -151,21 +153,36 @@ module.exports = {
         sidebar: {
           '/SFTang-Computer-Consist/': [
             {
-              text: '关于: 高教版计算机组成原理', link: '/SFTang-Computer-Consist/关于',
+              text: '关于: 计算机组成原理（第3版）', link: '/SFTang-Computer-Consist/关于',
             },
             {
-              text: '存储器设计', link: '/SFTang-Computer-Consist/存储器设计',
-            },
+              text: '存储器', 
+              items: [
+                {
+                  text: '存储器的数据存放', link: '/SFTang-Computer-Consist/存储器的数据存放',
+                },
+                {
+                  text: '多体并行存储器系统', link: '/SFTang-Computer-Consist/多体并行存储器系统',
+                },
+                {
+                  text: '存储器的扩展及与CPU的连接', link: '/SFTang-Computer-Consist/存储器的扩展及与CPU的连接',
+                },
+                {
+                  text: '高速缓冲存储器', link: '/SFTang-Computer-Consist/高速缓冲存储器',
+                },
+              ]
+            }
           ],
           '/CPP-with-LIXIN/': [
             {
-              text: '关于: 和李昕老师一起重温CPP', link: '/CPP-with-LIXIN/关于',
+              text: '关于: 和李昕老师一起重温CPP', link: '/CPP-with-LIXIN/about',
             },
             {
-              text: '编程基础',
+              text: '第二章 程序设计基础',
               items: [
                 // This shows `/guide/index.md` page.
-                { text: '第二章 CPP基础', link: '/CPP-with-LIXIN/chapter-2' }
+                { text: '教学内容精粹', link: '/CPP-with-LIXIN/chapter-2-important' },
+                { text: 'PTA作业', link: '/CPP-with-LIXIN/chapter-2-pta' }
               ]
             }
           ],
