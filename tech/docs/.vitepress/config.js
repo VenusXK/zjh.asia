@@ -101,7 +101,8 @@ module.exports = {
     ],
     // Theme related configurations.
     themeConfig: {
-        darkModeSwitchLabel: false,
+        darkModeSwitchLabel: "明暗主题",
+        // appearance: false,
         aside: true,
         outlineTitle: '内容目录',
         outlineBadges: true,
