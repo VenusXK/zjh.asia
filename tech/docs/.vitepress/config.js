@@ -111,23 +111,26 @@ module.exports = {
 
         // ---------------------------------- nav ----------------------------------
         nav: [
-          {
-            text: '一些OJ',
-            items:[
-              {text: '何海涛：剑指Offer & 剑指OfferII', link: 'OfferI&II/'},
-              {text: '和李昕老师一起重温CPP', link: 'CPP-with-LIXIN/about'},
-            ]
-          },
+          // {
+          //   text: '公开课',
+          // },
           {
             text: '读书笔记',
             items:[
-              {text: 'Sartaj Sahni：数据结构、算法与应用', link: 'Sartaj_Sahni-DataStruct/'}
-            ]
-          },
-          {
-            text: '开发经验',
-            items:[
-              {text: '静态站点的解决方案', link: '/Static-Site-Development/'}
+              {
+                text: 'Online Judge',
+                items: [
+                  {text: '何海涛：剑指Offer I&II', link: 'OfferI&II/intro'},
+                  {text: '李昕：C/C++简明双链教程', link: 'CPP-with-LIXIN/intro'},
+                ]
+              },
+              {
+                text: '深入理解计算机',
+                items: [
+                  {text: 'Sartaj Sahni：数据结构、算法与应用', link: 'Sartaj_Sahni-DataStruct/intro'},
+                  {text: '唐朔飞：计算机组成原理（第3版）', link: '/SFTang-Computer-Consist/intro'},
+                ]
+              },
             ]
           },
           {
@@ -152,6 +155,27 @@ module.exports = {
         // external
         sidebarMenuLabel: "Menu",
         sidebar: {
+          '/OfferI&II/': [
+            {
+              text: '开篇', link: '/OfferI&II/intro',
+            },
+            {
+              text: '二叉树相关算法', link: '/OfferI&II/Binary-Tree',
+            },
+          ],
+          '/Thinking-of-Howto/': [
+            {
+              text: '开篇', link: '/Thinking-of-Howto/intro',
+            },
+            {
+              text: '时间分配', 
+              items: [
+                {
+                  text: '时间分配方案及举例', link: '/Thinking-of-Howto/time-split',
+                },
+              ]
+            }
+          ],
           '/SFTang-Computer-Consist/': [
             {
               text: '关于: 计算机组成原理（第3版）', link: '/SFTang-Computer-Consist/关于',
@@ -176,12 +200,11 @@ module.exports = {
           ],
           '/CPP-with-LIXIN/': [
             {
-              text: '关于: 和李昕老师一起重温CPP', link: '/CPP-with-LIXIN/about',
+              text: '开篇', link: '/CPP-with-LIXIN/about',
             },
             {
               text: '第二章 程序设计基础',
               items: [
-                // This shows `/guide/index.md` page.
                 { text: '教学内容精粹', link: '/CPP-with-LIXIN/chapter-2-important' },
                 { text: 'PTA作业', link: '/CPP-with-LIXIN/chapter-2-pta' }
               ]
@@ -189,7 +212,7 @@ module.exports = {
           ],
           '/Sartaj_Sahni-DataStruct/': [
             {
-              text: '关于：数据结构、算法与应用', link: '/Sartaj_Sahni-DataStruct/index',
+              text: '关于：数据结构、算法与应用', link: '/Sartaj_Sahni-DataStruct/intro',
             },
             {
               text: '线性表',
@@ -199,24 +222,6 @@ module.exports = {
               ]
             }
           ],
-          '/Static-Site-Development/': [
-            {
-              text: '开发经验', 
-              items: [
-                // This shows `/guide/index.md` page.
-                { text: '开篇：为什么要搭建静态博客', link: '/Static-Site-Development/index'},
-                { text: '使用阿里云OSS进行图片存储', link: '/Static-Site-Development/阿里云OSS图片存储'},
-              ]
-            },
-            {
-              text: '有用的资源', 
-              items: [
-                // This shows `/guide/index.md` page.
-                { text: '插入一些插画图', link: '/Static-Site-Development/插入一些插画图' },
-              ]
-            }
-          ],
-          
         },
 
         externalLinkIcon: true,

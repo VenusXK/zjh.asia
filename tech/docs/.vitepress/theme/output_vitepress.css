@@ -549,6 +549,11 @@ video {
   /* 2 */
 }
 
+table{
+  display:table !important;
+  width: 100%;
+}
+
 .VPImage {
   margin-top: 1.25rem;
 }
@@ -584,7 +589,7 @@ video {
 }
 
 .VPFeatures .title {
-  color: #21635c9a;
+  color: #21635ce4;
 }
 
 .VPButton{
@@ -597,7 +602,7 @@ video {
   --vp-home-hero-image-filter: blur(56px);
   --vp-home-hero-image-background-image: linear-gradient(-45deg, rgba(36, 255, 62, 0.646) 30%, rgba(255, 183, 120, 0.6) 10%);
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: #35baa2;
+  --vp-home-hero-name-background: #369b91;
   --vp-c-text-2: #30a79b;
   --vp-button-alt-border: none;
   --vp-button-alt-hover-border: none;
@@ -605,10 +610,10 @@ video {
   --vp-button-alt-text: #3eb7aa;
   --vp-button-alt-hover-text: #3eb7aa;
   --vp-button-brand-bg: #2ea599a9;
-  --vp-button-brand-hover-bg: #37c8b9;
-  --vp-c-brand: #37c8b9;
-  --vp-c-brand-light: #37c8b9;
-  --vp-c-brand-lighter: #f5f5f7;
+  --vp-button-brand-hover-bg: #369b91;
+  --vp-c-brand: #2b6f5d;
+  --vp-c-brand-light: #3eb7ab6d;
+  --vp-c-brand-lighter: #3eb7ab46;
 }
 
 /* .VPHomeHero .container{
@@ -623,7 +628,7 @@ video {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   line-height: 70px;
-  color: #37c8b976;
+  color: #2da79b9a;
 }
 
 @media (max-width: 900px) {
