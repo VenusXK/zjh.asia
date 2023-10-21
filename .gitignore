@@ -1,4 +1,5 @@
 */node_modules/*
+*/_gen/*
 /tech/docs/.vitepress/dist/
 /tech/docs/.vitepress/cache/
 /aboutme/public/
