@@ -6,8 +6,8 @@ baseURL = "https://zjh.asia/life"
 theme = 'hugo-bearblog-local'
 
 # Basic metadata configuration for your blog.
-title = "博客"
-author = "张景赫"
+title = "生活记录"
+author = "Jinghe Zhang"
 copyright = "Copyright © 2020, Jinghe Zhang."
 languageCode = "en-US"
 

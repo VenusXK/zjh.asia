@@ -1,0 +1,205 @@
+/*! L1nkr v1.3.0 | MIT License | https://github.com/Chrede88/L1nkr */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-cols-md-center2 {
+  @apply md:grid-cols-center2;
+}
+
+.grid-cols-md-center3 {
+  @apply md:grid-cols-center3;
+}
+
+.grid-cols-md-center4 {
+  @apply md:grid-cols-center4;
+}
+
+.grid-cols-md-center5 {
+  @apply md:grid-cols-center5;
+}
+
+.grid-cols-md-center6 {
+  @apply md:grid-cols-center6;
+}
+
+.link {
+  @apply flex items-center justify-center w-28 h-28 
+  rounded-full border-2 border-slate-50 bg-indigo-500
+  transform hover:scale-125 transition ease-out duration-300;
+}
+
+.link_svg {
+  @apply h-20 w-20 rounded-full m-1 fill-slate-50
+}
+
+.link-facebook {
+  background-color: #1877f2;
+}
+.link-github {
+  background-color: #333;
+}
+.link-twitter,
+.link-x-twitter {
+  background-color: #000;
+}
+.link-gitlab {
+  @apply pt-1;
+  background-color: #554488;
+}
+.link-instagram {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+  radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+  radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+  radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+  radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+  radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+  radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+  linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.link-linkedin {
+  background-color: #0077b5;
+}
+.link-mastodon {
+  @apply pb-1;
+  background-color: #6364ff;
+}
+.link-reddit {
+  background-color: #ff4500;
+}
+.link-slack {
+  background-color: #4a154b;
+}
+.link-snapchat {
+  background-color: #fffc00;
+}
+.link-soundcloud {
+  @apply pt-2;
+  background-color: #ff8800;
+  background: linear-gradient(120deg, #ff8800, #ff3300);
+}
+.link-telegram {
+  background-color: #25a3e1;
+}
+.link-tiktok {
+  background-color: #fe2d55;
+}
+.link-whatsapp {
+  background-color: #45d82c;
+  background: linear-gradient(120deg, #12990b, #45d82c);
+}
+.link-youtube {
+  @apply pt-3;
+  background-color: #ff0000;
+}
+.link-stack-exchange {
+  background-color: #0095ff;
+}
+.link-stack-overflow {
+  background-color: #f48024;
+}
+.link-discord {
+  @apply pt-3;
+  background-color: #7289da;
+}
+.link-codepen {
+  background-color: #1e1f26;
+}
+.link-dev {
+  background-color: #0a0a0a;
+}
+.link-link {
+  background-color: #8b5cf6;
+}
+.link-email {
+  background-color: #8b5cf6;
+}
+.link-signal {
+  background-color: #3a76f0;
+  background: linear-gradient(180deg, #4e84f2, #3a76f0);
+}
+.link-dribbble {
+  background-color: #ea4c89;
+}
+.link-tumblr {
+  background-color: #001935;
+}
+.link-twitch {
+  background-color: #9146ff;
+}
+.link-patreon {
+  background-color: #ff434d;
+}
+.link-orcid {
+  background-color: #a6ce39;
+}
+.link-kickstarter {
+  background-color: #06ce78;
+}
+.link-keybase {
+  @apply pb-3;
+  background-color: #33a0ff;
+}
+.link-flickr {
+  background-color: #ff0184;
+}
+.link-website {
+  background-color: #8b5cf6;
+}
+.link-bluesky {
+  background-color: #008ffe;
+  background: linear-gradient(0deg, #008ffe, #0062fe);
+}
+.link-bitbucket {
+  background-color: #2684ff;
+  background: linear-gradient(45deg, #2684ff,#0154ce);
+}
+.link-bandcamp {
+  background-color: #61929c;
+}
+.link-etsy {
+  background-color: #f45800;
+}
+.link-spotify {
+  background-color: #1ed760;
+}
+.link-pinterest {
+  background-color: #e60023;
+}
+.link-strava {
+  background-color: #fc4C02;
+}
+.link-untappd {
+  background-color: #ffcf0d;
+}
+.link-skype {
+  background-color: #0078d7;
+}
+.link-medium {
+  background-color: #000;
+}
+.link-foursquare {
+  background-color: #fA4778;
+}
+.link-check-mark {
+  background-color: #8b5cf6;
+}
+.link-apple {
+  background-color: #000;
+}
+.link-amazon {
+  background-color: #ff9900;
+}
+.link-google {
+  background-color: #4285f4;
+  background: linear-gradient(90deg, #4285f4 0% 25%, #db4437 25% 50%, #f4b400 50% 75%, #0f9d58 75% 100%);
+}
+.link-paypal {
+  background-color: #00457c;
+  background: linear-gradient(90deg, #00457c, #0079c1);
+}
+.link-windows {
+  background-color: #f25022;
+  background: conic-gradient(#7fba00 0% 25%, #ffb900 25% 50%, #00a4ef 50% 75%, #f25022 75% 100%);
+}
