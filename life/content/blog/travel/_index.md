@@ -1,5 +1,5 @@
 ---
-title: "石油大学"
+title: "旅行"
 menu: "main"
 ---
 

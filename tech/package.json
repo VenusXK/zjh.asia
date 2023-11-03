@@ -7,10 +7,8 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
-    "markdown-it-katex": "^2.0.3",
     "postcss": "^8.4.26",
-    "tailwindcss": "^3.3.3",
-    "vitepress": "^1.0.0-beta.5"
+    "tailwindcss": "^3.3.3"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -20,6 +18,7 @@
     "tw:dev": "npx tailwind -i ./docs/.vitepress/theme/input.css -o ./docs/.vitepress/theme/output_vitepress.css --watch"
   },
   "dependencies": {
-    "@rollup/plugin-alias": "^5.0.0"
+    "@rollup/plugin-alias": "^5.0.0",
+    "vitepress": "^1.0.0-rc.24"
   }
 }

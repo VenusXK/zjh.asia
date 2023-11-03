@@ -1,97 +1,13 @@
-import { defineConfig } from 'vitepress'
-import markdownItKatex from 'markdown-it-katex'
-
-
-const customElements = [
-  'math',
-  'maction',
-  'maligngroup',
-  'malignmark',
-  'menclose',
-  'merror',
-  'mfenced',
-  'mfrac',
-  'mi',
-  'mlongdiv',
-  'mmultiscripts',
-  'mn',
-  'mo',
-  'mover',
-  'mpadded',
-  'mphantom',
-  'mroot',
-  'mrow',
-  'ms',
-  'mscarries',
-  'mscarry',
-  'mscarries',
-  'msgroup',
-  'mstack',
-  'mlongdiv',
-  'msline',
-  'mstack',
-  'mspace',
-  'msqrt',
-  'msrow',
-  'mstack',
-  'mstack',
-  'mstyle',
-  'msub',
-  'msup',
-  'msubsup',
-  'mtable',
-  'mtd',
-  'mtext',
-  'mtr',
-  'munder',
-  'munderover',
-  'semantics',
-  'math',
-  'mi',
-  'mn',
-  'mo',
-  'ms',
-  'mspace',
-  'mtext',
-  'menclose',
-  'merror',
-  'mfenced',
-  'mfrac',
-  'mpadded',
-  'mphantom',
-  'mroot',
-  'mrow',
-  'msqrt',
-  'mstyle',
-  'mmultiscripts',
-  'mover',
-  'mprescripts',
-  'msub',
-  'msubsup',
-  'msup',
-  'munder',
-  'munderover',
-  'none',
-  'maligngroup',
-  'malignmark',
-  'mtable',
-  'mtd',
-  'mtr',
-  'mlongdiv',
-  'mscarries',
-  'mscarry',
-  'msgroup',
-  'msline',
-  'msrow',
-  'mstack',
-  'maction',
-  'semantics',
-  'annotation',
-  'annotation-xml'
-]
-
+// import { defineConfig } from 'vitepress'
 
 module.exports = {
+    markdown: {
+      theme: {
+        light: 'github-light',
+        dark: 'github-dark'
+      },
+      lineNumbers: true,
+    },
     base: '/',
     title: 'ZJH.ASIA',
     // description: 'Jinghe Zhang',
@@ -99,21 +15,16 @@ module.exports = {
     head:[
       ['link', {rel: 'icon', href: 'https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/avator/zjh_roundfull.png?x-oss-process=style/small_size_rule'}],
     ],
-    // Theme related configurations.
     themeConfig: {
-        darkModeSwitchLabel: "明暗主题",
-        // appearance: false,
+        darkModeSwitchLabel: " ",
         aside: true,
         outlineTitle: '内容目录',
-        outlineBadges: true,
+        // outlineBadges: true,
         outline: 'deep',
         // siteTitle: '景赫的小网站',
 
         // ---------------------------------- nav ----------------------------------
         nav: [
-          // {
-          //   text: '公开课',
-          // },
           {
             text: '读书笔记',
             items:[
@@ -152,7 +63,8 @@ module.exports = {
             </span>'
         },
 
-        // external
+        // ---------------------------------- sidebar ----------------------------------
+
         sidebarMenuLabel: "Menu",
         sidebar: {
           '/OfferI&II/': [
@@ -168,7 +80,7 @@ module.exports = {
               text: '开篇', link: '/Thinking-of-Howto/intro',
             },
             {
-              text: '时间分配', 
+              text: '时间管理', 
               items: [
                 {
                   text: '时间分配方案及举例', link: '/Thinking-of-Howto/time-split',
@@ -178,7 +90,7 @@ module.exports = {
           ],
           '/SFTang-Computer-Consist/': [
             {
-              text: '关于: 计算机组成原理（第3版）', link: '/SFTang-Computer-Consist/关于',
+              text: '关于: 计算机组成原理（第3版）', link: '/SFTang-Computer-Consist/intro',
             },
             {
               text: '存储器', 
@@ -200,13 +112,25 @@ module.exports = {
           ],
           '/CPP-with-LIXIN/': [
             {
-              text: '开篇', link: '/CPP-with-LIXIN/about',
+              text: '开篇', link: '/CPP-with-LIXIN/intro',
             },
             {
               text: '第二章 程序设计基础',
               items: [
-                { text: '教学内容精粹', link: '/CPP-with-LIXIN/chapter-2-important' },
+                { text: '上课重点内容', link: '/CPP-with-LIXIN/chapter-2-important' },
                 { text: 'PTA作业', link: '/CPP-with-LIXIN/chapter-2-pta' }
+              ]
+            },
+            {
+              text: '第四章 循环',
+              items: [
+                { text: '上课重点内容', link: '/CPP-with-LIXIN/chapter-4-important' }
+              ]
+            },
+            {
+              text: '第五章 数组与字符串',
+              items: [
+                { text: 'PTA作业', link: '/CPP-with-LIXIN/chapter-5-pta' }
               ]
             }
           ],
@@ -224,23 +148,7 @@ module.exports = {
           ],
         },
 
-        externalLinkIcon: true,
+        externalLinkIcon: false,
     },
-
-    // plugins
-    // katex
-    markdown: {
-      config: (md) => {
-        md.use(markdownItKatex)
-      }
-    },
-    // 由于vitepress编译生成静态html文件时，无法识别插件生成的特殊标签，故需在编译时进行处理，将特殊标签定位自定义标签，防止编译报错
-    vue: {
-      template: {
-        compilerOptions: {
-          isCustomElement: (tag) => customElements.includes(tag)
-        }
-      }
-    }
 
   }

@@ -1,43 +1,26 @@
 ---
-layout: home
-
-hero:
-  name: ZJH.ASIA
-  text: 连载一些我学习中遇到的值得思考的问题
-  tagline: 最近更新：2023.10.21.
-  image:
-    src: https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/illustrations/3d-fluency-hard-working.png
-    alt: VitePress
-  actions:
-    - theme: brand
-      text: intro我
-      link: https://zjh.asia/aboutme/
-    - theme: brand
-      text: 生活记录
-      link: https://zjh.asia/life/
-    - theme: alt
-      text: 我的方法论
-      link: /Thinking-of-Howto/intro
-features:
-  - icon: false
-    title: 何海涛：剑指 Offer I&II
-    details: 这本书是老师推荐。我买下来学习，希望可以掌握获得Offer的能力，从此成为人生赢家。
-    link: OfferI&II/intro
-    linkText: AC题型总结
-  - icon: false
-    title: 唐朔飞：计算机组成原理
-    details: 这是一本十分详细的组成原理书，十分通俗易懂，例题由浅入深，是山大832的参考资料之一。
-    link: SFTang-Computer-Consist/intro
-    linkText: 题型归纳
-  - icon: false
-    title: 李昕：C/C++简明双链教程
-    details: 跟智科23级一起上CPP课程。由于老师讲得很细，我对CPP有了更深的认识。
-    link: CPP-with-LIXIN/intro
-    linkText: OJ训练笔记
-  - icon: false
-    title: Sartaj Sahni：数据结构、算法与应用
-    details: 这本书用CPP实现各种数据结构和算法，并将其应用于实际问题，是山大832的参考资料之一。
-    link: Sartaj_Sahni-DataStruct/intro
-    linkText: 代码学习
+outline: none
+aside: false
 ---
 
+# 博客 · 记录学习中遇到的值得思考的问题
+
+### 内容主要涉及计算机领域
+
+本博客主要记录了我在学习编程时遇到的值得思考的问题，包括**程序设计**、**计算机原理**等内容。
+
+- **程序设计与开发**： 分享各种编程语言、开发工具和技术框架的特别使用方法和实践经历，记录我在软件开发和 OnlineJudge 中经历的困难挑战，总结一些书中的编程技巧和经验。
+- **计算机原理与基础知识**： 从计算机体系结构到操作系统，深入探讨计算机科学的基础理论，梳理内容以使我对计算机的运作机制有更清晰的认识。
+
+---
+
+本博客是我在计算科学领域的学习记录工具，为我梳理知识体系结构做指导，如果这里的内容恰巧对你有帮助那会是很好的事。同时，欢迎提出任何问题或建议，我将根据反馈持续改进内容。
+
+我会在每月中旬对博客进行更新，如果你想跟踪我的更新，可以关注我的微信公众号：待完善。
+
+---
+
+### 其他一些内容
+
+- **生活记录**：我做了一个记录生活的电子日记本，里面有一些我的日记和感悟，[去看看](https://zjh.asia/life)。
+- **关于我**：如果你想了解更多关于我的事，可以点击[这里](https://zjh.asia/aboutme)看看。
