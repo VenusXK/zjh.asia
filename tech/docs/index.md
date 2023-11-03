@@ -1,6 +1,7 @@
 ---
 outline: none
 aside: false
+layout: doc
 ---
 
 # 博客 · 记录学习中遇到的值得思考的问题

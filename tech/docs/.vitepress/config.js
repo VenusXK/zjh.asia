@@ -26,19 +26,29 @@ module.exports = {
         // ---------------------------------- nav ----------------------------------
         nav: [
           {
-            text: '读书笔记',
+            text: '程序设计',
             items:[
               {
-                text: 'Online Judge',
+                text: '公开课',
                 items: [
-                  {text: '何海涛：剑指Offer I&II', link: 'OfferI&II/intro'},
                   {text: '李昕：C/C++简明双链教程', link: 'CPP-with-LIXIN/intro'},
                 ]
-              },
+              },              
               {
-                text: '深入理解计算机',
+                text: '数据结构与算法',
                 items: [
+                  {text: '何海涛：剑指OfferI&II', link: 'OfferI&II/intro'},
                   {text: 'Sartaj Sahni：数据结构、算法与应用', link: 'Sartaj_Sahni-DataStruct/intro'},
+                ]
+              },
+            ]
+          },
+          {
+            text: '深入理解计算机',
+            items:[
+              {
+                text: '组成原理',
+                items: [
                   {text: '唐朔飞：计算机组成原理（第3版）', link: '/SFTang-Computer-Consist/intro'},
                 ]
               },
