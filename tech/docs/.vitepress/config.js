@@ -3,10 +3,11 @@
 module.exports = {
     markdown: {
       theme: {
-        light: 'github-light',
-        dark: 'github-dark'
+        light: 'slack-ochin',
+        dark: 'slack-dark'
       },
       lineNumbers: true,
+      math: true,
     },
     base: '/',
     title: 'ZJH.ASIA',
@@ -31,7 +32,7 @@ module.exports = {
               {
                 text: '公开课',
                 items: [
-                  {text: '李昕：C/C++简明双链教程', link: 'CPP-with-LIXIN/intro'},
+                  {text: '李昕：C/C++简明双链教程', link: '/CPP-with-LIXIN/index'},
                 ]
               },              
               {
@@ -121,28 +122,35 @@ module.exports = {
             }
           ],
           '/CPP-with-LIXIN/': [
-            {
-              text: '开篇', link: '/CPP-with-LIXIN/intro',
-            },
-            {
-              text: '第二章 程序设计基础',
-              items: [
-                { text: '上课重点内容', link: '/CPP-with-LIXIN/chapter-2-important' },
-                { text: 'PTA作业', link: '/CPP-with-LIXIN/chapter-2-pta' }
-              ]
-            },
-            {
-              text: '第四章 循环',
-              items: [
-                { text: '上课重点内容', link: '/CPP-with-LIXIN/chapter-4-important' }
-              ]
-            },
-            {
-              text: '第五章 数组与字符串',
-              items: [
-                { text: 'PTA作业', link: '/CPP-with-LIXIN/chapter-5-pta' }
-              ]
-            }
+            { text: '李昕：C/C++简明双链教程', items:[
+              {text: '一些对本专题的介绍', link: '/CPP-with-LIXIN/',},
+              {text: '周五随堂测试汇总', link: '/CPP-with-LIXIN/test'},
+              { text: '程序设计基础', collapsed: true, items:[
+                {text: '程序设计基础：上课重点内容', link: '/CPP-with-LIXIN/chapter-2-important' },
+                {text: '程序设计基础：PTA作业', link: '/CPP-with-LIXIN/chapter-2-pta' },
+              ]},
+              { text: '循环', collapsed: true, items:[
+                {text: '循环：上课重点内容', link: '/CPP-with-LIXIN/chapter-4-important' },
+                {text: '循环：PTA作业', link: '/CPP-with-LIXIN/chapter-4-pta' },
+              ]},
+              { text: '数组与字符串', collapsed: true, items:[
+                {text: '数组与字符串：上课重点内容', link: '/CPP-with-LIXIN/chapter-5-important' },
+                {text: '数组与字符串：PTA作业', link: '/CPP-with-LIXIN/chapter-5-pta' },
+              ]},           
+              { text: '指针', collapsed: true, items:[
+                {text: '指针：上课重点内容', link: '' },
+                {text: '指针：PTA作业', link: '' },
+              ]},             
+              { text: '面向对象', collapsed: true, items:[
+                {text: '面向对象：上课重点内容', link: '' },
+                {text: '面向对象：PTA作业', link: '' },
+              ]},             
+              { text: '模板和容器', collapsed: true, items:[
+                {text: '模板和容器：上课重点内容', link: '' },
+                {text: '模板和容器：PTA作业', link: '' },
+              ]},
+            ]},
+            
           ],
           '/Sartaj_Sahni-DataStruct/': [
             {

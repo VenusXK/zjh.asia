@@ -598,6 +598,47 @@ int main ()
 }
 ```
 
+### 修改测试用例
+
+老师新增了三个测试用例，上述两种答案全部超时，修改代码如下，可以通过。
+
+```cpp
+#include <bits/stdc++.h>
+
+#define LL long long
+using namespace std;
+
+int main(){
+    std::ios::sync_with_stdio(false); 
+    // 设置标准 C++ 流是否与标准 C 流在每次输入/输出操作后同步
+    // 李昕：大数据输入要加sync with stdio
+    LL n;
+    cin >> n;
+    LL input;
+    LL table[n];
+    for(LL i = 0; i < n; i++){
+        table[i] = 0;
+    }
+    for(LL i = 0; i < n; i++){
+        cin >> input;
+        if(input <= n && input > 0){
+            table[input-1]++;
+        }
+    }
+    for(LL i = 0; i < n; i++){
+        if(table[i]==0){
+            cout << i+1;
+            break;
+        }
+        else if(i == n-1){
+            cout << n+1;
+        }
+    }
+
+    return 0;
+}
+```
+
 ## LX510 建国的难题
 
 ### 题目描述
