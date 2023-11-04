@@ -28,11 +28,10 @@ module.exports = {
         nav: [
           {
             text: '程序设计',
-            items:[
-              {
-                text: '公开课',
+            items:[{
+                text: '程序设计C/C++',
                 items: [
-                  {text: '李昕：C/C++简明双链教程', link: '/CPP-with-LIXIN/index'},
+                  {text: '李昕：C/C++简明双链教程', link: '/CPP/CPP-with-LIXIN/index'},
                 ]
               },              
               {
@@ -45,7 +44,7 @@ module.exports = {
             ]
           },
           {
-            text: '深入理解计算机',
+            text: '深入计算机',
             items:[
               {
                 text: '组成原理',
@@ -86,19 +85,6 @@ module.exports = {
               text: '二叉树相关算法', link: '/OfferI&II/Binary-Tree',
             },
           ],
-          '/Thinking-of-Howto/': [
-            {
-              text: '开篇', link: '/Thinking-of-Howto/intro',
-            },
-            {
-              text: '时间管理', 
-              items: [
-                {
-                  text: '时间分配方案及举例', link: '/Thinking-of-Howto/time-split',
-                },
-              ]
-            }
-          ],
           '/SFTang-Computer-Consist/': [
             {
               text: '关于: 计算机组成原理（第3版）', link: '/SFTang-Computer-Consist/intro',
@@ -106,51 +92,44 @@ module.exports = {
             {
               text: '存储器', 
               items: [
-                {
-                  text: '存储器的数据存放', link: '/SFTang-Computer-Consist/存储器的数据存放',
-                },
-                {
-                  text: '多体并行存储器系统', link: '/SFTang-Computer-Consist/多体并行存储器系统',
-                },
-                {
-                  text: '存储器的扩展及与CPU的连接', link: '/SFTang-Computer-Consist/存储器的扩展及与CPU的连接',
-                },
-                {
-                  text: '高速缓冲存储器', link: '/SFTang-Computer-Consist/高速缓冲存储器',
-                },
+                {text: '存储器的数据存放', link: '/SFTang-Computer-Consist/存储器的数据存放'},
+                {text: '多体并行存储器系统', link: '/SFTang-Computer-Consist/多体并行存储器系统'},
+                {text: '存储器的扩展及与CPU的连接', link: '/SFTang-Computer-Consist/存储器的扩展及与CPU的连接'},
+                {text: '高速缓冲存储器', link: '/SFTang-Computer-Consist/高速缓冲存储器'},
               ]
             }
           ],
-          '/CPP-with-LIXIN/': [
-            { text: '李昕：C/C++简明双链教程', items:[
-              {text: '一些对本专题的介绍', link: '/CPP-with-LIXIN/',},
-              {text: '周五随堂测试汇总', link: '/CPP-with-LIXIN/test'},
-              { text: '程序设计基础', collapsed: true, items:[
-                {text: '程序设计基础：上课重点内容', link: '/CPP-with-LIXIN/chapter-2-important' },
-                {text: '程序设计基础：PTA作业', link: '/CPP-with-LIXIN/chapter-2-pta' },
-              ]},
-              { text: '循环', collapsed: true, items:[
-                {text: '循环：上课重点内容', link: '/CPP-with-LIXIN/chapter-4-important' },
-                {text: '循环：PTA作业', link: '/CPP-with-LIXIN/chapter-4-pta' },
-              ]},
-              { text: '数组与字符串', collapsed: true, items:[
-                {text: '数组与字符串：上课重点内容', link: '/CPP-with-LIXIN/chapter-5-important' },
-                {text: '数组与字符串：PTA作业', link: '/CPP-with-LIXIN/chapter-5-pta' },
-              ]},           
-              { text: '指针', collapsed: true, items:[
-                {text: '指针：上课重点内容', link: '' },
-                {text: '指针：PTA作业', link: '' },
-              ]},             
-              { text: '面向对象', collapsed: true, items:[
-                {text: '面向对象：上课重点内容', link: '' },
-                {text: '面向对象：PTA作业', link: '' },
-              ]},             
-              { text: '模板和容器', collapsed: true, items:[
-                {text: '模板和容器：上课重点内容', link: '' },
-                {text: '模板和容器：PTA作业', link: '' },
+          'CPP': [
+            { text: '程序设计C/C++',  items:[
+              { text: '李昕：C/C++简明双链教程', collapsed: true,  items:[
+                {text: '一些对本专题的介绍', link: '/CPP/CPP-with-LIXIN/',},
+                {text: '周五随堂测试汇总', link: '/CPP/CPP-with-LIXIN/test'},
+                { text: '程序设计基础', collapsed: true, items:[
+                  {text: '程序设计基础：上课重点', link: '/CPP/CPP-with-LIXIN/chapter-2-important' },
+                  {text: '程序设计基础：PTA作业', link: '/CPP/CPP-with-LIXIN/chapter-2-pta' },
+                ]},
+                { text: '循环', collapsed: true, items:[
+                  {text: '循环：上课重点', link: '/CPP/CPP-with-LIXIN/chapter-4-important' },
+                  {text: '循环：PTA作业', link: '/CPP/CPP-with-LIXIN/chapter-4-pta' },
+                ]},
+                { text: '数组与字符串', collapsed: true, items:[
+                  {text: '数组与字符串：上课重点', link: '/CPP/CPP-with-LIXIN/chapter-5-important' },
+                  {text: '数组与字符串：PTA作业', link: '/CPP/CPP-with-LIXIN/chapter-5-pta' },
+                ]},           
+                { text: '指针', collapsed: true, items:[
+                  {text: '指针：上课重点', link: '' },
+                  {text: '指针：PTA作业', link: '' },
+                ]},             
+                { text: '面向对象', collapsed: true, items:[
+                  {text: '面向对象：上课重点', link: '' },
+                  {text: '面向对象：PTA作业', link: '' },
+                ]},             
+                { text: '模板和容器', collapsed: true, items:[
+                  {text: '模板和容器：上课重点', link: '' },
+                  {text: '模板和容器：PTA作业', link: '' },
+                ]},
               ]},
             ]},
-            
           ],
           '/Sartaj_Sahni-DataStruct/': [
             {
@@ -159,7 +138,6 @@ module.exports = {
             {
               text: '线性表',
               items: [
-                // This shows `/guide/index.md` page.
                 { text: '线性表的应用', link: '/Sartaj_Sahni-DataStruct/线性表/线性表的应用' }
               ]
             }
