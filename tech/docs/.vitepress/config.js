@@ -22,6 +22,7 @@ module.exports = {
         outlineTitle: '内容目录',
         // outlineBadges: true,
         outline: 'deep',
+        darkModeSwitchLabel: '亮 / 暗',
         // siteTitle: '景赫的小网站',
 
         // ---------------------------------- nav ----------------------------------
