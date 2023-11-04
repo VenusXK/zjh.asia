@@ -17,7 +17,6 @@ module.exports = {
       ['link', {rel: 'icon', href: 'https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/avator/zjh_roundfull.png?x-oss-process=style/small_size_rule'}],
     ],
     themeConfig: {
-        darkModeSwitchLabel: " ",
         aside: true,
         outlineTitle: '内容目录',
         // outlineBadges: true,
