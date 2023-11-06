@@ -17,12 +17,14 @@ module.exports = {
       ['link', {rel: 'icon', href: 'https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/avator/zjh_roundfull.png?x-oss-process=style/small_size_rule'}],
     ],
     themeConfig: {
+        search: {
+          provider: 'local',
+        },
         aside: true,
-        outlineTitle: '内容目录',
-        // outlineBadges: true,
+        outlineTitle: '大纲',
         outline: 'deep',
         darkModeSwitchLabel: '亮 / 暗',
-        // siteTitle: '景赫的小网站',
+        // siteTitle: 'zjh.asia',
 
         // ---------------------------------- nav ----------------------------------
         nav: [
@@ -56,9 +58,6 @@ module.exports = {
           },
           {
             text: '生活记录', link: 'https://zjh.asia/life/'
-          },
-          {
-            text: '关于我', link: 'https://zjh.asia/aboutme/'
           },
         ],
 
