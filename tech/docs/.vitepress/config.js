@@ -254,39 +254,39 @@ module.exports = {
               { text: '王明发：(Kotlin)Android编程权威指南', collapsed: true,  items:[
               ]},
             ]},
-            'Art': [
-              { text: '互联网观点解读', collapsed: true, items:[
-                  { text: '自学建议', collapsed: true,  items:[
-                    {text: '油画自学建议', link: '/Art/From-Internet/Canvas-Self-Study-Advice'},
-                    {text: '素描自学建议', link: '/Art/From-Internet/Sketch-Self-Study-Advice'},
-                  ]}
-              ]},
-              {text: '素描基本技法', items:[
-                {text: '素描的诀窍', collapsed: true}
-              ]},
-              {text: '素描技巧分析', items:[
-                {text: '艺用人体结构', collapsed: true},
-                {text: '路米斯：人体素描', collapsed: true},
-                {text: '路米斯：头手素描', collapsed: true},
-                {text: '路米斯：素描基础', collapsed: true},
-                {text: '路米斯：创意插画', collapsed: true},
-                {text: 'Roberts：Drawing Lessons from the Great Masters-Sketch Basics', collapsed: true},
-                {text: 'Roberts：Drawing Lessons from the Great Masters-Artistic Anatomy', collapsed: true},
-                {text: 'Roberts：Drawing Lessons from the Great Masters-Body Sketches', collapsed: true},
-                {text: '伯里曼：人体结构绘画教学', collapsed: true},
-              ]},
-              {text: '素描积累', items:[
-                {text: 'MENZEL门采尔素描集', collapsed: true},
-                {text: '素描的艺术-大师速写人物', collapsed: true},
-                {text: '素描的艺术-大师素描肖像', collapsed: true},
-              ]},
-              { text: '现当代素描', items:[
-                { text: '大师的手稿-探索大师的心历路程', collapsed: true},
-                { text: '大师的手稿-奥德·内尔吕姆', collapsed: true},
-                { text: '大师的手稿-马克思·贝克曼', collapsed: true},
-              ]}
-            ],
           ]
+          'Art': [
+            { text: '互联网观点解读', collapsed: true, items:[
+                { text: '自学建议', collapsed: true,  items:[
+                  {text: '油画自学建议', link: '/Art/From-Internet/Canvas-Self-Study-Advice'},
+                  {text: '素描自学建议', link: '/Art/From-Internet/Sketch-Self-Study-Advice'},
+                ]}
+            ]},
+            {text: '素描基本技法', items:[
+              {text: '素描的诀窍', collapsed: true}
+            ]},
+            {text: '素描技巧分析', items:[
+              {text: '艺用人体结构', collapsed: true},
+              {text: '路米斯：人体素描', collapsed: true},
+              {text: '路米斯：头手素描', collapsed: true},
+              {text: '路米斯：素描基础', collapsed: true},
+              {text: '路米斯：创意插画', collapsed: true},
+              {text: 'Roberts：Drawing Lessons from the Great Masters-Sketch Basics', collapsed: true},
+              {text: 'Roberts：Drawing Lessons from the Great Masters-Artistic Anatomy', collapsed: true},
+              {text: 'Roberts：Drawing Lessons from the Great Masters-Body Sketches', collapsed: true},
+              {text: '伯里曼：人体结构绘画教学', collapsed: true},
+            ]},
+            {text: '素描积累', items:[
+              {text: 'MENZEL门采尔素描集', collapsed: true},
+              {text: '素描的艺术-大师速写人物', collapsed: true},
+              {text: '素描的艺术-大师素描肖像', collapsed: true},
+            ]},
+            { text: '现当代素描', items:[
+              { text: '大师的手稿-探索大师的心历路程', collapsed: true},
+              { text: '大师的手稿-奥德·内尔吕姆', collapsed: true},
+              { text: '大师的手稿-马克思·贝克曼', collapsed: true},
+            ]}
+          ],
         },
 
 
