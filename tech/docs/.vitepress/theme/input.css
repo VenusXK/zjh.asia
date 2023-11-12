@@ -11,3 +11,9 @@
   width: screen;
   overflow-x: hidden;
 }
+.VPSidebarItem .item .text{
+  @apply line-clamp-1
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}

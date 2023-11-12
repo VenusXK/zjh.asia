@@ -543,3 +543,15 @@ video {
   width: screen;
   overflow-x: hidden;
 }
+
+.VPSidebarItem .item .text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  /* Chrome Safari */
+}
