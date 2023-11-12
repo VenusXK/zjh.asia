@@ -247,7 +247,7 @@ module.exports = {
               ]},
             ]},
             { text: 'Java/Kotlin',  items:[
-              { text: '^ 耿祥义：Java2实用教程', collapsed: true,  items:[
+              { text: '耿祥义：Java2实用教程', collapsed: true,  items:[
                 { text: 'Java入门', link: '/Program/Java/XYGeng_Java2/Java入门'},
               ]},
               { text: '^ 水滴技术团队：Kotlin核心编程', collapsed: true,  items:[
