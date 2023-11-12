@@ -254,7 +254,7 @@ module.exports = {
               { text: '王明发：(Kotlin)Android编程权威指南', collapsed: true,  items:[
               ]},
             ]},
-          ]
+          ],
           'Art': [
             { text: '互联网观点解读', collapsed: true, items:[
                 { text: '自学建议', collapsed: true,  items:[
