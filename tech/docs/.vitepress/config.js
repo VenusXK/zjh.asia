@@ -68,6 +68,34 @@ module.exports = {
               { text: '互联网分享', link:'/Face-Warp/Real-Face-Warp/From-Internet/2022-pico'},
             ]},
           ]},
+          { text: '项目', items:[
+            { text: '石油大学期间', items:[
+              { text: '面向实时视频流的目标检测系统设计', link: '/Project/listen_or_not/AndroidStudio-ENV'}
+            ]},
+          ]},
+          { text: '编程', items:[
+            { text: 'C/C++', items: [
+              {text: '李昕：C/C++简明双链教程', link: '/Program/CPP/CPP-with-LIXIN/index'},
+            ]},
+            { text: 'Java/Kotlin',  items:[
+              { text: '耿祥义：Java2实用教程', link: '/Program/Java/XYGeng_Java2/chapter-1'},
+              { text: '^ 水滴技术团队：Kotlin核心编程', link:'404page'},
+              { text: '^ Dmitry Jemerov等：Kotlin实践', link:'404page'},
+            ]},
+            { text: '数据结构与算法', items: [
+              { text: '山东大学：计算机专硕考研(数据结构)', link: '/Program/Data-Struct/OfferI&II/Binary-Tree'},
+              { text: 'Sartaj Sahni：数据结构、算法与应用', link: '/Program/Data-Struct/Sartaj_Sahni-DataStruct/Line-Struct/application'}
+            ]},
+            { text: '设计模式', items:[
+              { text: 'Erich Gamma等：设计模式-可复用面向对象软件的基础', link:'/Program/Design-Patterns/E.Gamma-Design-Patterns-Elements-of-Reusable-Object-Oriented-Software/chapter-1'}
+            ]},
+            { text: 'Android', items:[
+              { text: '^ 欧阳燊：AndroidStudio开发实战-从零基础到APP上线', link: '404page'},
+              { text: '^ 李刚：疯狂Android讲义', link:'404page'},
+              { text: '^ 王明发：(Java)Android编程权威指南', link:'404page'},
+              { text: '^ 王明发：(Kotlin)Android编程权威指南', link:'404page'},
+            ]},
+          ]},
           { text: '底层', items:[
             { text: '计算机组成原理', items: [
               { text: '王道论坛：复习指导(组成原理)', link: '/Basement/Wang-Dao/Float&IEEE754'},
@@ -81,29 +109,6 @@ module.exports = {
             { text:'操作系统', items:[
               { text: '^ Andrew等：现代操作系统', link: '404page'},
               { text: '^ Randal等：深入理解计算机系统', link: '404page'}
-            ]},
-          ]},
-          { text: '程序', items:[
-            { text: 'C/C++', items: [
-              {text: '李昕：C/C++简明双链教程', link: '/Program/CPP/CPP-with-LIXIN/index'},
-            ]},
-            { text: 'Java/Kotlin',  items:[
-              { text: '耿祥义：Java2实用教程', link: '/Program/Java/XYGeng_Java2/Java入门'},
-              { text: '^ 水滴技术团队：Kotlin核心编程', link:'404page'},
-              { text: '^ Dmitry Jemerov等：Kotlin实践', link:'404page'},
-            ]},
-            { text: '数据结构与算法', items: [
-              { text: '山东大学：计算机专硕考研(数据结构)', link: '/Program/Data-Struct/OfferI&II/Binary-Tree'},
-              { text: 'Sartaj Sahni：数据结构、算法与应用', link: '/Program/Data-Struct/Sartaj_Sahni-DataStruct/Line-Struct/application'}
-            ]},
-            { text: '设计模式', items:[
-              { text: '^ GOF：设计模式', link:'404page'}
-            ]},
-            { text: 'Android', items:[
-              { text: '^ 欧阳燊：AndroidStudio开发实战-从零基础到APP上线', link: '404page'},
-              { text: '^ 李刚：疯狂Android讲义', link:'404page'},
-              { text: '^ 王明发：(Java)Android编程权威指南', link:'404page'},
-              { text: '^ 王明发：(Kotlin)Android编程权威指南', link:'404page'},
             ]},
           ]},
           { text: '美术', items:[          
@@ -194,61 +199,38 @@ module.exports = {
             ]},
             
           ],
-          'Basement': [
-            { text: '计算机组成原理', items:[
-              { text: '山东大学：计算机专硕考研(数据结构)', collapsed: true,  items:[
-                {text: '2023年山东大学专硕真题分析', link: '/Basement/SDU/Examination-2023'},
-              ]},
-              { text: '王道论坛：复习指导(组成原理)', collapsed: true,  items:[
-                { text: '数据的表示和运算', collapsed: true,  items:[
-                  {text: '浮点数的表示和运算', link: '/Basement/Wang-Dao/Float&IEEE754'},
-                ]},
-              ]},
-            ]},
-            { text:'编译原理', items:[
-              { text: '^ Alfred等：编译原理(龙书)', collapsed: true,},
-              { text: '^ 俞甲子等：程序员的自我修养，编译、装载与库', collapsed: true,},
-              { text: '^ 陈莉君等：深入理解LINUX内核', collapsed: true,}
-            ]},
-            { text:'操作系统', items:[
-              { text: '^ Andrew等：现代操作系统', collapsed: true,},
-              { text: '^ Randal等：深入理解计算机系统', collapsed: true,}
-            ]},
-          ],
           'Program': [
             { text: 'C/C++',  items:[
               { text: '李昕：C/C++简明双链教程', collapsed: true,  items:[
                 {text: '一些对本专题的介绍', link: '/Program/CPP/CPP-with-LIXIN/',},
                 {text: '周五随堂测试汇总', link: '/Program/CPP/CPP-with-LIXIN/test'},
-                { text: '程序设计基础', collapsed: true, items:[
-                  {text: '^ 程序设计基础：上课重点', link: '/Program/CPP/CPP-with-LIXIN/chapter-2-important' },
-                  {text: '程序设计基础：PTA作业', link: '/Program/CPP/CPP-with-LIXIN/chapter-2-pta' },
-                ]},
+                {text: '程序设计基础：PTA作业', link: '/Program/CPP/CPP-with-LIXIN/chapter-2-pta' },
                 { text: '循环', collapsed: true, items:[
-                  {text: '循环：上课重点', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-important' },
+                  {text: '循环：知识点归纳', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-important' },
                   {text: '循环：PTA作业', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-pta' },
                 ]},
                 { text: '数组与字符串', collapsed: true, items:[
-                  {text: '数组与字符串：上课重点', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-important' },
+                  {text: '数组与字符串：知识点归纳', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-important' },
                   {text: '数组与字符串：PTA作业', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-pta' },
                 ]},           
                 { text: '^ 指针', collapsed: true, items:[
-                  {text: '指针：上课重点', link: '' },
+                  {text: '指针：知识点归纳', link: '' },
                   {text: '指针：PTA作业', link: '' },
                 ]},             
                 { text: '^ 面向对象', collapsed: true, items:[
-                  {text: '面向对象：上课重点', link: '' },
+                  {text: '面向对象：知识点归纳', link: '' },
                   {text: '面向对象：PTA作业', link: '' },
                 ]},             
                 { text: '^ 模板和容器', collapsed: true, items:[
-                  {text: '模板和容器：上课重点', link: '' },
+                  {text: '模板和容器：知识点归纳', link: '' },
                   {text: '模板和容器：PTA作业', link: '' },
                 ]},
               ]},
             ]},
             { text: 'Java/Kotlin',  items:[
               { text: '耿祥义：Java2实用教程', collapsed: true,  items:[
-                { text: 'Java入门', link: '/Program/Java/XYGeng_Java2/Java入门'},
+                { text: 'Java入门', link: '/Program/Java/XYGeng_Java2/chapter-1'},
+                { text: '基本数据类型与数组', link: '/Program/Java/XYGeng_Java2/chapter-2'},
               ]},
               { text: '^ 水滴技术团队：Kotlin核心编程', collapsed: true,  items:[
               ]},
@@ -265,7 +247,9 @@ module.exports = {
               ]},
             ]},
             { text: '设计模式', items:[
-              { text: '^ GOF：Design Patterns Elements of Reusable Object-Oriented Software', collapsed:true}
+              { text: 'Erich Gamma等：设计模式-可复用面向对象软件的基础', collapsed:true, items:[
+                { text: '引言', link: '/Program/Design-Patterns/E.Gamma-Design-Patterns-Elements-of-Reusable-Object-Oriented-Software/chapter-1'},
+              ]}
             ]},
             { text: 'Android', items:[
               { text: '^ 欧阳燊：AndroidStudio开发实战-从零基础到APP上线', collapsed: true,  items:[
@@ -276,6 +260,35 @@ module.exports = {
               ]},
               { text: '^ 王明发：(Kotlin)Android编程权威指南', collapsed: true,  items:[
               ]},
+            ]},
+          ],
+          'Project': [
+            { text: '石油大学期间', items:[
+              { text: '面向实时视频流的目标检测系统设计', collapsed: true, items:[
+                { text: 'AndroidStudio环境相关', link: '/Project/listen_or_not/AndroidStudio-ENV'},
+                { text: 'MainActivity代码解析', link: '/Project/listen_or_not/MainActivity'}
+              ]},
+            ]},
+          ],
+          'Basement': [
+            { text: '计算机组成原理', items:[
+              { text: '王道论坛：复习指导(组成原理)', collapsed: true,  items:[
+                { text: '数据的表示和运算', collapsed: true,  items:[
+                  {text: '浮点数的表示和运算', link: '/Basement/Wang-Dao/Float&IEEE754'},
+                ]},
+              ]},
+              { text: '山东大学：计算机专硕考研(组成原理)', collapsed: true,  items:[
+                {text: '2023年山东大学专硕真题分析', link: '/Basement/SDU/Examination-2023'},
+              ]},
+            ]},
+            { text:'编译原理', items:[
+              { text: '^ Alfred等：编译原理(龙书)', collapsed: true,},
+              { text: '^ 俞甲子等：程序员的自我修养，编译、装载与库', collapsed: true,},
+              { text: '^ 陈莉君等：深入理解LINUX内核', collapsed: true,}
+            ]},
+            { text:'操作系统', items:[
+              { text: '^ Andrew等：现代操作系统', collapsed: true,},
+              { text: '^ Randal等：深入理解计算机系统', collapsed: true,}
             ]},
           ],
           'Art': [
