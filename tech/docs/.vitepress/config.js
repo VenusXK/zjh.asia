@@ -48,17 +48,17 @@ module.exports = {
         
         
         nav: [
-          { text: '前瞻', items:[
-            { text: '先进经验', items: [
-              {text: '学习方法', link: '/Foresight/Suggestion/Offer-in-4-Month' },
-              {text: '^ 方向指导', link: '404page' },
-            ]},
-            { text: '计划和目标', items: [
-              {text: '^ 年计划', link: '404page' },
-              {text: '^ 月计划', link: '404page' },
-              {text: '周目标', link: '/Foresight/Plan/Weekly/' },
-            ]},
-          ]},
+          // { text: '前瞻', items:[
+          //   { text: '先进经验', items: [
+          //     {text: '学习方法', link: '/Foresight/Suggestion/Offer-in-4-Month' },
+          //     {text: '^ 方向指导', link: '404page' },
+          //   ]},
+          //   { text: '计划和目标', items: [
+          //     {text: '^ 年计划', link: '404page' },
+          //     {text: '^ 月计划', link: '404page' },
+          //     {text: '周目标', link: '/Foresight/Plan/Weekly/' },
+          //   ]},
+          // ]},
           { text: '面经', items:[
             { text: '面试教程', items: [
               {text: '何海涛：剑指Offer名企面试官精讲典型编程题', link: '/Face-Warp/From-Book/OfferI&II/I-chapter-1' },
@@ -231,6 +231,7 @@ module.exports = {
               { text: '耿祥义：Java2实用教程', collapsed: true,  items:[
                 { text: 'Java入门', link: '/Program/Java/XYGeng_Java2/chapter-1'},
                 { text: '基本数据类型与数组', link: '/Program/Java/XYGeng_Java2/chapter-2'},
+                { text: '运算符、表达式和语句', link: '/Program/Java/XYGeng_Java2/chapter-3'},
               ]},
               { text: '^ 水滴技术团队：Kotlin核心编程', collapsed: true,  items:[
               ]},
