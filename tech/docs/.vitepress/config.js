@@ -59,6 +59,15 @@ module.exports = {
           //     {text: '周目标', link: '/Foresight/Plan/Weekly/' },
           //   ]},
           // ]},
+          { text: '数理', items:[
+            { text: '山东大学：计算机专硕考研(数学)', items: [
+              {text: '高等数学', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'},
+              {text: '线性代数', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
+            ]},
+            { text: '图形学', items: [
+              {text: '^ Steve等：Fundamentals Of Computer Graphics', link: '/Mathematics/SDU/'},
+            ]},
+          ]},
           { text: '面经', items:[
             { text: '面试教程', items: [
               {text: '何海涛：剑指Offer名企面试官精讲典型编程题', link: '/Face-Warp/From-Book/OfferI&II/I-chapter-1' },
@@ -166,6 +175,19 @@ module.exports = {
 
         sidebarMenuLabel: "Menu",
         sidebar: {
+          'Mathematics': [
+            { text: '山东大学：计算机专硕考研(数学)', items: [
+              {text: '高等数学', collapsed: true, items:[
+                {text: 'test', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'}
+              ]},
+              {text: '线性代数', collapsed: true, items:[
+                {text: 'test', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'}
+              ]},
+            ]},
+            { text: '图形学', items: [
+              {text: '^ Steve等：Fundamentals Of Computer Graphics', collapsed: true},
+            ]},
+          ],
           'Foresight': [
             { text: '先进经验',  items:[
                 {text: '学习方法', collapsed: true, items:[
