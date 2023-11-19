@@ -1,5 +1,5 @@
 ---
-outline: true
+outline: false
 layout: doc
 ---
 

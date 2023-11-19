@@ -50,27 +50,27 @@ module.exports = {
         nav: [
           // { text: '前瞻', items:[
           //   { text: '先进经验', items: [
-          //     {text: '学习方法', link: '/Foresight/Suggestion/Offer-in-4-Month' },
-          //     {text: '^ 方向指导', link: '404page' },
+          //     { text: '学习方法', link: '/Foresight/Suggestion/Offer-in-4-Month' },
+          //     { text: '^ 方向指导', link: '404page' },
           //   ]},
           //   { text: '计划和目标', items: [
-          //     {text: '^ 年计划', link: '404page' },
-          //     {text: '^ 月计划', link: '404page' },
-          //     {text: '周目标', link: '/Foresight/Plan/Weekly/' },
+          //     { text: '^ 年计划', link: '404page' },
+          //     { text: '^ 月计划', link: '404page' },
+          //     { text: '周目标', link: '/Foresight/Plan/Weekly/' },
           //   ]},
           // ]},
           { text: '数理', items:[
             { text: '山东大学：计算机专硕考研(数学)', items: [
-              {text: '高等数学', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'},
-              {text: '线性代数', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
+              { text: '高等数学', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'},
+              { text: '汤家凤：辅助讲义(线性代数)', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
             ]},
             { text: '图形学', items: [
-              {text: '^ Steve等：Fundamentals Of Computer Graphics', link: '/Mathematics/SDU/'},
+              { text: '^ Steve等：Fundamentals Of Computer Graphics', link: '/Mathematics/SDU/'},
             ]},
           ]},
           { text: '面经', items:[
             { text: '面试教程', items: [
-              {text: '何海涛：剑指Offer名企面试官精讲典型编程题', link: '/Face-Warp/From-Book/OfferI&II/I-chapter-1' },
+              { text: '何海涛：剑指Offer名企面试官精讲典型编程题', link: '/Face-Warp/From-Book/OfferI&II/I-chapter-1' },
             ]},
             { text: '真实的面试经历', items: [
               { text: '我的经历', link: '/Face-Warp/Real-Face-Warp/Mine/2023-11-Goertek'},
@@ -84,7 +84,7 @@ module.exports = {
           ]},
           { text: '编程', items:[
             { text: 'C/C++', items: [
-              {text: '李昕：C/C++简明双链教程', link: '/Program/CPP/CPP-with-LIXIN/index'},
+              { text: '李昕：C/C++简明双链教程', link: '/Program/CPP/CPP-with-LIXIN/index'},
             ]},
             { text: 'Java/Kotlin',  items:[
               { text: '耿祥义：Java2实用教程', link: '/Program/Java/XYGeng_Java2/chapter-1'},
@@ -121,24 +121,24 @@ module.exports = {
             ]},
           ]},
           { text: '美术', items:[          
-              {text: '素描基本技法', items:[
-                {text: '^ 素描的诀窍', link: '404page'}
+              { text: '素描基本技法', items:[
+                { text: '^ 素描的诀窍', link: '404page'}
               ]},
-              {text: '素描技巧分析', items:[
-                {text: '^ 艺用人体结构', link: '404page'},
-                {text: '^ Andrew Loomis：人体素描', link: '404page'},
-                {text: '^ Andrew Loomis：头手素描', link: '404page'},
-                {text: '^ Andrew Loomis：素描基础', link: '404page'},
-                {text: '^ Andrew Loomis：创意插画', link: '404page'},
-                {text: '^ Roberts：向大师学绘画-素描基础',  link: '404page'},
-                {text: '^ Roberts：向大师学绘画-人体解剖', link: '404page'},
-                {text: '^ Roberts：向大师学绘画-人体素描', link: '404page'},
-                {text: '^ Alan Bryman：人体结构绘画教学', link: '404page'},
+              { text: '素描技巧分析', items:[
+                { text: '^ 艺用人体结构', link: '404page'},
+                { text: '^ Andrew Loomis：人体素描', link: '404page'},
+                { text: '^ Andrew Loomis：头手素描', link: '404page'},
+                { text: '^ Andrew Loomis：素描基础', link: '404page'},
+                { text: '^ Andrew Loomis：创意插画', link: '404page'},
+                { text: '^ Roberts：向大师学绘画-素描基础',  link: '404page'},
+                { text: '^ Roberts：向大师学绘画-人体解剖', link: '404page'},
+                { text: '^ Roberts：向大师学绘画-人体素描', link: '404page'},
+                { text: '^ Alan Bryman：人体结构绘画教学', link: '404page'},
               ]},
-              {text: '素描积累', items:[
-                {text: '^ MENZEL门采尔素描集', link: '404page'},
-                {text: '^ 素描的艺术-大师速写人物', link: '404page'},
-                {text: '^ 素描的艺术-大师素描肖像', link: '404page'},
+              { text: '素描积累', items:[
+                { text: '^ MENZEL门采尔素描集', link: '404page'},
+                { text: '^ 素描的艺术-大师速写人物', link: '404page'},
+                { text: '^ 素描的艺术-大师素描肖像', link: '404page'},
               ]},
               { text: '现当代素描', items:[
                 { text: '^ 大师的手稿-探索大师的心历路程', link: '404page'},
@@ -146,7 +146,7 @@ module.exports = {
                 { text: '^ 大师的手稿-Max Beckman', link: '404page'},
               ]},
               { text: '其他', items:[
-                {text: '互联网观点解读', link: '/Art/From-Internet/Canvas-Self-Study-Advice'},
+                { text: '互联网观点解读', link: '/Art/From-Internet/Canvas-Self-Study-Advice'},
               ]},              
           ]},
           { text: '生活记录', link: 'https://zjh.asia/life/' },
@@ -177,46 +177,46 @@ module.exports = {
         sidebar: {
           'Mathematics': [
             { text: '山东大学：计算机专硕考研(数学)', items: [
-              {text: '高等数学', collapsed: true, items:[
-                {text: 'test', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'}
+              { text: '高等数学', collapsed: true, items:[
+                { text: 'test', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'}
               ]},
-              {text: '线性代数', collapsed: true, items:[
-                {text: 'test', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'}
+              { text: '汤家凤：辅助讲义(线性代数)', collapsed: true, items:[
+                { text: '行列式', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'}
               ]},
             ]},
             { text: '图形学', items: [
-              {text: '^ Steve等：Fundamentals Of Computer Graphics', collapsed: true},
+              { text: '^ Steve等：Fundamentals Of Computer Graphics', collapsed: true},
             ]},
           ],
           'Foresight': [
             { text: '先进经验',  items:[
-                {text: '学习方法', collapsed: true, items:[
+                { text: '学习方法', collapsed: true, items:[
                   { text: '如何4个月高效刷满500题并形成长期记忆？', link: '/Foresight/Suggestion/Offer-in-4-Month'},
                 ]},
-                {text: '^ 方向指导', collapsed: true},
+                { text: '^ 方向指导', collapsed: true},
             ]},
             { text: '计划和目标', items: [
-              {text: '^ 年计划', collapsed: true},
-              {text: '^ 月计划', collapsed: true},
-              {text: '周目标', collapsed: true, items:[
+              { text: '^ 年计划', collapsed: true},
+              { text: '^ 月计划', collapsed: true},
+              { text: '周目标', collapsed: true, items:[
                 { text: '2023.11.13.-2023.11.19.',  link: '/Foresight/Plan/Weekly/'}
               ]},
             ]},
           ],
           'Face-Warp': [
             { text: '面试教程', items: [
-              {text: '何海涛：剑指Offer名企面试官精讲典型编程题', collapsed: true, items: [
-                {text: '面试的流程', link:'/Face-Warp/From-Book/OfferI&II/I-chapter-1'}
+              { text: '何海涛：剑指Offer名企面试官精讲典型编程题', collapsed: true, items: [
+                { text: '面试的流程', link:'/Face-Warp/From-Book/OfferI&II/I-chapter-1'}
               ]},
             ]},
             { text: '真实的面试经历', items: [
               { text: '我的经历',  items:[
-                {text: '2023冬季歌尔嵌入式软件研发实习', link: '/Face-Warp/Real-Face-Warp/Mine/2023-11-Goertek' },
-                {text: '2023冬季字节跳动(PICO)Android开发', link: '/Face-Warp/Real-Face-Warp/Mine/2023-11-Pico' },
+                { text: '2023冬季歌尔嵌入式软件研发实习', link: '/Face-Warp/Real-Face-Warp/Mine/2023-11-Goertek' },
+                { text: '2023冬季字节跳动(PICO)Android开发', link: '/Face-Warp/Real-Face-Warp/Mine/2023-11-Pico' },
               ]},
               { text: '互联网分享',  items:[
-                {text: '2022春季字节跳动PICO青岛面经', link: '/Face-Warp/Real-Face-Warp/From-Internet/2022-pico' },
-                {text: '2023春季货拉拉安卓日常实习面经', link: '/Face-Warp/Real-Face-Warp/From-Internet/2023-huolala-Android' },
+                { text: '2022春季字节跳动PICO青岛面经', link: '/Face-Warp/Real-Face-Warp/From-Internet/2022-pico' },
+                { text: '2023春季货拉拉安卓日常实习面经', link: '/Face-Warp/Real-Face-Warp/From-Internet/2023-huolala-Android' },
               ]},
             ]},
             
@@ -224,29 +224,16 @@ module.exports = {
           'Program': [
             { text: 'C/C++',  items:[
               { text: '李昕：C/C++简明双链教程', collapsed: true,  items:[
-                {text: '一些对本专题的介绍', link: '/Program/CPP/CPP-with-LIXIN/',},
-                {text: '周五随堂测试汇总', link: '/Program/CPP/CPP-with-LIXIN/test'},
-                {text: '程序设计基础：PTA作业', link: '/Program/CPP/CPP-with-LIXIN/chapter-2-pta' },
-                { text: '循环', collapsed: true, items:[
-                  {text: '循环：知识点归纳', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-important' },
-                  {text: '循环：PTA作业', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-pta' },
-                ]},
-                { text: '数组与字符串', collapsed: true, items:[
-                  {text: '数组与字符串：知识点归纳', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-important' },
-                  {text: '数组与字符串：PTA作业', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-pta' },
-                ]},           
-                { text: '^ 指针', collapsed: true, items:[
-                  {text: '指针：知识点归纳', link: '' },
-                  {text: '指针：PTA作业', link: '' },
-                ]},             
-                { text: '^ 面向对象', collapsed: true, items:[
-                  {text: '面向对象：知识点归纳', link: '' },
-                  {text: '面向对象：PTA作业', link: '' },
-                ]},             
-                { text: '^ 模板和容器', collapsed: true, items:[
-                  {text: '模板和容器：知识点归纳', link: '' },
-                  {text: '模板和容器：PTA作业', link: '' },
-                ]},
+                { text: '一些对本专题的介绍', link: '/Program/CPP/CPP-with-LIXIN/',},
+                { text: '循环', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-important' },
+                { text: '数组与字符串', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-important' },
+                { text: '周五随堂测试汇总', link: '/Program/CPP/CPP-with-LIXIN/test'},
+                { text: 'PTA作业', collapsed: true, items:[
+                  { text: 'PTA作业-程序设计基础', link: '/Program/CPP/CPP-with-LIXIN/chapter-2-pta' },
+                  { text: 'PTA作业-循环', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-pta' },
+                  { text: 'PTA作业-数组与字符串', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-pta' },
+                  { text: 'PTA作业-指针', link: '/Program/CPP/CPP-with-LIXIN/chapter-6-pta' },
+                ]},  
               ]},
             ]},
             { text: 'Java/Kotlin',  items:[
@@ -254,6 +241,12 @@ module.exports = {
                 { text: 'Java入门', link: '/Program/Java/XYGeng_Java2/chapter-1'},
                 { text: '基本数据类型与数组', link: '/Program/Java/XYGeng_Java2/chapter-2'},
                 { text: '运算符、表达式和语句', link: '/Program/Java/XYGeng_Java2/chapter-3'},
+                { text: '类与对象', collapsed: true, items:[
+                  { text: '类和面向对象', link: '/Program/Java/XYGeng_Java2/chapter-4-1'},
+                  { text: '对象的创建与使用', link: '/Program/Java/XYGeng_Java2/chapter-4-2'},
+                  { text: '程序的基本结构', link: '/Program/Java/XYGeng_Java2/chapter-4-3'},
+                  { text: '参数的传值', link: '/Program/Java/XYGeng_Java2/chapter-4-4'},
+                ]},
               ]},
               { text: '^ 水滴技术团队：Kotlin核心编程', collapsed: true,  items:[
               ]},
@@ -265,7 +258,7 @@ module.exports = {
               ]},
               { text: 'Sartaj Sahni：数据结构、算法与应用', collapsed: true, items:[
                 { text: '线性存储结构', collapsed: true,  items:[
-                  {text: '线性表的应用', link: '/Program/Data-Struct/Sartaj_Sahni-DataStruct/Line-Struct/application'}
+                  { text: '线性表的应用', link: '/Program/Data-Struct/Sartaj_Sahni-DataStruct/Line-Struct/application'}
                 ]},
               ]},
             ]},
@@ -297,11 +290,11 @@ module.exports = {
             { text: '计算机组成原理', items:[
               { text: '王道论坛：复习指导(组成原理)', collapsed: true,  items:[
                 { text: '数据的表示和运算', collapsed: true,  items:[
-                  {text: '浮点数的表示和运算', link: '/Basement/Wang-Dao/Float&IEEE754'},
+                  { text: '浮点数的表示和运算', link: '/Basement/Wang-Dao/Float&IEEE754'},
                 ]},
               ]},
               { text: '山东大学：计算机专硕考研(组成原理)', collapsed: true,  items:[
-                {text: '2023年山东大学专硕真题分析', link: '/Basement/SDU/Examination-2023'},
+                { text: '2023年山东大学专硕真题分析', link: '/Basement/SDU/Examination-2023'},
               ]},
             ]},
             { text:'编译原理', items:[
@@ -315,24 +308,24 @@ module.exports = {
             ]},
           ],
           'Art': [
-            {text: '素描基本技法', items:[
-              {text: '^ 素描的诀窍', collapsed: true}
+            { text: '素描基本技法', items:[
+              { text: '^ 素描的诀窍', collapsed: true}
             ]},
-            {text: '素描技巧分析', items:[
-              {text: '^ 艺用人体结构', collapsed: true},
-              {text: '^ Andrew Loomis：人体素描', collapsed: true},
-              {text: '^ Andrew Loomis：头手素描', collapsed: true},
-              {text: '^ Andrew Loomis：素描基础', collapsed: true},
-              {text: '^ Andrew Loomis：创意插画', collapsed: true},
-              {text: '^ Roberts：向大师学绘画-素描基础', collapsed: true},
-              {text: '^ Roberts：向大师学绘画-人体解剖', collapsed: true},
-              {text: '^ Roberts：向大师学绘画-人体素描', collapsed: true},
-              {text: '^ Alan Bryman：人体结构绘画教学', collapsed: true},
+            { text: '素描技巧分析', items:[
+              { text: '^ 艺用人体结构', collapsed: true},
+              { text: '^ Andrew Loomis：人体素描', collapsed: true},
+              { text: '^ Andrew Loomis：头手素描', collapsed: true},
+              { text: '^ Andrew Loomis：素描基础', collapsed: true},
+              { text: '^ Andrew Loomis：创意插画', collapsed: true},
+              { text: '^ Roberts：向大师学绘画-素描基础', collapsed: true},
+              { text: '^ Roberts：向大师学绘画-人体解剖', collapsed: true},
+              { text: '^ Roberts：向大师学绘画-人体素描', collapsed: true},
+              { text: '^ Alan Bryman：人体结构绘画教学', collapsed: true},
             ]},
-            {text: '素描积累', items:[
-              {text: '^ 门采尔素描集', collapsed: true},
-              {text: '^ 素描的艺术-大师速写人物', collapsed: true},
-              {text: '^ 素描的艺术-大师素描肖像', collapsed: true},
+            { text: '素描积累', items:[
+              { text: '^ 门采尔素描集', collapsed: true},
+              { text: '^ 素描的艺术-大师速写人物', collapsed: true},
+              { text: '^ 素描的艺术-大师素描肖像', collapsed: true},
             ]},
             { text: '现当代素描', items:[
               { text: '^ 大师的手稿-探索大师的心历路程', collapsed: true},
@@ -341,8 +334,8 @@ module.exports = {
             ]},
             { text: '互联网观点解读', collapsed: true, items:[
               { text: '自学建议', collapsed: true,  items:[
-                {text: '油画自学建议', link: '/Art/From-Internet/Canvas-Self-Study-Advice'},
-                {text: '素描自学建议', link: '/Art/From-Internet/Sketch-Self-Study-Advice'},
+                { text: '油画自学建议', link: '/Art/From-Internet/Canvas-Self-Study-Advice'},
+                { text: '素描自学建议', link: '/Art/From-Internet/Sketch-Self-Study-Advice'},
               ]}
             ]}, 
           ],
