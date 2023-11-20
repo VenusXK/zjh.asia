@@ -92,8 +92,9 @@ module.exports = {
               { text: '^ Dmitry Jemerov等：Kotlin实践', link:'404page'},
             ]},
             { text: '数据结构与算法', items: [
-              { text: '山东大学：计算机专硕考研(数据结构)', link: '/Program/Data-Struct/OfferI&II/Binary-Tree'},
-              { text: 'Sartaj Sahni：数据结构、算法与应用', link: '/Program/Data-Struct/Sartaj_Sahni-DataStruct/Line-Struct/application'}
+              { text: 'Leetcode：每日一题', link: '/Program/Data-Struct&Algorithm/Leetcode-Daily/dp-1'},
+              { text: '山东大学：计算机专硕考研(数据结构)', link: '/Program/Data-Struct&Algorithm/OfferI&II/Binary-Tree'},
+              { text: 'Sartaj Sahni：数据结构、算法与应用', link: '/Program/Data-Struct&Algorithm/Sartaj_Sahni-DataStruct/Line-Struct/application'},
             ]},
             { text: '设计模式', items:[
               { text: 'Erich Gamma等：设计模式-可复用面向对象软件的基础', link:'/Program/Design-Patterns/E.Gamma-Design-Patterns-Elements-of-Reusable-Object-Oriented-Software/chapter-1'}
@@ -254,11 +255,14 @@ module.exports = {
               ]},
             ]},
             { text: '数据结构与算法',  items:[
+              { text: 'Leetcode：每日一题', collapsed: true, items:[
+                { text: '动态规划', link: '/Program/Data-Struct&Algorithm/Leetcode-Daily/dp-1'},
+              ]},
               { text: '山东大学：2024年考研(数据结构)', collapsed: true,  items:[
               ]},
               { text: 'Sartaj Sahni：数据结构、算法与应用', collapsed: true, items:[
                 { text: '线性存储结构', collapsed: true,  items:[
-                  { text: '线性表的应用', link: '/Program/Data-Struct/Sartaj_Sahni-DataStruct/Line-Struct/application'}
+                  { text: '线性表的应用', link: '/Program/Data-Struct&Algorithm/Sartaj_Sahni-DataStruct/Line-Struct/application'}
                 ]},
               ]},
             ]},
@@ -279,11 +283,12 @@ module.exports = {
             ]},
           ],
           'Project': [
-            { text: '石油大学期间', items:[
-              { text: '面向实时视频流的目标检测系统设计', collapsed: true, items:[
-                { text: 'AndroidStudio环境相关', link: '/Project/listen_or_not/AndroidStudio-ENV'},
-                { text: 'MainActivity代码解析', link: '/Project/listen_or_not/MainActivity'}
-              ]},
+            { text: '个人博客：vitepress+hugo', collapsed: true, items:[
+              { text: '环境配置', link: '/Project/zjh.asia/Env-Config'},
+            ]},
+            { text: '面向实时视频流的目标检测系统设计', collapsed: true, items:[
+              { text: 'AndroidStudio环境相关', link: '/Project/listen_or_not/AndroidStudio-ENV'},
+              { text: 'MainActivity代码解析', link: '/Project/listen_or_not/MainActivity'}
             ]},
           ],
           'Basement': [
