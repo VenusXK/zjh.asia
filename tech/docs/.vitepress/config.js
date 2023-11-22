@@ -48,17 +48,6 @@ module.exports = {
         
         
         nav: [
-          // { text: '前瞻', items:[
-          //   { text: '先进经验', items: [
-          //     { text: '学习方法', link: '/Foresight/Suggestion/Offer-in-4-Month' },
-          //     { text: '^ 方向指导', link: '404page' },
-          //   ]},
-          //   { text: '计划和目标', items: [
-          //     { text: '^ 年计划', link: '404page' },
-          //     { text: '^ 月计划', link: '404page' },
-          //     { text: '周目标', link: '/Foresight/Plan/Weekly/' },
-          //   ]},
-          // ]},
           { text: '数理', items:[
             { text: '山东大学：计算机专硕考研(数学)', items: [
               { text: '高等数学', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'},
@@ -145,12 +134,8 @@ module.exports = {
                 { text: '^ 大师的手稿-探索大师的心历路程', link: '404page'},
                 { text: '^ 大师的手稿-Odd Nerrum', link: '404page'},
                 { text: '^ 大师的手稿-Max Beckman', link: '404page'},
-              ]},
-              { text: '其他', items:[
-                { text: '互联网观点解读', link: '/Art/From-Internet/Canvas-Self-Study-Advice'},
-              ]},              
+              ]},           
           ]},
-          { text: '生活记录', link: 'https://zjh.asia/life/' },
         ],
 
 
@@ -297,8 +282,14 @@ module.exports = {
                 { text: '数据的表示和运算', collapsed: true,  items:[
                   { text: '浮点数的表示和运算', link: '/Basement/Wang-Dao/Float&IEEE754'},
                 ]},
+                { text: '中央处理器', collapsed: true,  items:[
+                  { text: 'CPU的功能和基本结构', link: '/Basement/Wang-Dao/chapter-5-1'},
+                  { text: '指令执行过程', link: '/Basement/Wang-Dao/chapter-5-2'},
+                  { text: '数据通路的基本结构和功能', link: '/Basement/Wang-Dao/chapter-5-3'},
+                ]},
               ]},
               { text: '山东大学：计算机专硕考研(组成原理)', collapsed: true,  items:[
+                { text: '2024年山东大学专硕预测题1分析', link: '/Basement/SDU/Predict-2024-1'},
                 { text: '2023年山东大学专硕真题分析', link: '/Basement/SDU/Examination-2023'},
               ]},
             ]},
@@ -337,12 +328,6 @@ module.exports = {
               { text: '^ 大师的手稿-Odd Nerrum', collapsed: true},
               { text: '^ 大师的手稿-Max Beckman', collapsed: true},
             ]},
-            { text: '互联网观点解读', collapsed: true, items:[
-              { text: '自学建议', collapsed: true,  items:[
-                { text: '油画自学建议', link: '/Art/From-Internet/Canvas-Self-Study-Advice'},
-                { text: '素描自学建议', link: '/Art/From-Internet/Sketch-Self-Study-Advice'},
-              ]}
-            ]}, 
           ],
         },
 
