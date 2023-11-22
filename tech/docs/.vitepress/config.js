@@ -10,7 +10,7 @@ module.exports = {
       math: true,
     },
     base: '/',
-    title: 'ZJH.ASIA',
+    title: 'BLOG.ZJH.ASIA',
     // description: 'Jinghe Zhang',
     lastUpdated: true,
     head:[
