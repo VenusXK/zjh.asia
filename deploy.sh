@@ -1,6 +1,24 @@
-rm -rf /home/www/deploy.blog.zjh.asia;
-mkdir /home/www/deploy.blog.zjh.asia;
-mkdir /home/www/deploy.blog.zjh.asia/life;
+deploy_root_path = "/home/www/deploy.zjh.asia/"
+dev_root_path = "home/www/zjh.asia/"
 
-cd life && hugo --buildFuture && cp -rf public/* /home/www/deploy.blog.zjh.asia/life/ && rm -rf public;
-cd ../tech/ && yarn run docs:build && cp -rf docs/.vitepress/dist/* /home/www/deploy.blog.zjh.asia && rm -rf docs/.vitepress/dist/*;
+rm -rf ;
+mkdir $deploy_root_path;
+mkdir $deploy_root_path + "life";
+mkdir $deploy_root_path + "notebook";
+
+# home deploy
+cd $dev_root_path + "home" && 
+yarn run build && 
+cp -rf ./out/*  $deploy_root_path
+
+# life deploy
+cd $dev_root_path + "life" && 
+hugo --buildFuture && 
+cp -rf ./public/* $deploy_root_path + "life/" && 
+rm -rf public;
+
+# notebook deploy
+cd $dev_root_path + "tech" && 
+yarn run docs:build && 
+cp -rf ./docs/.vitepress/dist/* $deploy_root_path + "notebook" && 
+rm -rf ./docs/.vitepress/dist/*;

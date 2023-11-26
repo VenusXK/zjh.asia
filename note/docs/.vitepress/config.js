@@ -9,8 +9,8 @@ module.exports = {
       lineNumbers: true,
       math: true,
     },
-    base: '/',
-    title: 'BLOG.ZJH.ASIA',
+    base: '/notebook/',
+    title: '笔记',
     // description: 'Jinghe Zhang',
     lastUpdated: true,
     head:[
@@ -67,9 +67,8 @@ module.exports = {
             ]},
           ]},
           { text: '项目', items:[
-            { text: '石油大学期间', items:[
-              { text: '面向实时视频流的目标检测系统设计', link: '/Project/listen_or_not/AndroidStudio-ENV'}
-            ]},
+            { text: '网络笔记', link: '/Project/zjh.asia/Env-Config'},
+            { text: '本科大创', link: '/Project/listen_or_not/AndroidStudio-ENV'},
           ]},
           { text: '编程', items:[
             { text: 'C/C++', items: [
@@ -268,12 +267,12 @@ module.exports = {
             ]},
           ],
           'Project': [
-            { text: '个人博客：vitepress+hugo', collapsed: true, items:[
+            { text: '网络笔记', collapsed: true, items:[
               { text: '环境配置', link: '/Project/zjh.asia/Env-Config'},
             ]},
-            { text: '面向实时视频流的目标检测系统设计', collapsed: true, items:[
-              { text: 'AndroidStudio环境相关', link: '/Project/listen_or_not/AndroidStudio-ENV'},
-              { text: 'MainActivity代码解析', link: '/Project/listen_or_not/MainActivity'}
+            { text: '本科大创', collapsed: true, items:[
+              // { text: 'AndroidStudio环境相关', link: '/Project/listen_or_not/AndroidStudio-ENV'},
+              // { text: 'MainActivity代码解析', link: '/Project/listen_or_not/MainActivity'}
             ]},
           ],
           'Basement': [
