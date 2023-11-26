@@ -107,7 +107,7 @@ function contentIntro(){
             logo="https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/illustrations/active-young-man-thinking%20%281%29.png" 
             classLogo="w-[200px] m-auto p-4 sm:px-10"
             text1="我是张小赫" classText1="text-6xl sm:text-4xl p-2 sm:px-10"
-            text2="这里是我的个人网站" classText2="text-6xl sm:text-4xl p-2 sm:px-10">
+            text2="在青岛上学" classText2="text-6xl sm:text-4xl p-2 sm:px-10">
         </ContentModel>
     );
 }
