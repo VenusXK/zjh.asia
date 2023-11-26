@@ -83,7 +83,7 @@ export default function Example() {
 
                   <div className="bg-gray-50 p-4 pb-1">
                     <a
-                      href="https://zjh.asia"
+                      href="https://zjh.asia/notebook"
                       className="flow-root rounded-md px-2 py-2 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500/50"
                     >
                       <span className="flex items-center">
