@@ -1,7 +1,4 @@
 */node_modules/*
 */_gen/*
-/tech/docs/.vitepress/dist/
-/tech/docs/.vitepress/cache/
-/aboutme/public/
-/life/public/
-# /hugo/content/
+*/.vitepress/dist/
+*/.vitepress/cache/
