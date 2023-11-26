@@ -1,7 +1,6 @@
 'use client'
 import Cert from './cert.js'
 import Example from './link.js'
-import Skill from './skill.js'
 import Foot from './foot.js'
 
 export default function Home() {
