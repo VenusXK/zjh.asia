@@ -1,5 +1,5 @@
 deploy_root_path="/home/www/deploy.zjh.asia/"
-dev_root_path="home/www/zjh.asia/"
+dev_root_path="/home/www/zjh.asia/"
 
 rm -rf $deploy_root_path;
 mkdir $deploy_root_path;
