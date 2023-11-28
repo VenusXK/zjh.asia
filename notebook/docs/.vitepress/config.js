@@ -57,18 +57,13 @@ module.exports = {
               { text: '^ Steve等：Fundamentals Of Computer Graphics', link: '/Mathematics/SDU/'},
             ]},
           ]},
-          { text: '面经', items:[
+          { text: '指导', items:[
             { text: '面试教程', items: [
-              { text: '何海涛：剑指Offer名企面试官精讲典型编程题', link: '/Face-Warp/From-Book/OfferI&II/I-chapter-1' },
+              { text: '何海涛：剑指Offer名企面试官精讲典型编程题', link: '/Guide/Face-Wrap/OfferI&II/I-chapter-1' },
             ]},
-            { text: '真实的面试经历', items: [
-              { text: '我的经历', link: '/Face-Warp/Real-Face-Warp/Mine/2023-11-Goertek'},
-              { text: '互联网分享', link:'/Face-Warp/Real-Face-Warp/From-Internet/2022-pico'},
+            { text: '学习方法', items:[
+              { text: '如何4个月高效刷满500题并形成长期记忆？', link: '/Guide/HowToLearn/Offer-in-4-Month'},
             ]},
-          ]},
-          { text: '项目', items:[
-            { text: '网络笔记', link: '/Project/zjh.asia/Env-Config'},
-            { text: '本科大创', link: '/Project/listen_or_not/AndroidStudio-ENV'},
           ]},
           { text: '编程', items:[
             { text: 'C/C++', items: [
@@ -92,6 +87,10 @@ module.exports = {
               { text: '^ 李刚：疯狂Android讲义', link:'404page'},
               { text: '^ 王明发：(Java)Android编程权威指南', link:'404page'},
               { text: '^ 王明发：(Kotlin)Android编程权威指南', link:'404page'},
+            ]},
+            { text: '项目经验', items:[
+              { text: '我的个人网站搭建', link: '/Program/Project/zjh.asia/Env-Config'},
+              { text: '面向视频流的目标检测系统设计', link: '/Program/Project/listen_or_not/AndroidStudio-ENV'},
             ]},
           ]},
           { text: '底层', items:[
@@ -133,7 +132,7 @@ module.exports = {
                 { text: '^ 大师的手稿-探索大师的心历路程', link: '404page'},
                 { text: '^ 大师的手稿-Odd Nerrum', link: '404page'},
                 { text: '^ 大师的手稿-Max Beckman', link: '404page'},
-              ]},           
+              ]},       
           ]},
         ],
 
@@ -174,37 +173,17 @@ module.exports = {
             ]},
           ],
           'Foresight': [
-            { text: '先进经验',  items:[
-                { text: '学习方法', collapsed: true, items:[
-                  { text: '如何4个月高效刷满500题并形成长期记忆？', link: '/Foresight/Suggestion/Offer-in-4-Month'},
-                ]},
-                { text: '^ 方向指导', collapsed: true},
-            ]},
-            { text: '计划和目标', items: [
-              { text: '^ 年计划', collapsed: true},
-              { text: '^ 月计划', collapsed: true},
-              { text: '周目标', collapsed: true, items:[
-                { text: '2023.11.13.-2023.11.19.',  link: '/Foresight/Plan/Weekly/'}
-              ]},
-            ]},
+            
           ],
-          'Face-Warp': [
+          'Guide': [
             { text: '面试教程', items: [
               { text: '何海涛：剑指Offer名企面试官精讲典型编程题', collapsed: true, items: [
-                { text: '面试的流程', link:'/Face-Warp/From-Book/OfferI&II/I-chapter-1'}
+                { text: '面试的流程', link:'/Guide/Face-Wrap/OfferI&II/I-chapter-1'}
               ]},
             ]},
-            { text: '真实的面试经历', items: [
-              { text: '我的经历',  items:[
-                { text: '2023冬季歌尔嵌入式软件研发实习', link: '/Face-Warp/Real-Face-Warp/Mine/2023-11-Goertek' },
-                { text: '2023冬季字节跳动(PICO)Android开发', link: '/Face-Warp/Real-Face-Warp/Mine/2023-11-Pico' },
-              ]},
-              { text: '互联网分享',  items:[
-                { text: '2022春季字节跳动PICO青岛面经', link: '/Face-Warp/Real-Face-Warp/From-Internet/2022-pico' },
-                { text: '2023春季货拉拉安卓日常实习面经', link: '/Face-Warp/Real-Face-Warp/From-Internet/2023-huolala-Android' },
-              ]},
+            { text: '学习方法', collapsed: true, items:[
+              { text: '如何4个月高效刷满500题并形成长期记忆？', link: '/Guide/HowToLearn/Offer-in-4-Month'},
             ]},
-            
           ],
           'Program': [
             { text: 'C/C++',  items:[
@@ -265,14 +244,12 @@ module.exports = {
               { text: '^ 王明发：(Kotlin)Android编程权威指南', collapsed: true,  items:[
               ]},
             ]},
-          ],
-          'Project': [
-            { text: '网络笔记', collapsed: true, items:[
-              { text: '环境配置', link: '/Project/zjh.asia/Env-Config'},
-            ]},
-            { text: '本科大创', collapsed: true, items:[
-              // { text: 'AndroidStudio环境相关', link: '/Project/listen_or_not/AndroidStudio-ENV'},
-              // { text: 'MainActivity代码解析', link: '/Project/listen_or_not/MainActivity'}
+            { text: '项目经验',  items:[
+              { text: '我的个人网站搭建', collapsed: true, items:[
+                { text: '环境配置', link: '/Program/Project/zjh.asia/Env-Config'},
+              ]},
+              { text: '面向视频流的目标检测系统设计', collapsed: true, items:[
+              ]},
             ]},
           ],
           'Basement': [
@@ -285,6 +262,8 @@ module.exports = {
                   { text: 'CPU的功能和基本结构', link: '/Basement/Wang-Dao/chapter-5-1'},
                   { text: '指令执行过程', link: '/Basement/Wang-Dao/chapter-5-2'},
                   { text: '数据通路的基本结构和功能', link: '/Basement/Wang-Dao/chapter-5-3'},
+                  { text: '控制器的功能和工作原理', link: '/Basement/Wang-Dao/chapter-5-4'},
+                  { text: '指令流水线', link: '/Basement/Wang-Dao/chapter-5-6'},
                 ]},
               ]},
               { text: '山东大学：计算机专硕考研(组成原理)', collapsed: true,  items:[
