@@ -1,27 +1,18 @@
 'use client'
-import Cert from './cert.js'
-import Example from './link.js'
-import Foot from './foot.js'
+import { Liu_Jian_Mao_Cao,Noto_Sans_SC } from 'next/font/google'
+const notoSansSC = Noto_Sans_SC({weight:['600', '900'], subsets: ['latin'] })
 
 export default function Home() {
 
   return (
     <>
-      <div className=''>
-          <div className='sm:pt-5 '>
-            <div className='w-auto h-auto items-center justify-center pt-24 sm:pt-10 overflow-hidden'>
-            <div className='max-w-3xl sm:pl-[2%] m-auto sm:ml-[10%]'>
-              <Example />
-            </div>
-            <Cert />
-            </div>
-          </div>
+      <div className="container">
+        <ul>
+          <li><a href="https://zjh.asia/notebook" target="_blank"><div className="goto">笔记</div></a></li>
+          <li><a href="https://zjh.asia/life" target="_blank"><div className="goto">生活</div></a></li>
+        </ul>
       </div>
-      
-      <div className='absolute bottom-0 w-full'>
-        <Foot>
-        </Foot>
-      </div>
+      <div className={notoSansSC.className + " footer"}>ZJH.ASIA</div>
     </>
   );
 }

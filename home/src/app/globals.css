@@ -6,28 +6,22 @@
   font-family: "Noto Sans SC";
 } */
 
-body {
-  @apply min-h-screen bg-black;
-  background-size: 100px;
-
-}
-
-
-/* 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.container{
+  @apply dark:text-white text-center items-center w-full justify-center text-9xl h-full m-auto
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+  @apply  dark:bg-black items-center justify-center pt-[10%] overflow-hidden;
+}
+
+li{
+  @apply w-full
+}
+
+li .goto{
+  @apply  leading-relaxed hover:scale-105 hover:drop-shadow-[0_0_5px_rgba(0,0,0,1)] dark:hover:drop-shadow-[0_0_10px_rgba(255,255,255,1)]  duration-700 w-fit m-auto
+}
+
+.footer{
+  @apply fixed bottom-10 left-0 right-0 m-auto text-black dark:text-white text-center text-6xl sm:text-3xl
+}
