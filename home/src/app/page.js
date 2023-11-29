@@ -8,8 +8,8 @@ export default function Home() {
     <>
       <div className="container">
         <ul>
-          <li><a href="https://zjh.asia/notebook" target="_blank"><div className="goto">笔记</div></a></li>
-          <li><a href="https://zjh.asia/life" target="_blank"><div className="goto">生活</div></a></li>
+          <li><div className="goto"><a href="https://zjh.asia/notebook" target="_blank">笔记</a></div></li>
+          <li><div className="goto"><a href="https://zjh.asia/life" target="_blank">生活</a></div></li>
         </ul>
       </div>
       <div className={notoSansSC.className + " footer"}>ZJH.ASIA</div>
