@@ -22,8 +22,7 @@
 }
 
 .swiper-slide-purple {
-  @apply text-white bg-[url(https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/signature/002_dark.png?x-oss-process=style/small_size_rule)] bg-repeat;
-  background-size: 128px;
+  @apply text-white bg-[url(https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/signature/002_dark.png?x-oss-process=style/small_size_rule)] bg-repeat bg-[size:128px] sm:bg-[size:98px];
   @apply border-2 border-gray-600;
 }
 

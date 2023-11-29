@@ -74,7 +74,7 @@ function contentIntro(){
             logo="https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/illustrations/active-young-man-thinking%20%281%29.png" 
             classLogo="w-[200px] m-auto p-4 sm:px-10"
             // text1="我是" classText1="text-5xl sm:text-4xl p-2 sm:px-10"
-            text2="My Name" classText2={ljmc.className + " text-9xl sm:text-6xl text-right pr-24 sm:px-10"}>
+            text2="MY NAME" classText2={ljmc.className + " text-9xl sm:text-6xl text-right pr-24 sm:px-10"}>
         </ContentModel>
     );
 }
