@@ -22,8 +22,8 @@
 }
 
 .swiper-slide-purple {
-  @apply text-gray-100/50 bg-[url(https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/signature/002_dark.png?x-oss-process=style/small_size_rule)] bg-repeat;
-  background-size: 120px;
+  @apply text-white bg-[url(https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/signature/002_dark.png?x-oss-process=style/small_size_rule)] bg-repeat;
+  background-size: 128px;
   @apply border-2 border-gray-600;
 }
 
@@ -43,15 +43,3 @@
 .swiper-slide-black {
   @apply bg-white border border-gray-200
 }
-/* .cert-swiper-slide:nth-child(1n) {
-  @apply bg-gradient-to-br from-gray-300 to-rose-700
-} 
-
-
-
-
-
-.cert-swiper-slide:nth-child(6n) {
-  @apply bg-gradient-to-r from-blue-500 to-purple-300
-} */
-

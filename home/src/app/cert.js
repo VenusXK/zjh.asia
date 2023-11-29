@@ -74,7 +74,7 @@ function contentIntro(){
             logo="https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/illustrations/active-young-man-thinking%20%281%29.png" 
             classLogo="w-[200px] m-auto p-4 sm:px-10"
             // text1="我是" classText1="text-5xl sm:text-4xl p-2 sm:px-10"
-            text2="My Name" classText2={" text-9xl sm:text-4xl p-2 sm:px-10"}>
+            text2="My Name" classText2={ljmc.className + " text-9xl sm:text-6xl text-right pr-24 sm:px-10"}>
         </ContentModel>
     );
 }
@@ -99,8 +99,8 @@ function contentHello(){
             {/* <div className="scale-[1.8] sm:scale-[0.83] absolute w-[800px] rotate-90 sm:rotate-0 left-[30px] top-[300px] sm:top-[20px] sm:left-[-100px] m-auto p-4 sm:px-10"><img src="https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/illustrations/atomic-confetti.png"></img></div>
             <div className="scale-[1.8] sm:scale-[0.83] rotate-45 absolute w-[800px] top-[300px] left-[0px] sm:left-[-110px] m-auto p-4 sm:px-10"><img src="https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/illustrations/glow-confetti.png"></img></div> */}
             <div className=' w-[120%] sm:w-[500px] h-[120%] sm:h-[200%] -mx-20  -mt-28 sm:mt-0 m-auto'>
-            <div className='italic absolute top-[50%] left-[30%] bottom-0 text-9xl sm:text-5xl text-white m-auto'>Hello</div>
-            <div className="italic z-10 text-8xl sm:text-5xl sm:px-3 leading-tight sm:leading-normal m-auto">你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br /></div>
+            <div className={ljmc.className + ' italic absolute top-[30%] sm:top-[50%] left-[10%] bottom-0 text-[200px] sm:text-8xl text-white m-auto'}>Hello</div>
+            <div className={ " italic z-10 text-8xl sm:text-5xl sm:px-3 leading-tight sm:leading-normal m-auto"}>你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br />你好&nbsp;你好&nbsp;你好&nbsp;你好<br /></div>
             </div>
         </div>
     </div>
