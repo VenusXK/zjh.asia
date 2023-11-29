@@ -1,5 +1,5 @@
 .cert-swiper {
-  @apply max-w-3xl sm:max-w-[80%] h-[500px] sm:h-[400px]
+  @apply max-w-3xl sm:max-w-[80%] h-[500px] sm:h-[400px];
 }
 
 .cert-swiper-slide {
@@ -22,7 +22,9 @@
 }
 
 .swiper-slide-purple {
-  @apply bg-gradient-to-br from-blue-200 to-purple-600 text-blue-200
+  @apply text-gray-100/50 bg-[url(https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/signature/002_dark.png?x-oss-process=style/small_size_rule)] bg-repeat;
+  background-size: 120px;
+  @apply border-2 border-gray-600;
 }
 
 .swiper-slide-yellow {
@@ -30,7 +32,8 @@
 }
 
 .swiper-slide-orange {
-  @apply bg-gradient-to-br from-yellow-200 to-orange-500 text-yellow-200
+  /* @apply bg-gradient-to-br from-amber-300 to-orange-500 text-yellow-200 */
+  @apply bg-gray-600 border-2 border-gray-600 text-gray-500
 }
 
 .swiper-slide-red {

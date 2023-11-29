@@ -20,3 +20,7 @@
 ::-webkit-scrollbar {
   display: none; /* Chrome Safari */
 }
+
+.img-program-sdu-2022{
+  @apply w-1/3 float-right  ml-2 sm:float-none sm:w-full
+}

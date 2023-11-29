@@ -562,3 +562,16 @@ video {
   display: none;
   /* Chrome Safari */
 }
+
+.img-program-sdu-2022 {
+  float: right;
+  margin-left: 0.5rem;
+  width: 33.333333%;
+}
+
+@media (max-width: 900px) {
+  .img-program-sdu-2022 {
+    float: none;
+    width: 100%;
+  }
+}

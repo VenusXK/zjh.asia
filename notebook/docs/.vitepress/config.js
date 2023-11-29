@@ -76,7 +76,7 @@ module.exports = {
             ]},
             { text: '数据结构与算法', items: [
               { text: 'Leetcode：每日一题', link: '/Program/Data-Struct&Algorithm/Leetcode-Daily/dp-1'},
-              { text: '山东大学：计算机专硕考研(数据结构)', link: '/Program/Data-Struct&Algorithm/OfferI&II/Binary-Tree'},
+              { text: '山东大学：计算机专硕考研(数据结构)', link: '/Program/SDU/2022'},
               { text: 'Sartaj Sahni：数据结构、算法与应用', link: '/Program/Data-Struct&Algorithm/Sartaj_Sahni-DataStruct/Line-Struct/application'},
             ]},
             { text: '设计模式', items:[
@@ -96,7 +96,7 @@ module.exports = {
           { text: '底层', items:[
             { text: '计算机组成原理', items: [
               { text: '王道论坛：复习指导(组成原理)', link: '/Basement/Wang-Dao/Float&IEEE754'},
-              { text: '山东大学：计算机专硕考研(组成原理)', link: '/Basement/SDU/Examination-2023'},
+              { text: '山东大学：计算机专硕考研(组成原理)', link: '/Basement/SDU/2023'},
             ]},
             { text:'编译原理', items:[
               { text: '^ Alfred等：编译原理(龙书)', link: '404page'},
@@ -222,6 +222,7 @@ module.exports = {
                 { text: '动态规划', link: '/Program/Data-Struct&Algorithm/Leetcode-Daily/dp-1'},
               ]},
               { text: '山东大学：2024年考研(数据结构)', collapsed: true,  items:[
+                { text: '2022年山东大学专硕真题分析', link: '/Program/SDU/2022'},
               ]},
               { text: 'Sartaj Sahni：数据结构、算法与应用', collapsed: true, items:[
                 { text: '线性存储结构', collapsed: true,  items:[
@@ -268,7 +269,8 @@ module.exports = {
               ]},
               { text: '山东大学：计算机专硕考研(组成原理)', collapsed: true,  items:[
                 { text: '2024年山东大学专硕预测题1分析', link: '/Basement/SDU/Predict-2024-1'},
-                { text: '2023年山东大学专硕真题分析', link: '/Basement/SDU/Examination-2023'},
+                { text: '2023年山东大学专硕真题分析', link: '/Basement/SDU/2023'},
+                { text: '2022年山东大学专硕真题分析', link: '/Basement/SDU/2022'},
               ]},
             ]},
             { text:'编译原理', items:[

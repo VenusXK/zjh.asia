@@ -38,8 +38,8 @@ export default function Example() {
 
             <Popover.Button
               className={`
-                ${open ? 'text-gray-600 bg-gray-300' : 'text-gray-400 bg-gray-100'}
-                group hover:text-gray-600 inline-flex items-center rounded-xl px-3 py-2 text-base focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75`}
+                ${open ? 'text-gray-100 bg-gray-300 bg-opacity-60' : 'text-gray-400 bg-gray-100 bg-opacity-30'}
+                group hover:text-gray-100 inline-flex items-center rounded-xl px-3 py-2 text-base focus:outline-none`}
             >
               <span className='font-bold'>更多关于我</span>
               <ChevronDownIcon
