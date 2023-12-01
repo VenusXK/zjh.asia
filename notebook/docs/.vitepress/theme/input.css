@@ -36,6 +36,18 @@ body{
   @apply bg-white dark:bg-black;
 }
 
+.VPSidebar{
+  @apply pt-4 !important
+}
+
+.VPNavBar{
+  @apply pr-4 dark:bg-black !important;
+}
+
+.VPNavBarTitle .title{
+  @apply hidden
+}
+
 .VPNavBar .content-body{
   @apply dark:bg-black !important;
 }

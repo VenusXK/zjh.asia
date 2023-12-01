@@ -138,6 +138,7 @@ module.exports = {
           //       { text: '^ 大师的手稿-Max Beckman', link: '404page'},
           //     ]},       
           // ]},
+          { text: '首页', link: '/'},
         ],
 
 
@@ -329,12 +330,15 @@ module.exports = {
         // ---------------------------------- footer ----------------------------------
 
         footer: {
-          message: '<span style="color: #d4d4d7; font-size: small">Copyright © 2023, Jinghe Zhang\
-          &nbsp;\
-          <a href="https://beian.miit.gov.cn/">冀ICP备2023030802号</a> \
-          &nbsp;\
+          message: '\
+          <span style="color: #d4d4d7; font-size: small">Copyright © 2023, 张景赫\
+          <br>\
+          <span class="line-clamp-1">\
           <img src="https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/other_icon/%E5%A4%87%E6%A1%88%E5%9B%BE%E6%A0%87.png" style="display: inline">\
               冀公网安备13010202003482号</a>\
+            </span>\
+          &nbsp;\
+          <a href="https://beian.miit.gov.cn/">冀ICP备2023030802号</a> \
             </span>'
         },
     },
