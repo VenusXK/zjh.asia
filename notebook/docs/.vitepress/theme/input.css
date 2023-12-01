@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --vp-c-brand-1: #56004f;
-  --vp-c-brand-2: #801dae;
-}
-
 
 .VPContent{
   width: screen;
@@ -26,14 +21,17 @@
   @apply w-1/3 float-right  ml-2 sm:float-none sm:w-full
 }
 
+.VPNavBar{
+  @apply border-none !important 
+}
 
 .VPNavBarTitle .title{
-  font-family: 'Liu Jian Mao Cao';
-  @apply text-2xl  border-b-0
+  font-family: 'Liu Jian Mao Cao' !important ;
+  @apply text-2xl border-none
 }
 
 body{
-  font-family: 'Noto Serif SC';
+  font-family: 'Noto Serif SC' !important ;
   @apply bg-white dark:bg-black;
 }
 

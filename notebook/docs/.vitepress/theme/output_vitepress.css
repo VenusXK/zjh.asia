@@ -534,11 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-:root {
-  --vp-c-brand-1: #56004f;
-  --vp-c-brand-2: #801dae;
-}
-
 .VPContent{
   width: screen;
   overflow-x: hidden;
@@ -576,15 +571,19 @@ video {
   }
 }
 
+.VPNavBar {
+  border-style: none !important;
+}
+
 .VPNavBarTitle .title{
-  font-family: 'Liu Jian Mao Cao';
-  border-bottom-width: 0px;
+  font-family: 'Liu Jian Mao Cao' !important ;
+  border-style: none;
   font-size: 1.5rem;
   line-height: 2rem
 }
 
 body{
-  font-family: 'Noto Serif SC';
+  font-family: 'Noto Serif SC' !important ;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
