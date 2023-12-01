@@ -534,13 +534,9 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-body {
-  transition-duration: 500ms;
-}
-
 :root {
-  --vp-c-brand-1: #858585;
-  --vp-c-brand-2: #cbcbcb;
+  --vp-c-brand-1: none;
+  --vp-c-brand-2: #888;
 }
 
 .VPContent{
@@ -580,6 +576,39 @@ body {
   }
 }
 
+.VPNavBarTitle .title{
+  font-family: 'Liu Jian Mao Cao';
+  border-bottom-width: 0px;
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
 body{
   font-family: 'Noto Serif SC';
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+:is(.dark body) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+:is(.dark .VPNavBar .content-body) {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity)) !important;
+}
+
+:is(.dark .curtain) {
+  display: none;
+}
+
+:is(.dark .VPFooter) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+:is(.dark .VPNavScreen) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
