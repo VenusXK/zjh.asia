@@ -41,7 +41,7 @@ body{
 }
 
 .VPNavBar{
-  @apply pr-4 dark:bg-black !important;
+  @apply dark:bg-black !important;
 }
 
 .VPNavBarTitle .title{
