@@ -15,6 +15,7 @@ module.exports = {
     lastUpdated: true,
     head:[
       ['link', {rel: 'icon', href: 'https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/avator/zjh_roundfull.png?x-oss-process=style/small_size_rule'}],
+      ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Serif+SC:wght@0,900&display=swap'}],
       ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao'}],
     ],
     themeConfig: {
@@ -22,9 +23,11 @@ module.exports = {
         // search: {
         //   provider: 'local',
         // },
-        aside: true,
+        // aside: true,
         outlineTitle: '大纲',
-        outline: 'deep',
+        // outline: 'deep',
+        outline: false,
+        aside: false,
         darkModeSwitchLabel: '亮 / 暗',
         // siteTitle: 'zjh.asia',
 

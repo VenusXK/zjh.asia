@@ -19,7 +19,7 @@ li{
 }
 
 li .goto{
-  @apply  leading-relaxed hover:scale-105 hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.4)] dark:hover:drop-shadow-[0_0_10px_rgba(255,255,255,1)]  duration-700 w-fit m-auto
+  @apply leading-relaxed hover:scale-105 hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.4)] dark:hover:drop-shadow-[0_0_10px_rgba(255,255,255,1)]  duration-700 w-fit m-auto
 }
 
 .footer{
