@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --vp-c-brand-1: none;
-  --vp-c-brand-2: #888;
+  --vp-c-brand-1: #56004f;
+  --vp-c-brand-2: #801dae;
 }
 
 
