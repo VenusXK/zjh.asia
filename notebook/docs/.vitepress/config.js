@@ -16,7 +16,7 @@ module.exports = {
     head:[
       ['link', {rel: 'icon', href: 'https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/avator/zjh_roundfull.png?x-oss-process=style/small_size_rule'}],
       ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Serif+SC:wght@0,900&display=swap'}],
-      ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao'}],
+      ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&text=笔记'}],
     ],
     themeConfig: {
         externalLinkIcon: false,

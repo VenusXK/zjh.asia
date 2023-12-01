@@ -575,11 +575,8 @@ video {
   border-style: none !important;
 }
 
-.VPNavBarTitle .title{
-  font-family: 'Liu Jian Mao Cao' !important ;
-  border-style: none;
-  font-size: 1.5rem;
-  line-height: 2rem
+.VPHome .VPNavBarTitle {
+  display: none;
 }
 
 body{
@@ -610,4 +607,10 @@ body{
 :is(.dark .VPNavScreen) {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.home-title {
+  margin-left: -1.25rem;
+  margin-top: 2.5rem;
+  height: 5rem;
 }

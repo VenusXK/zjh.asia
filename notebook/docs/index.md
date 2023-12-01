@@ -2,9 +2,17 @@
 outline: false
 aside: false
 layout: doc
+title: 首页
 ---
 
-# 更新记录
+
+
+<div class="home-title">
+<h1  style="font-family: 'Liu Jian Mao Cao'; font-size:100px;">笔记</h1>
+</div>
+
+
+## 更新记录
 
 **2023年11月30日**
 - 整理 [山东大学：计算机专硕考研(数据结构)/2021年山东大学专硕真题分析](/Program/SDU/2021)；

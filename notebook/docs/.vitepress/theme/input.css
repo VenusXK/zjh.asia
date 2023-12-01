@@ -25,10 +25,11 @@
   @apply border-none !important 
 }
 
-.VPNavBarTitle .title{
-  font-family: 'Liu Jian Mao Cao' !important ;
-  @apply text-2xl border-none
+.VPHome .VPNavBarTitle{
+  @apply hidden
 }
+
+
 
 body{
   font-family: 'Noto Serif SC' !important ;
@@ -49,4 +50,8 @@ body{
 
 .VPNavScreen{
   @apply dark:bg-black
+}
+
+.home-title{
+  @apply h-20 -ml-5 mt-10
 }
