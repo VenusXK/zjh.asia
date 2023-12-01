@@ -1,5 +1,5 @@
 ---
-title: "旅行"
+title: "出游"
 menu: "main"
 ---
 

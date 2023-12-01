@@ -24,3 +24,8 @@
 .img-program-sdu-2022{
   @apply w-1/3 float-right  ml-2 sm:float-none sm:w-full
 }
+
+.VPNavBarTitle .title{
+  font-family: 'Liu Jian Mao Cao';
+  @apply text-[25px] sm:text-[30px] sm:-ml-[7px];
+}
