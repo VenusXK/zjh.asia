@@ -534,6 +534,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.test {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .test {
+    display: block;
+  }
+}
+
 .VPContent{
   width: screen;
   overflow-x: hidden;
@@ -559,9 +569,22 @@ video {
   background-image: none;
 }
 
+::-webkit-scrollbar:hover {
+  cursor: move;
+}
+
 ::-webkit-scrollbar-thumb {
   border-radius: 0.125rem;
-  background-color: rgb(209 213 219 / 0.5);
+  background-color: rgb(107 114 128 / 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: move;
+  background-color: rgb(107 114 128 / 0.2);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: rgb(107 114 128 / 0.3);
 }
 
 .img-program-sdu-2022 {

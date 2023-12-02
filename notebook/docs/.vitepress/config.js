@@ -54,8 +54,8 @@ module.exports = {
         nav: [
           { text: '数理', items:[
             { text: '山东大学：计算机专硕考研(数学)', items: [
-              { text: '高等数学', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'},
-              { text: '汤家凤：辅助讲义(线性代数)', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
+              // { text: '高等数学', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'},
+              { text: '汤家凤：考研数学(线性代数)', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
             ]},
             // { text: '图形学', items: [
             //   { text: '^ Steve等：Fundamentals Of Computer Graphics', link: '/Mathematics/SDU/'},
@@ -166,11 +166,14 @@ module.exports = {
         sidebar: {
           'Mathematics': [
             { text: '山东大学：计算机专硕考研(数学)', items: [
-              { text: '高等数学', collapsed: true, items:[
-                { text: 'test', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'}
-              ]},
-              { text: '汤家凤：辅助讲义(线性代数)', collapsed: true, items:[
-                { text: '行列式', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'}
+              // { text: '汤家凤：考研数学(高等数学)', collapsed: true, items:[
+              //   { text: 'test', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'}
+              // ]},
+              { text: '汤家凤：考研数学(线性代数)', collapsed: true, items:[
+                {text: '辅助讲义', items:[
+                  { text: '矩阵常用结论', link: '/Mathematics/SDU/Linear-Algebra/chapter-2-important'},
+                  { text: '行列式习题总结', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
+                ]}
               ]},
             ]},
             { text: '图形学', items: [
@@ -229,6 +232,7 @@ module.exports = {
               { text: '山东大学：计算机专硕考研(数据结构)', collapsed: true,  items:[
                 { text: '2022年山东大学专硕真题分析', link: '/Program/SDU/2022'},
                 { text: '2021年山东大学专硕真题分析', link: '/Program/SDU/2021'},
+                { text: '2019年山东大学专硕真题分析', link: '/Program/SDU/2019'},
               ]},
               { text: 'Sartaj Sahni：数据结构、算法与应用', collapsed: true, items:[
                 { text: '线性存储结构', collapsed: true,  items:[
@@ -278,6 +282,7 @@ module.exports = {
                 { text: '2023年山东大学专硕真题分析', link: '/Basement/SDU/2023'},
                 { text: '2022年山东大学专硕真题分析', link: '/Basement/SDU/2022'},
                 { text: '2021年山东大学专硕真题分析', link: '/Basement/SDU/2021'},
+                { text: '2019年山东大学专硕真题分析', link: '/Basement/SDU/2019'},
               ]},
             ]},
             // { text:'编译原理', items:[
@@ -332,9 +337,9 @@ module.exports = {
 
         footer: {
           message: '\
-          <span style="color: #d4d4d7; font-size: small">Copyright © 2023, 张景赫\
-          <br>\
+          <span class="dark:text-white text-black" style="font-size: small">Copyright © 2023, 张景赫\
           <span class="line-clamp-1">\
+          &nbsp;\
           <img src="https://mysite-bucket.oss-cn-wulanchabu.aliyuncs.com/other_icon/%E5%A4%87%E6%A1%88%E5%9B%BE%E6%A0%87.png" style="display: inline">\
               冀公网安备13010202003482号</a>\
             </span>\
