@@ -13,8 +13,14 @@
 .VPNavScreenMenuGroupSection .link {
   @apply line-clamp-1
 }
-::-webkit-scrollbar {
-  display: none; /* Chrome Safari */
+
+::-webkit-scrollbar{
+    @apply w-2 bg-none rounded-sm
+}
+
+::-webkit-scrollbar-thumb
+{
+    @apply rounded-sm bg-gray-300/50;
 }
 
 .img-program-sdu-2022{
@@ -41,7 +47,7 @@ body{
 }
 
 .VPNavBar{
-  @apply dark:bg-black !important;
+  @apply dark:bg-[color:unset] !important;
 }
 
 .VPNavBarTitle .title{

@@ -227,8 +227,8 @@ module.exports = {
                 { text: '动态规划', link: '/Program/Data-Struct&Algorithm/Leetcode-Daily/dp-1'},
               ]},
               { text: '山东大学：计算机专硕考研(数据结构)', collapsed: true,  items:[
-                { text: '2021年山东大学专硕真题分析', link: '/Program/SDU/2021'},
                 { text: '2022年山东大学专硕真题分析', link: '/Program/SDU/2022'},
+                { text: '2021年山东大学专硕真题分析', link: '/Program/SDU/2021'},
               ]},
               { text: 'Sartaj Sahni：数据结构、算法与应用', collapsed: true, items:[
                 { text: '线性存储结构', collapsed: true,  items:[
@@ -277,6 +277,7 @@ module.exports = {
                 { text: '2024年山东大学专硕预测题1分析', link: '/Basement/SDU/Predict-2024-1'},
                 { text: '2023年山东大学专硕真题分析', link: '/Basement/SDU/2023'},
                 { text: '2022年山东大学专硕真题分析', link: '/Basement/SDU/2022'},
+                { text: '2021年山东大学专硕真题分析', link: '/Basement/SDU/2021'},
               ]},
             ]},
             // { text:'编译原理', items:[
