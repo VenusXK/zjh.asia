@@ -170,7 +170,8 @@ module.exports = {
               //   { text: 'test', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'}
               // ]},
               { text: '汤家凤：考研数学(线性代数)', collapsed: true, items:[
-                {text: '辅助讲义', items:[
+                { text: '考研数学基础知识', link: '/Mathematics/SDU/normal'},
+                {text: '辅助讲义', collapsed: true , items:[
                   { text: '矩阵常用结论', link: '/Mathematics/SDU/Linear-Algebra/chapter-2-important'},
                   { text: '行列式习题总结', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
                 ]}

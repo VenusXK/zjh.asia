@@ -22,6 +22,10 @@ li .goto{
   @apply leading-relaxed hover:scale-105 hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.4)] dark:hover:drop-shadow-[0_0_10px_rgba(255,255,255,1)]  duration-700 w-fit m-auto
 }
 
+.jupyter{
+  @apply absolute w-14 sm:w-8 bottom-10 right-10 opacity-10 hover:opacity-60 z-10 duration-500
+}
+
 .footer{
   @apply fixed bottom-10 left-0 right-0 m-auto text-black dark:text-white text-center text-6xl sm:text-3xl
 }

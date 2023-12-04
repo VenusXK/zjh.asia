@@ -1,5 +1,5 @@
 ---
-title: "思考"
+title: "想法"
 menu: "main"
 ---
 
