@@ -7,7 +7,7 @@
 } */
 
 .container{
-  @apply dark:text-white text-center items-center w-full justify-center text-9xl h-full m-auto
+  @apply dark:text-white text-center items-center w-full justify-center text-9xl h-full m-auto sm:mt-10
 }
 
 body {
@@ -28,4 +28,8 @@ li .goto{
 
 .footer{
   @apply fixed bottom-10 left-0 right-0 m-auto text-black dark:text-white text-center text-6xl sm:text-3xl
+}
+
+.theMenu{
+  @apply absolute right-10 top-10 sm:top-5 sm:right-5 z-10
 }
