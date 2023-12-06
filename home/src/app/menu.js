@@ -1,13 +1,14 @@
 import { Menu, Transition } from '@headlessui/react'
 import { Fragment, useEffect, useRef, useState } from 'react'
-import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid'
+import { CubeTransparentIcon } from '@heroicons/react/20/solid'
 
 export default function TheMenu() {
   return (
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="inline-flex w-full justify-center rounded-md bg-none px-4 py-2 text-sm font-medium text-black  hover:text-gray-900/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
-          <ChevronDownIcon
+          <span className='text-lg -translate-y-1'>ZJH.ASIA</span>
+          <CubeTransparentIcon
             className="-mr-1 ml-2 h-5 w-5 text-black"
             aria-hidden="true"
           />

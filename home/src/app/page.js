@@ -19,7 +19,7 @@ export default function Home() {
           <li><div className="goto"><a href="https://zjh.asia/life" target="_blank">生活</a></div></li>
         </ul>
       </div>
-      <div className={" footer"}>ZJH.ASIA</div>
+      {/* <div className={" footer"}>ZJH.ASIA</div> */}
     </>
   );
 }

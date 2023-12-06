@@ -172,8 +172,9 @@ module.exports = {
               { text: '汤家凤：考研数学(线性代数)', collapsed: true, items:[
                 { text: '考研数学基础知识', link: '/Mathematics/SDU/normal'},
                 {text: '辅助讲义', collapsed: true , items:[
-                  { text: '矩阵常用结论', link: '/Mathematics/SDU/Linear-Algebra/chapter-2-important'},
                   { text: '行列式习题总结', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
+                  { text: '矩阵常用结论', link: '/Mathematics/SDU/Linear-Algebra/chapter-2-important'},
+                  { text: '向量常用结论', link: '/Mathematics/SDU/Linear-Algebra/chapter-3-important'},
                 ]}
               ]},
             ]},
@@ -259,6 +260,7 @@ module.exports = {
             { text: '项目经验',  items:[
               { text: '我的个人网站搭建', collapsed: true, items:[
                 { text: '环境配置', link: '/Program/Project/zjh.asia/Env-Config'},
+                { text: 'JupyterNotebook搭建', link: '/Program/Project/zjh.asia/Jupyter-Notebook'},
               ]},
               { text: '面向视频流的目标检测系统设计', collapsed: true, items:[
               ]},

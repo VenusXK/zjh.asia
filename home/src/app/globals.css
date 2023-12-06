@@ -11,7 +11,7 @@
 }
 
 body {
-  @apply  dark:bg-black items-center justify-center pt-[10%] overflow-hidden;
+  @apply  dark:bg-black items-center justify-center sm:mt-[150px] mt-[50px] lg:mt-[120px] overflow-hidden;
 }
 
 li{
@@ -19,7 +19,7 @@ li{
 }
 
 li .goto{
-  @apply text-9xl xs:leading-tight sm:leading-snug leading-normal hover:scale-105 hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.4)] dark:hover:drop-shadow-[0_0_10px_rgba(255,255,255,1)]  duration-700 w-fit m-auto
+  @apply text-[240px] md:text-[192px] sm:text-[128px] lg:text-[292px]  hover:scale-105 hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.4)] dark:hover:drop-shadow-[0_0_10px_rgba(255,255,255,1)]  duration-700 w-fit m-auto
 }
 
 .jupyter{
@@ -27,7 +27,7 @@ li .goto{
 }
 
 .footer{
-  @apply fixed bottom-10 left-0 right-0 m-auto text-black dark:text-white text-center text-6xl sm:text-3xl
+  @apply fixed top-10 right-20 m-auto text-black dark:text-white text-left text-xl
 }
 
 .theMenu{
