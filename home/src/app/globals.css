@@ -11,7 +11,7 @@
 }
 
 body {
-  @apply  dark:bg-black items-center justify-center sm:mt-[150px] mt-[50px] lg:mt-[120px] overflow-hidden;
+  @apply dark:bg-black items-center justify-center sm:mt-[100px] mt-[50px] lg:mt-[120px] overflow-hidden;
 }
 
 li{
@@ -31,5 +31,5 @@ li .goto{
 }
 
 .theMenu{
-  @apply absolute right-10 top-10 sm:top-5 sm:right-5 z-10
+  @apply absolute right-10 top-10 sm:top-5 z-10
 }
