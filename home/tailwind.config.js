@@ -23,6 +23,8 @@ module.exports = {
       // bold: '400',
     },
     screens: {
+      'xs': {'min': '10px', 'max': '320px'},
+
       'sm': {'min': '320px', 'max': '767px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }
 
