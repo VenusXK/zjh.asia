@@ -170,17 +170,19 @@ module.exports = {
               //   { text: 'test', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'}
               // ]},
               { text: '汤家凤：考研数学(线性代数)', collapsed: true, items:[
-                { text: '考研数学基础知识', link: '/Mathematics/SDU/normal'},
+                { text: '前备知识', link: '/Mathematics/SDU/normal'},
                 {text: '辅助讲义', collapsed: true , items:[
                   { text: '行列式习题总结', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
                   { text: '矩阵常用结论', link: '/Mathematics/SDU/Linear-Algebra/chapter-2-important'},
+                  { text: '矩阵习题总结', link: '/Mathematics/SDU/Linear-Algebra/chapter-2'},
                   { text: '向量常用结论', link: '/Mathematics/SDU/Linear-Algebra/chapter-3-important'},
+                  { text: '向量习题总结', link: '/Mathematics/SDU/Linear-Algebra/chapter-3'},
                 ]}
               ]},
             ]},
-            { text: '图形学', items: [
-              { text: '^ Steve等：Fundamentals Of Computer Graphics', collapsed: true},
-            ]},
+            // { text: '图形学', items: [
+            //   { text: '^ Steve等：Fundamentals Of Computer Graphics', collapsed: true},
+            // ]},
           ],
           'Foresight': [
             

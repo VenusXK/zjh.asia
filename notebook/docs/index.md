@@ -14,6 +14,11 @@ title: 首页
 
 ## 更新记录
 
+**2023年12月5日**
+
+- 整理 [汤家凤：考研数学(线性代数)/向量常用结论](Mathematics/SDU/Linear-Algebra/chapter-3-important)；
+- 整理 [汤家凤：考研数学(线性代数)/前备知识](Mathematics/SDU/normal)；
+
 **2023年12月3日**
 
 - 更新 [汤家凤：考研数学(线性代数)/矩阵常用结论](Mathematics/SDU/Linear-Algebra/chapter-2-important)；
