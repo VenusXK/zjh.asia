@@ -201,15 +201,14 @@ module.exports = {
             { text: 'C/C++',  items:[
               { text: '李昕：C/C++简明双链教程', collapsed: true,  items:[
                 { text: '一些对本专题的介绍', link: '/Program/CPP/CPP-with-LIXIN/',},
-                { text: '循环', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-important' },
-                { text: '数组与字符串', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-important' },
                 { text: '周五随堂测试汇总', link: '/Program/CPP/CPP-with-LIXIN/test'},
-                { text: 'PTA作业', collapsed: true, items:[
-                  { text: 'PTA作业-程序设计基础', link: '/Program/CPP/CPP-with-LIXIN/chapter-2-pta' },
-                  { text: 'PTA作业-循环', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-pta' },
-                  { text: 'PTA作业-数组与字符串', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-pta' },
-                  { text: 'PTA作业-指针', link: '/Program/CPP/CPP-with-LIXIN/chapter-6-pta' },
-                ]},  
+                { text: 'PTA作业-程序设计基础', link: '/Program/CPP/CPP-with-LIXIN/chapter-2-pta' },
+                { text: '循环', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-important' },
+                { text: 'PTA作业-循环', link: '/Program/CPP/CPP-with-LIXIN/chapter-4-pta' },
+                { text: '数组与字符串', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-important' },
+                { text: 'PTA作业-数组与字符串', link: '/Program/CPP/CPP-with-LIXIN/chapter-5-pta' },
+                { text: 'PTA作业-指针', link: '/Program/CPP/CPP-with-LIXIN/chapter-6-pta' },
+                { text: 'PTA作业-面向对象', link: '/Program/CPP/CPP-with-LIXIN/chapter-7-pta' },
               ]},
             ]},
             { text: 'Java/Kotlin',  items:[
