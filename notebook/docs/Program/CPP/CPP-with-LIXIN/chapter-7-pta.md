@@ -576,3 +576,715 @@ int main()
    cout<<setprecision(3)<<p.distance()<<" "<<c.judge(p)<<endl;
 }
 ```
+
+## LX706 Car类
+
+**题目描述**
+
+这是一个程序填充题，填充后提交完整代码。
+
+本题要求声明和实现一个Car类，包括实现其成员函数。
+
+类和函数接口定义：
+
+声明一个Car类;
+
+三个public成员函数:
+
+- **disp_welcomemsg()**，无返回类型;
+- **get_wheels()**，返回一个Car类的数据成员m_nWheels的值；
+- **set_wheels(int)**，用指定的形参初始化数据成员m_nWheels的值；
+
+一个私有数据成员m_nWheels，整数类型，代表汽车的车轮数量。
+其中，成员函数disp_welcomemsg()显示一条欢迎信息“Welcome to the car world!”。
+
+成员函数get_wheels()返回Car类的私有数据成员m_nWheels。
+
+成员函数set_wheels(int)用指定的形参初始化数据成员m_nWheels。
+
+裁判测试程序样例：
+
+```cpp
+#include <iostream>
+using namespace std;
+
+/* 请在这里填写答案 */
+
+int main()
+{
+    int n;
+    cin >> n;
+    Car myfstcar, myseccar;    //定义类对象
+    myfstcar.disp_welcomemsg();//访问成员函数，显示欢迎信息
+    myfstcar.set_wheels(n);    //访问成员函数，设置车轮数量
+    myseccar.set_wheels(n+4);  //访问成员函数，设置车轮数量
+    //访问成员函数，显示车轮数量
+    cout << "my first car wheels num = " << myfstcar.get_wheels() << endl;
+    cout << "my second car wheels num = " << myseccar.get_wheels() << endl;
+    return 0;
+}
+```
+
+**输入格式**
+
+一个整数n，表示车轮的数量，2≤n≤10
+
+**输出格式**
+
+见样例
+
+```
+样例 #1
+样例输入 #1
+4
+样例输出 #1
+Welcome to the car world!
+my first car wheels num = 4
+my second car wheels num = 8
+```
+
+**我的解答**
+
+这道题是基础的类的定义，难度很低。
+
+```cpp
+#include <iostream>
+using namespace std;
+
+/* 请在这里填写答案 */
+class Car{
+private:
+    int m_nWheels = 0;
+public:
+    void disp_welcomemsg();
+    int get_wheels();
+    void set_wheels(int w);
+};
+
+void Car::disp_welcomemsg(){
+    cout << "Welcome to the car world!" << endl;
+}
+
+int Car::get_wheels(){
+    return this -> m_nWheels;
+}
+
+void Car::set_wheels(int w){
+    this -> m_nWheels = w;
+}
+
+int main()
+{
+    int n;
+    cin >> n;
+    Car myfstcar, myseccar;    //定义类对象
+    myfstcar.disp_welcomemsg();//访问成员函数，显示欢迎信息
+    myfstcar.set_wheels(n);    //访问成员函数，设置车轮数量
+    myseccar.set_wheels(n+4);  //访问成员函数，设置车轮数量
+    //访问成员函数，显示车轮数量
+    cout << "my first car wheels num = " << myfstcar.get_wheels() << endl;
+    cout << "my second car wheels num = " << myseccar.get_wheels() << endl;
+    return 0;
+}
+```
+
+## LX707 角度的加法
+
+**题目描述**
+
+请设计角度类 ANGLE，实现角度的输入、输出和加法运算。
+
+```cpp
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+/* 将代码补充在这里 */
+
+int main()
+{
+    ANGLE a, b, c;
+    a.Input();
+    b.Input();
+    c = a.Add(b);
+    c.Output();
+    cout << endl;
+    return 0;
+}
+```
+
+设计输入和输出函数，达到以下效果。
+
+```cpp
+ANGLE a;
+a.Input(); // 输入: 28 36 47
+a.Output(); // 输出: 28 36 47
+```
+
+设计加法函数，达到以下效果。
+
+```cpp
+ANGLE a(16, 28, 57), b(32, 49, 15), c;
+c = a.Add(b); // c 变为 49 度 18 分 12 秒
+```
+
+**输入格式**
+
+通过 `.Input()` 输入角度的 度 分 秒
+
+输出格式
+通过 `.Output()` 输出角度的 度 分 秒
+
+```
+样例 #1
+样例输入 #1
+16 28 57
+32 49 15
+样例输出 #1
+49 18 12
+```
+
+**我的解答**
+
+我的解法为先加在一起，再统一进位，进位的方法为先进位秒，再进位分，我把它写成了成员函数，可以加完直接调用，很方便。
+
+```cpp
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+class ANGLE{
+private:
+    int value[3] = {0};
+    int * ptr_v = value;
+public:
+    ANGLE();
+    ANGLE(ANGLE * angle);
+    void Input();
+    ANGLE Add(ANGLE angle);
+    void Output();
+    void MakeCarry();
+};
+
+ANGLE::ANGLE(){}
+
+ANGLE::ANGLE(ANGLE * angle){
+    for(int i = 0; i < 3; i ++ ){
+        this -> value[i] = angle -> value[i];
+    }
+}
+
+void ANGLE::Input(){
+    for(int i = 0; i < 3; i++){
+        cin >> value[i];
+    }
+}
+
+void ANGLE::Output(){
+    for(int i = 0 ; i < 3; i++){
+        cout << value[i];
+        if ( i < 2 ){
+            cout << " ";
+        }
+    }
+}
+
+ANGLE ANGLE::Add(ANGLE angle){
+    ANGLE *res_angle = new ANGLE(this);
+    for(int i = 0; i < 3; i++){
+        res_angle -> value[i] += angle.value[i];
+    }
+    res_angle -> MakeCarry();
+    return *res_angle;
+}
+
+void ANGLE::MakeCarry(){
+    int tmp = value[2]/60;
+    value[2] = value[2] % 60;
+    value[1] += tmp;
+    tmp = value[1]/60;
+    value[1] = value[1] % 60;
+    value[0] += tmp;
+}
+
+int main()
+{
+    ANGLE a, b, c;
+    a.Input();
+    b.Input();
+    c = a.Add(b);
+    c.Output();
+    cout << endl;
+    return 0;
+}
+```
+
+
+## LX708 派生类构造
+
+**题目描述**
+
+裁判测试程序样例中展示的是一段定义基类People、派生类Student以及测试两个类的相关C++代码，其中缺失了部分代码，请补充完整，以保证测试程序正常运行。
+
+提示：观察类的定义和main方法中的测试代码，补全缺失的代码。
+
+注意：真正的测试程序中使用的数据可能与样例测试程序中不同，但仅按照样例中的格式调用相关函数。
+
+```cpp
+#include <iostream>
+using namespace std;
+class People{
+private:
+    string id;
+    string name;
+public:
+    People(string id, string name){
+        this->id = id;
+        this->name = name;
+    }
+    string getId(){
+        return this->id;
+    }
+    string getName(){
+        return name;
+    }
+};
+class Student : public People{
+private:
+    string sid;
+    int score;
+public:
+    Student(string id, string name, string sid, int score)
+        /** 补充您的代码 **/
+
+    }
+    friend ostream& operator <<(ostream &o, Student &s);
+};
+ostream& operator <<(ostream &o, Student &s){
+    o << "(Name:" << s.getName() << "; id:"
+      << s.getId() << "; sid:" << s.sid
+      << "; score:" << s.score << ")";
+    return o;
+}
+int main(){
+    string id,name,sid;
+    int score;
+    getline(cin,id);
+    getline(cin,name);
+    cin>>sid>>score;
+    Student zs(id, name, sid, score);
+    cout << zs << endl;
+    return 0;
+}
+```
+
+**输入格式**
+
+4行，分别表示 `id`, `name`, `sid` 和 `score`
+
+**输出格式**
+
+见样例输出
+
+```
+样例 #1
+样例输入 #1
+370202X
+Zhang San
+1052102
+96
+样例输出 #1
+(Name:Zhang San; id:370202X; sid:1052102; score:96)
+```
+
+**我的解答**
+
+其实就改了下面的一句话，学习了继承类调用父类构造函数的写法。
+
+```cpp
+Student(string id, string name, string sid, int score):People(id, name){
+    this -> id = id;
+    this -> name = name;
+    this -> sid = sid;
+    this -> score = score;
+}
+```
+
+具体原因我没有深入理解（需要深入学习类定义时的地址分配过程，课程暂不涉及），之后有机会了再深入学习。
+
+```cpp
+#include <iostream>
+using namespace std;
+class People{
+protected:
+    string id;
+    string name;
+public:
+    People(string id, string name){
+        this->id = id;
+        this->name = name;
+    }
+    string getId(){
+        return this->id;
+    }
+    string getName(){
+        return name;
+    }
+};
+class Student : public People{
+private:
+    string sid;
+    int score;
+public:
+    Student(string id, string name, string sid, int score):People(id, name){
+        this -> id = id;
+        this -> name = name;
+        this -> sid = sid;
+        this -> score = score;
+    }
+    friend ostream& operator <<(ostream &o, Student &s);
+};
+
+ostream& operator <<(ostream &o, Student &s){
+    o << "(Name:" << s.getName() << "; id:"
+      << s.getId() << "; sid:" << s.sid
+      << "; score:" << s.score << ")";
+    return o;
+}
+int main(){
+    string id,name,sid;
+    int score;
+    getline(cin,id);
+    getline(cin,name);
+    cin>>sid>>score;
+    Student zs(id, name, sid, score);
+    cout << zs << endl;
+    return 0;
+}
+```
+
+## LX709 时间的比较
+
+**题目描述**
+
+这是一个程序填充题，填充后提交完整代码。
+
+请设计时间类TIME，实现时间的输入、输出和比较。
+
+```cpp
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+/* 将代码补充在这里 */
+
+int main()
+{
+    TIME a, b;
+    cout << a << endl;
+    cin >> a >> b;
+    cout << a << ' ' << b << endl;
+    if (a > b)
+    {
+        cout << "Yes\n";
+    }
+    else
+    {
+        cout << "No\n";
+    }
+    return 0;
+}
+```
+
+
+**设计要求**
+
+设计构造函数，达到以下效果。
+
+```cpp
+测试代码1
+TIME a;
+cout << a << endl;
+输出样例1
+00:00:00
+```
+
+重载输入输出运算符函数，达到以下效果。
+
+```cpp
+测试代码1
+TIME a, b;
+cin >> a >> b;
+cout << a << ' ' << b << endl;
+输出样例1
+0:0:1 23:0:0
+00:00:01 23:00:00
+```
+
+重载大于运算符，达到以下效果。
+
+```cpp
+测试代码1
+//有TIME a,b
+if (a > b)
+{
+    cout << "Yes\n";
+}
+else
+{
+    cout << "No\n";
+}
+输出样例1
+Yes
+```
+
+输入输出格式如下：
+
+```cpp
+样例 #1
+样例输入 #1
+9:0:1
+8:59:58
+样例输出 #1
+00:00:00
+09:00:01 08:59:58
+Yes
+```
+
+**我的解答**
+
+使用指针传递数组成员变量，传递时参数较少，更加方便。
+
+重载输入输出流目前我在背模板的阶段，以后有机会了再深入学习。
+
+统计时间差这里使用的是都化为秒，直接比较秒数和即可。
+
+```cpp
+#include <iostream>
+#include <iomanip>
+#include <stdio.h>
+using namespace std;
+
+/* 将代码补充在这里 */
+class TIME{
+private:
+    int t[3] = {0};
+    int *pt = t;
+public:
+    // init
+    TIME(){};
+
+    // get
+    int * getTime(){return pt;}
+    // set
+    friend ostream& operator <<(ostream &o, TIME &T);
+    friend istream& operator <<(istream &i, const TIME &T);
+    bool operator> (TIME &T);
+};
+
+istream& operator >>(istream &i, TIME &T){
+    int * t = T.getTime();
+    scanf("%d:%d:%d", &t[0], &t[1], &t[2]);
+    return i;
+}
+
+ostream& operator <<(ostream &o, TIME &T){
+    int * t = T.getTime();
+    printf("%02d:%02d:%02d", t[0], t[1], t[2]);
+    //o << t[0] << ":" << t[1] << ":" << t[2];
+    return o;
+}
+
+bool TIME::operator>(TIME &T){
+    int * t1 = this -> getTime();
+    int * t2 = T.getTime();
+    int t1_sum = t1[2] + t1[1]*60 + t1[0]*60*60;
+    int t2_sum = t2[2] + t2[1]*60 + t2[0]*60*60;
+    if(t1_sum - t2_sum > 0){
+        return 1;
+    }
+    else{
+        return 0;
+    }
+}
+
+int main()
+
+{
+    TIME a, b;
+    cout << a << endl;
+    cin >> a >> b;
+    cout << a << ' ' << b << endl;
+    if (a > b)
+    {
+        cout << "Yes\n";
+    }
+    else
+    {
+        cout << "No\n";
+    }
+    return 0;
+}
+```
+
+## LX710 N天以后
+
+**题目描述**
+
+补充裁判测试程序中Date类的定义，并提交完整源代码，使其可以与一个整数n相加或相减，得到该日期N天后/前的日期。
+
+**提示**：注意考虑闰月，整数n的取值范围为[1,10000]。
+
+裁判测试程序：
+
+```cpp
+#include <iostream>
+#include <string>
+#include <assert.h>
+using namespace std;
+
+//代码写在这里
+
+int main()
+{
+    int y, m, d;
+    cin >> y >> m >> d;
+    Date d1(y,m,d);
+
+    int n;
+    cin >> n;
+
+    cout << d1.toText() << " + " << n << " = " << (d1 + n).toText() << endl;
+    cout << d1.toText() << " - " << n << " = " << (d1 - n).toText() << endl;
+    return 0;
+}
+```
+
+**输入格式**
+
+第一行输入年月日，空格分隔
+
+第二行输入一个正整数n，n≥1
+
+**输出格式**
+
+第一行输出加n天后的日期
+
+第二行输出减n天后的日期
+
+具体格式见输出样例
+
+```
+样例 #1
+样例输入 #1
+2022 8 31
+2
+样例输出 #1
+2022-8-31 + 2 = 2022-9-2
+2022-8-31 - 2 = 2022-8-29
+```
+
+**我的解答**
+
+重载 `+` 和 `-` 运算符，加减时需要进行判断闰年以及日期进位，仔细斟酌即可。
+
+使用查表法，注意月份和数组下标的对应关系，月份是从1开始，无论是获取月份还是构造类，都需要单独加1或减1。
+
+```cpp
+#include <iostream>
+#include <string>
+#include <assert.h>
+using namespace std;
+
+class Date{
+private:
+    int y, m, d;
+public:
+    Date(int y, int m, int d);
+    string toText();
+    Date operator+(int day_add);
+    Date operator-(int day_add);
+};
+
+Date::Date(int y_, int m_, int d_){
+    y = y_; m = m_; d = d_;
+}
+
+Date Date::operator+(int day_add){
+    int new_day = this->d + day_add;
+    int new_month = this->m - 1;
+    int new_year = this->y;
+    int d_arr[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+    // 闰年判断
+    if((new_year%4==0 && new_year%100!=0) || new_year%400 == 0){
+        d_arr[1] = 29;
+    }
+
+    // 日期进位
+    if(new_day > d_arr[new_month]){
+        if(new_month == 11){
+            new_day -= d_arr[new_month];
+            new_month = 0;
+            new_year ++;
+        }
+        else{
+            new_day -= d_arr[new_month];
+            new_month ++;
+        }
+    }
+
+    // 构造返回
+    Date * d = new Date(new_year, new_month + 1, new_day);
+    return *d;
+}
+
+Date Date::operator-(int day_add){
+    int new_day = this->d - day_add;
+    int new_month = this->m - 1;
+    int new_year = this->y;
+    int d_arr[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+    // 闰年判断
+    if((new_year%4==0 && new_year%100!=0) || new_year%400 == 0){
+        d_arr[1] = 29;
+    }
+
+    // 日期进位
+    if(new_day <= 0){
+        if(new_month == 0){
+            new_month = 11;
+            new_day = d_arr[new_month] + new_day;
+            new_year --;
+        }
+        else{
+            new_month --;
+            new_day = d_arr[new_month] + new_day;
+        }
+    }
+
+    // 构造返回
+    Date * d = new Date(new_year, new_month + 1, new_day);
+    return *d;
+}
+
+string Date::toText(){
+    return to_string(y) + "-" +
+            to_string(m) + "-" +
+            to_string(d);
+}
+
+int main()
+{
+    int y, m, d;
+    cin >> y >> m >> d;
+    Date d1(y,m,d);
+
+    int n;
+    cin >> n;
+
+    cout << d1.toText() << " + " << n << " = " << (d1 + n).toText() << endl;
+    cout << d1.toText() << " - " << n << " = " << (d1 - n).toText() << endl;
+    return 0;
+}
+```

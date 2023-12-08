@@ -564,13 +564,19 @@ video {
 }
 
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 1rem;
   border-radius: 0.125rem;
   background-image: none;
 }
 
 ::-webkit-scrollbar:hover {
   cursor: move;
+}
+
+@media (max-width: 900px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 ::-webkit-scrollbar-thumb {

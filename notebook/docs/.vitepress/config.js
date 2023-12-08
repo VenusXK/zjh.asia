@@ -58,7 +58,7 @@ module.exports = {
                 // { text: '高等数学', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'},
                 { text: '302：线性代数', link: '/Master-Application/SDU/302-2/chapter-1'},
                 { text: '832：数据结构与算法', link: '/Master-Application/SDU/832-1/2022'},
-                { text: '832：组成原理', link: '/Master-Application/SDU/832-2/2022'},
+                { text: '832：组成原理', link: '/Master-Application/SDU/832-2/2023'},
               ]},
             ]
           },
@@ -120,9 +120,10 @@ module.exports = {
                 ]}
               ]},
               { text: '832：数据结构与算法', collapsed: true, items:[
-                { text: '2022年山大真题分析', link: '/Master-Application/SDU/832-1/2022'},
-                { text: '2021年山大真题分析', link: '/Master-Application/SDU/832-1/2021'},
-                { text: '2019年山大真题分析', link: '/Master-Application/SDU/832-1/2019'},
+                { "text": "2022年山大真题分析", "link": "/Master-Application/SDU/832-1/2022" },
+                { "text": "2021年山大真题分析", "link": "/Master-Application/SDU/832-1/2021" },
+                { "text": "2019年山大真题分析", "link": "/Master-Application/SDU/832-1/2019" },                
+                { "text": "2024年山大预测3分析", "link": "/Master-Application/SDU/832-1/2024-3" }
               ]},
               { text: '832：计算机组成原理', collapsed: true, items:[
                 { text: '王道复习讲义重要习题', collapsed: true,  items:[
@@ -134,12 +135,12 @@ module.exports = {
                   { text: '指令流水线', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-6'},
                 ]},
                 { text: '山大考研重要真题&预测题', collapsed: true,  items:[
-                  { text: '2024年山大预测3分析', link: '/Master-Application/SDU/832-2/2024-3'},
-                  { text: '2024年山大预测1分析', link: '/Master-Application/SDU/832-2/2024-1'},
-                  { text: '2023年山大真题分析', link: '/Master-Application/SDU/832-2/2023'},
-                  { text: '2022年山大真题分析', link: '/Master-Application/SDU/832-2/2022'},
-                  { text: '2021年山大真题分析', link: '/Master-Application/SDU/832-2/2021'},
-                  { text: '2019年山大真题分析', link: '/Master-Application/SDU/832-2/2019'},
+                  { "text": "2023年山大真题分析", "link": "/Master-Application/SDU/832-2/2023" },
+                  { "text": "2022年山大真题分析", "link": "/Master-Application/SDU/832-2/2022" },
+                  { "text": "2021年山大真题分析", "link": "/Master-Application/SDU/832-2/2021" },
+                  { "text": "2019年山大真题分析", "link": "/Master-Application/SDU/832-2/2019" },
+                  { "text": "2024年山大预测1分析", "link": "/Master-Application/SDU/832-2/2024-1" },
+                  { "text": "2024年山大预测3分析", "link": "/Master-Application/SDU/832-2/2024-3" }                
                 ]},
               ]},
 
