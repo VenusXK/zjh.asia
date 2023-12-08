@@ -52,92 +52,35 @@ module.exports = {
         
         
         nav: [
-          { text: '数理', items:[
-            { text: '山东大学：计算机专硕考研(数学)', items: [
-              // { text: '高等数学', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'},
-              { text: '汤家凤：考研数学(线性代数)', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
-            ]},
-            // { text: '图形学', items: [
-            //   { text: '^ Steve等：Fundamentals Of Computer Graphics', link: '/Mathematics/SDU/'},
-            // ]},
-          ]},
-          { text: '指导', items:[
-            { text: '面试教程', items: [
-              { text: '何海涛：剑指Offer名企面试官精讲典型编程题', link: '/Guide/Face-Wrap/OfferI&II/I-chapter-1' },
-            ]},
-            { text: '学习方法', items:[
-              { text: '如何4个月高效刷满500题并形成长期记忆？', link: '/Guide/HowToLearn/Offer-in-4-Month'},
-            ]},
-          ]},
+          {
+            text: '考试', items:[
+              { text: '山东大学：计算机专硕24考研', items: [
+                // { text: '高等数学', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'},
+                { text: '302：线性代数', link: '/Master-Application/SDU/302-2/chapter-1'},
+                { text: '832：数据结构与算法', link: '/Master-Application/SDU/832-1/2022'},
+                { text: '832：组成原理', link: '/Master-Application/SDU/832-2/2022'},
+              ]},
+            ]
+          },
           { text: '编程', items:[
             { text: 'C/C++', items: [
               { text: '李昕：C/C++简明双链教程', link: '/Program/CPP/CPP-with-LIXIN/index'},
             ]},
             { text: 'Java/Kotlin',  items:[
               { text: '耿祥义：Java2实用教程', link: '/Program/Java/XYGeng_Java2/chapter-1'},
-              // { text: '^ 水滴技术团队：Kotlin核心编程', link:'404page'},
-              // { text: '^ Dmitry Jemerov等：Kotlin实践', link:'404page'},
             ]},
             { text: '数据结构与算法', items: [
               { text: 'Leetcode：每日一题', link: '/Program/Data-Struct&Algorithm/Leetcode-Daily/dp-1'},
-              { text: '山东大学：计算机专硕考研(数据结构)', link: '/Program/SDU/2022'},
               { text: 'Sartaj Sahni：数据结构、算法与应用', link: '/Program/Data-Struct&Algorithm/Sartaj_Sahni-DataStruct/Line-Struct/application'},
             ]},
             { text: '设计模式', items:[
               { text: 'Erich Gamma等：设计模式-可复用面向对象软件的基础', link:'/Program/Design-Patterns/E.Gamma-Design-Patterns-Elements-of-Reusable-Object-Oriented-Software/chapter-1'}
             ]},
-            // { text: 'Android', items:[
-            //   { text: '^ 欧阳燊：AndroidStudio开发实战-从零基础到APP上线', link: '404page'},
-            //   { text: '^ 李刚：疯狂Android讲义', link:'404page'},
-            //   { text: '^ 王明发：(Java)Android编程权威指南', link:'404page'},
-            //   { text: '^ 王明发：(Kotlin)Android编程权威指南', link:'404page'},
-            // ]},
             { text: '项目经验', items:[
               { text: '我的个人网站搭建', link: '/Program/Project/zjh.asia/Env-Config'},
               { text: '面向视频流的目标检测系统设计', link: '/Program/Project/listen_or_not/AndroidStudio-ENV'},
             ]},
           ]},
-          { text: '底层', items:[
-            { text: '计算机组成原理', items: [
-              { text: '王道论坛：复习指导(组成原理)', link: '/Basement/Wang-Dao/Float&IEEE754'},
-              { text: '山东大学：计算机专硕考研(组成原理)', link: '/Basement/SDU/2023'},
-            ]},
-            // { text:'编译原理', items:[
-            //   { text: '^ Alfred等：编译原理(龙书)', link: '404page'},
-            //   { text: '^ 俞甲子等：程序员的自我修养，编译、装载与库', link: '404page'},
-            //   { text: '^ 陈莉君等：深入理解LINUX内核', link: '404page'}
-            // ]},
-            // { text:'操作系统', items:[
-            //   { text: '^ Andrew等：现代操作系统', link: '404page'},
-            //   { text: '^ Randal等：深入理解计算机系统', link: '404page'}
-            // ]},
-          ]},
-          // { text: '美术', items:[          
-          //     { text: '素描基本技法', items:[
-          //       { text: '^ 素描的诀窍', link: '404page'}
-          //     ]},
-          //     { text: '素描技巧分析', items:[
-          //       { text: '^ 艺用人体结构', link: '404page'},
-          //       { text: '^ Andrew Loomis：人体素描', link: '404page'},
-          //       { text: '^ Andrew Loomis：头手素描', link: '404page'},
-          //       { text: '^ Andrew Loomis：素描基础', link: '404page'},
-          //       { text: '^ Andrew Loomis：创意插画', link: '404page'},
-          //       { text: '^ Roberts：向大师学绘画-素描基础',  link: '404page'},
-          //       { text: '^ Roberts：向大师学绘画-人体解剖', link: '404page'},
-          //       { text: '^ Roberts：向大师学绘画-人体素描', link: '404page'},
-          //       { text: '^ Alan Bryman：人体结构绘画教学', link: '404page'},
-          //     ]},
-          //     { text: '素描积累', items:[
-          //       { text: '^ MENZEL门采尔素描集', link: '404page'},
-          //       { text: '^ 素描的艺术-大师速写人物', link: '404page'},
-          //       { text: '^ 素描的艺术-大师素描肖像', link: '404page'},
-          //     ]},
-          //     { text: '现当代素描', items:[
-          //       { text: '^ 大师的手稿-探索大师的心历路程', link: '404page'},
-          //       { text: '^ 大师的手稿-Odd Nerrum', link: '404page'},
-          //       { text: '^ 大师的手稿-Max Beckman', link: '404page'},
-          //     ]},       
-          // ]},
           { text: '首页', link: '/'},
         ],
 
@@ -164,25 +107,43 @@ module.exports = {
 
         sidebarMenuLabel: "Menu",
         sidebar: {
-          'Mathematics': [
-            { text: '山东大学：计算机专硕考研(数学)', items: [
-              // { text: '汤家凤：考研数学(高等数学)', collapsed: true, items:[
-              //   { text: 'test', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'}
-              // ]},
-              { text: '汤家凤：考研数学(线性代数)', collapsed: true, items:[
-                { text: '前备知识', link: '/Mathematics/SDU/normal'},
-                {text: '辅助讲义', collapsed: true , items:[
-                  { text: '行列式习题总结', link: '/Mathematics/SDU/Linear-Algebra/chapter-1'},
-                  { text: '矩阵常用结论', link: '/Mathematics/SDU/Linear-Algebra/chapter-2-important'},
-                  { text: '矩阵习题总结', link: '/Mathematics/SDU/Linear-Algebra/chapter-2'},
-                  { text: '向量常用结论', link: '/Mathematics/SDU/Linear-Algebra/chapter-3-important'},
-                  { text: '向量习题总结', link: '/Mathematics/SDU/Linear-Algebra/chapter-3'},
+          'Master-Application':[
+            { text: '山东大学：计算机专硕24考研',  items:[
+              { text: '302：线性代数', collapsed: true, items:[
+                {text: '汤家凤：线性代数辅导讲义', items:[
+                  { text: '前备知识', link: '/Master-Application/SDU/302-2/normal'},
+                  { text: '行列式习题总结', link: '/Master-Application/SDU/302-2/chapter-1'},
+                  { text: '矩阵常用结论', link: '/Master-Application/SDU/302-2/chapter-2-important'},
+                  { text: '矩阵习题总结', link: '/Master-Application/SDU/302-2/chapter-2'},
+                  { text: '向量常用结论', link: '/Master-Application/SDU/302-2/chapter-3-important'},
+                  { text: '向量习题总结', link: '/Master-Application/SDU/302-2/chapter-3'},
                 ]}
               ]},
+              { text: '832：数据结构与算法', collapsed: true, items:[
+                { text: '2022年山大真题分析', link: '/Master-Application/SDU/832-1/2022'},
+                { text: '2021年山大真题分析', link: '/Master-Application/SDU/832-1/2021'},
+                { text: '2019年山大真题分析', link: '/Master-Application/SDU/832-1/2019'},
+              ]},
+              { text: '832：计算机组成原理', collapsed: true, items:[
+                { text: '王道复习讲义重要习题', collapsed: true,  items:[
+                  { text: '浮点数的表示和运算', link: '/Master-Application/SDU/832-2/Wang-Dao/Float&IEEE754'},
+                  { text: 'CPU的功能和基本结构', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-1'},
+                  { text: '指令执行过程', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-2'},
+                  { text: '数据通路的基本结构和功能', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-3'},
+                  { text: '控制器的功能和工作原理', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-4'},
+                  { text: '指令流水线', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-6'},
+                ]},
+                { text: '山大考研重要真题&预测题', collapsed: true,  items:[
+                  { text: '2024年山大预测3分析', link: '/Master-Application/SDU/832-2/2024-3'},
+                  { text: '2024年山大预测1分析', link: '/Master-Application/SDU/832-2/2024-1'},
+                  { text: '2023年山大真题分析', link: '/Master-Application/SDU/832-2/2023'},
+                  { text: '2022年山大真题分析', link: '/Master-Application/SDU/832-2/2022'},
+                  { text: '2021年山大真题分析', link: '/Master-Application/SDU/832-2/2021'},
+                  { text: '2019年山大真题分析', link: '/Master-Application/SDU/832-2/2019'},
+                ]},
+              ]},
+
             ]},
-            // { text: '图形学', items: [
-            //   { text: '^ Steve等：Fundamentals Of Computer Graphics', collapsed: true},
-            // ]},
           ],
           'Foresight': [
             
@@ -223,19 +184,10 @@ module.exports = {
                   { text: '参数的传值', link: '/Program/Java/XYGeng_Java2/chapter-4-4'},
                 ]},
               ]},
-              // { text: '^ 水滴技术团队：Kotlin核心编程', collapsed: true,  items:[
-              // ]},
-              // { text: '^ Dmitry Jemerov等：Kotlin实践', collapsed: true,  items:[
-              // ]},
             ]},
             { text: '数据结构与算法',  items:[
               { text: 'Leetcode：每日一题', collapsed: true, items:[
                 { text: '动态规划', link: '/Program/Data-Struct&Algorithm/Leetcode-Daily/dp-1'},
-              ]},
-              { text: '山东大学：计算机专硕考研(数据结构)', collapsed: true,  items:[
-                { text: '2022年山东大学专硕真题分析', link: '/Program/SDU/2022'},
-                { text: '2021年山东大学专硕真题分析', link: '/Program/SDU/2021'},
-                { text: '2019年山东大学专硕真题分析', link: '/Program/SDU/2019'},
               ]},
               { text: 'Sartaj Sahni：数据结构、算法与应用', collapsed: true, items:[
                 { text: '线性存储结构', collapsed: true,  items:[
@@ -248,16 +200,6 @@ module.exports = {
                 { text: '引言', link: '/Program/Design-Patterns/E.Gamma-Design-Patterns-Elements-of-Reusable-Object-Oriented-Software/chapter-1'},
               ]}
             ]},
-            // { text: 'Android', items:[
-            //   { text: '^ 欧阳燊：AndroidStudio开发实战-从零基础到APP上线', collapsed: true,  items:[
-            //   ]},
-            //   { text: '^ 李刚：疯狂Android讲义', collapsed: true,  items:[
-            //   ]},
-            //   { text: '^ 王明发：(Java)Android编程权威指南', collapsed: true,  items:[
-            //   ]},
-            //   { text: '^ 王明发：(Kotlin)Android编程权威指南', collapsed: true,  items:[
-            //   ]},
-            // ]},
             { text: '项目经验',  items:[
               { text: '我的个人网站搭建', collapsed: true, items:[
                 { text: '环境配置', link: '/Program/Project/zjh.asia/Env-Config'},
@@ -266,64 +208,6 @@ module.exports = {
               { text: '面向视频流的目标检测系统设计', collapsed: true, items:[
               ]},
             ]},
-          ],
-          'Basement': [
-            { text: '计算机组成原理', items:[
-              { text: '王道论坛：复习指导(组成原理)', collapsed: true,  items:[
-                { text: '数据的表示和运算', collapsed: true,  items:[
-                  { text: '浮点数的表示和运算', link: '/Basement/Wang-Dao/Float&IEEE754'},
-                ]},
-                { text: '中央处理器', collapsed: true,  items:[
-                  { text: 'CPU的功能和基本结构', link: '/Basement/Wang-Dao/chapter-5-1'},
-                  { text: '指令执行过程', link: '/Basement/Wang-Dao/chapter-5-2'},
-                  { text: '数据通路的基本结构和功能', link: '/Basement/Wang-Dao/chapter-5-3'},
-                  { text: '控制器的功能和工作原理', link: '/Basement/Wang-Dao/chapter-5-4'},
-                  { text: '指令流水线', link: '/Basement/Wang-Dao/chapter-5-6'},
-                ]},
-              ]},
-              { text: '山东大学：计算机专硕考研(组成原理)', collapsed: true,  items:[
-                { text: '2024年山东大学专硕预测题1分析', link: '/Basement/SDU/Predict-2024-1'},
-                { text: '2023年山东大学专硕真题分析', link: '/Basement/SDU/2023'},
-                { text: '2022年山东大学专硕真题分析', link: '/Basement/SDU/2022'},
-                { text: '2021年山东大学专硕真题分析', link: '/Basement/SDU/2021'},
-                { text: '2019年山东大学专硕真题分析', link: '/Basement/SDU/2019'},
-              ]},
-            ]},
-            // { text:'编译原理', items:[
-            //   { text: '^ Alfred等：编译原理(龙书)', collapsed: true,},
-            //   { text: '^ 俞甲子等：程序员的自我修养，编译、装载与库', collapsed: true,},
-            //   { text: '^ 陈莉君等：深入理解LINUX内核', collapsed: true,}
-            // ]},
-            // { text:'操作系统', items:[
-            //   { text: '^ Andrew等：现代操作系统', collapsed: true,},
-            //   { text: '^ Randal等：深入理解计算机系统', collapsed: true,}
-            // ]},
-          ],
-          'Art': [
-            // { text: '素描基本技法', items:[
-            //   { text: '^ 素描的诀窍', collapsed: true}
-            // ]},
-            // { text: '素描技巧分析', items:[
-            //   { text: '^ 艺用人体结构', collapsed: true},
-            //   { text: '^ Andrew Loomis：人体素描', collapsed: true},
-            //   { text: '^ Andrew Loomis：头手素描', collapsed: true},
-            //   { text: '^ Andrew Loomis：素描基础', collapsed: true},
-            //   { text: '^ Andrew Loomis：创意插画', collapsed: true},
-            //   { text: '^ Roberts：向大师学绘画-素描基础', collapsed: true},
-            //   { text: '^ Roberts：向大师学绘画-人体解剖', collapsed: true},
-            //   { text: '^ Roberts：向大师学绘画-人体素描', collapsed: true},
-            //   { text: '^ Alan Bryman：人体结构绘画教学', collapsed: true},
-            // ]},
-            // { text: '素描积累', items:[
-            //   { text: '^ 门采尔素描集', collapsed: true},
-            //   { text: '^ 素描的艺术-大师速写人物', collapsed: true},
-            //   { text: '^ 素描的艺术-大师素描肖像', collapsed: true},
-            // ]},
-            // { text: '现当代素描', items:[
-            //   { text: '^ 大师的手稿-探索大师的心历路程', collapsed: true},
-            //   { text: '^ 大师的手稿-Odd Nerrum', collapsed: true},
-            //   { text: '^ 大师的手稿-Max Beckman', collapsed: true},
-            // ]},
           ],
         },
 
