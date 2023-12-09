@@ -31,5 +31,5 @@ li .goto{
 }
 
 .theMenu{
-  @apply absolute right-10 top-10 sm:top-5 z-10
+  @apply absolute right-10 top-10 sm:right-5 sm:top-5 z-10
 }

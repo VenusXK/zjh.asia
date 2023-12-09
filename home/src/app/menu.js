@@ -7,9 +7,9 @@ export default function TheMenu() {
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="inline-flex w-full justify-center rounded-md bg-none px-4 py-2 text-sm font-medium text-black  hover:text-gray-900/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
-          <span className='text-lg -translate-y-1'>ZJH.ASIA</span>
+          {/* <span className='text-lg -translate-y-1 tracking-wide'>jeyhin</span> */}
           <CubeTransparentIcon
-            className="-mr-1 ml-2 h-5 w-5 text-black"
+            className="-mr-1 ml-2 h-10 md:h-8 sm:h-6 duration-1000 text-black"
             aria-hidden="true"
           />
           </Menu.Button>
@@ -31,7 +31,7 @@ export default function TheMenu() {
                     <button
                       className={`${
                         active ? 'underline' : ''
-                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                      } group flex w-full items-center rounded-md px-2 py-2 text-lg md:text-base sm:text-sm`}
                     >
                       {/* <EditActiveIcon
                           className="mr-2 h-5 w-5"

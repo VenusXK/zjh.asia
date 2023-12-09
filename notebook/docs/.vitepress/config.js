@@ -117,6 +117,8 @@ module.exports = {
                   { text: '矩阵习题总结', link: '/Master-Application/SDU/302-2/chapter-2'},
                   { text: '向量常用结论', link: '/Master-Application/SDU/302-2/chapter-3-important'},
                   { text: '向量习题总结', link: '/Master-Application/SDU/302-2/chapter-3'},
+                  { text: '线性方程组常用结论', link: '/Master-Application/SDU/302-2/chapter-4-important'},
+                  { text: '线性方程组习题总结', link: '/Master-Application/SDU/302-2/chapter-4'},
                 ]}
               ]},
               { text: '832：数据结构与算法', collapsed: true, items:[
