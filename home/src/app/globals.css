@@ -23,7 +23,7 @@ li .goto{
 }
 
 .jupyter{
-  @apply absolute w-14 sm:w-8 bottom-10 right-10 opacity-10 hover:opacity-60 z-10 duration-500
+  @apply  absolute w-14 sm:w-8 bottom-10 right-10 opacity-10 hover:opacity-60 z-10 duration-500
 }
 
 .footer{

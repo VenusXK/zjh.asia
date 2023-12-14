@@ -4,7 +4,8 @@ import { CubeTransparentIcon } from '@heroicons/react/20/solid'
 
 export default function TheMenu() {
   return (
-      <Menu as="div" className="relative inline-block text-left">
+    <>
+    <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="inline-flex w-full justify-center rounded-md bg-none px-4 py-2 text-sm font-medium text-black  hover:text-gray-900/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
           {/* <span className='text-lg -translate-y-1 tracking-wide'>jeyhin</span> */}
@@ -26,13 +27,17 @@ export default function TheMenu() {
           <Menu.Items className="absolute right-0 w-[300px] origin-top-right">
             <div className="px-1 py-1 ">
               <a href='http://zjh.asia:8888' target='_blank'>
+                
                 <Menu.Item>
                   {({ active }) => (
+                    <>
+                    
                     <button
                       className={`${
                         active ? 'underline' : ''
                       } group flex w-full items-center rounded-md px-2 py-2 text-lg md:text-base sm:text-sm`}
                     >
+                    
                       {/* <EditActiveIcon
                           className="mr-2 h-5 w-5"
                           aria-hidden="true"
@@ -42,6 +47,7 @@ export default function TheMenu() {
                         </div>
                       
                     </button>
+                    </>
                   )}
                 </Menu.Item>
               </a>
@@ -50,6 +56,8 @@ export default function TheMenu() {
           
         </Transition>
       </Menu>
+    </>
+
   )
 }
 

@@ -76,10 +76,14 @@ module.exports = {
             { text: '设计模式', items:[
               { text: 'Erich Gamma等：设计模式-可复用面向对象软件的基础', link:'/Program/Design-Patterns/E.Gamma-Design-Patterns-Elements-of-Reusable-Object-Oriented-Software/chapter-1'}
             ]},
-            { text: '项目经验', items:[
-              { text: '我的个人网站搭建', link: '/Program/Project/zjh.asia/Env-Config'},
-              { text: '面向视频流的目标检测系统设计', link: '/Program/Project/listen_or_not/AndroidStudio-ENV'},
+          ]},
+          { text: '项目', items:[
+            { text: '石油大学期间', items:[
+              { text: '大创：面向视频流的目标检测系统设计', link: '/Project/listen_or_not/AndroidStudio-ENV'},
+              { text: '王勃：AWS云上部署Hadoop实验', link: '/Project/Hadoop/Wangbo-51790-1'}
             ]},
+            { text: '我的个人网站搭建', link: '/Project/zjh.asia/Env-Config'},
+            
           ]},
           { text: '首页', link: '/'},
         ],
@@ -112,20 +116,18 @@ module.exports = {
               { text: '302：线性代数', collapsed: true, items:[
                 {text: '汤家凤：线性代数辅导讲义', items:[
                   { text: '前备知识', link: '/Master-Application/SDU/302-2/normal'},
-                  { text: '行列式习题总结', link: '/Master-Application/SDU/302-2/chapter-1'},
-                  { text: '矩阵常用结论', link: '/Master-Application/SDU/302-2/chapter-2-important'},
-                  { text: '矩阵习题总结', link: '/Master-Application/SDU/302-2/chapter-2'},
-                  { text: '向量常用结论', link: '/Master-Application/SDU/302-2/chapter-3-important'},
-                  { text: '向量习题总结', link: '/Master-Application/SDU/302-2/chapter-3'},
-                  { text: '线性方程组常用结论', link: '/Master-Application/SDU/302-2/chapter-4-important'},
-                  { text: '线性方程组习题总结', link: '/Master-Application/SDU/302-2/chapter-4'},
+                  { text: '行列式', link: '/Master-Application/SDU/302-2/chapter-1'},
+                  { text: '矩阵', link: '/Master-Application/SDU/302-2/chapter-2'},
+                  { text: '向量', link: '/Master-Application/SDU/302-2/chapter-3'},
+                  { text: '线性方程组', link: '/Master-Application/SDU/302-2/chapter-4'},
                 ]}
               ]},
               { text: '832：数据结构与算法', collapsed: true, items:[
                 { "text": "2022年山大真题分析", "link": "/Master-Application/SDU/832-1/2022" },
                 { "text": "2021年山大真题分析", "link": "/Master-Application/SDU/832-1/2021" },
-                { "text": "2019年山大真题分析", "link": "/Master-Application/SDU/832-1/2019" },                
-                { "text": "2024年山大预测3分析", "link": "/Master-Application/SDU/832-1/2024-3" }
+                { "text": "2019年山大真题分析", "link": "/Master-Application/SDU/832-1/2019" },
+                { "text": "2024年山大预测2分析", "link": "/Master-Application/SDU/832-1/2024-2" },
+                { "text": "2024年山大预测3分析", "link": "/Master-Application/SDU/832-1/2024-3" },
               ]},
               { text: '832：计算机组成原理', collapsed: true, items:[
                 { text: '王道复习讲义重要习题', collapsed: true,  items:[
@@ -134,6 +136,7 @@ module.exports = {
                   { text: '指令执行过程', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-2'},
                   { text: '数据通路的基本结构和功能', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-3'},
                   { text: '控制器的功能和工作原理', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-4'},
+                  { text: '异常和中断', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-5'},
                   { text: '指令流水线', link: '/Master-Application/SDU/832-2/Wang-Dao/chapter-5-6'},
                 ]},
                 { text: '山大考研重要真题&预测题', collapsed: true,  items:[
@@ -142,7 +145,8 @@ module.exports = {
                   { "text": "2021年山大真题分析", "link": "/Master-Application/SDU/832-2/2021" },
                   { "text": "2019年山大真题分析", "link": "/Master-Application/SDU/832-2/2019" },
                   { "text": "2024年山大预测1分析", "link": "/Master-Application/SDU/832-2/2024-1" },
-                  { "text": "2024年山大预测3分析", "link": "/Master-Application/SDU/832-2/2024-3" }                
+                  { "text": "2024年山大预测2分析", "link": "/Master-Application/SDU/832-2/2024-2" },
+                  { "text": "2024年山大预测3分析", "link": "/Master-Application/SDU/832-2/2024-3" },
                 ]},
               ]},
 
@@ -159,6 +163,21 @@ module.exports = {
             ]},
             { text: '学习方法', collapsed: true, items:[
               { text: '如何4个月高效刷满500题并形成长期记忆？', link: '/Guide/HowToLearn/Offer-in-4-Month'},
+            ]},
+          ],
+          'Project': [
+            { text: '石油大学期间', items:[
+              { text: '大创：面向视频流的目标检测系统设计', collapsed: true, items:[
+                { text: 'AndroidStudio 环境相关', link: '/Project/listen_or_not/AndroidStudio-ENV'},
+              ]},
+              { text: '王勃：AWS云上部署Hadoop实验', collapsed: true, items:[
+                { text: 'Hadoop实验基础部分(2节点)', link: '/Project/Hadoop/Wangbo-51790-1'},
+                { text: 'Hadoop实验扩展部分(9节点)', link: '/Project/Hadoop/Wangbo-51790-2'},
+              ]},
+            ]},
+            { text: '我的个人网站搭建', collapsed: true, items:[
+              { text: '环境配置', link: '/Project/zjh.asia/Env-Config'},
+              { text: 'JupyterNotebook搭建', link: '/Project/zjh.asia/Jupyter-Notebook'},
             ]},
           ],
           'Program': [
@@ -202,14 +221,6 @@ module.exports = {
               { text: 'Erich Gamma等：设计模式-可复用面向对象软件的基础', collapsed:true, items:[
                 { text: '引言', link: '/Program/Design-Patterns/E.Gamma-Design-Patterns-Elements-of-Reusable-Object-Oriented-Software/chapter-1'},
               ]}
-            ]},
-            { text: '项目经验',  items:[
-              { text: '我的个人网站搭建', collapsed: true, items:[
-                { text: '环境配置', link: '/Program/Project/zjh.asia/Env-Config'},
-                { text: 'JupyterNotebook搭建', link: '/Program/Project/zjh.asia/Jupyter-Notebook'},
-              ]},
-              { text: '面向视频流的目标检测系统设计', collapsed: true, items:[
-              ]},
             ]},
           ],
         },
