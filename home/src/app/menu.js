@@ -44,7 +44,7 @@ export default function TheMenu() {
           <Menu.Button className="backdrop-invert inline-flex w-full justify-center mb-1 px-4 py-2 text-sm font-medium">
           {/* <span className='text-lg -translate-y-1 tracking-wide'>jeyhin</span> */}
           <CubeTransparentIcon
-            className="-mr-1 ml-2 h-10 md:h-9 sm:h-18 duration-1000 text-white dark:text-black bg-black dark:bg-white !important"
+            className="-mr-1 ml-2 h-10 md:h-9 sm:h-18 duration-1000 text-white dark:text-black !important"
             aria-hidden="false"
           />
           </Menu.Button>
@@ -58,7 +58,7 @@ export default function TheMenu() {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className=" backdrop-invert backdrop-blur-sm bg-opacity-40 bg-black/10 dark:bg-white/10 absolute right-0 w-max origin-top-right">
+          <Menu.Items className=" backdrop-invert backdrop-blur-sm bg-opacity-40 bg-black dark:bg-white absolute right-0 w-max origin-top-right">
           <Menu_list></Menu_list>
 
           </Menu.Items>
