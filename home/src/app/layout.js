@@ -4,7 +4,7 @@ import './globals.css'
 const notoSansSC = Noto_Sans_SC({weight:['600', '900'], subsets: ['latin'] })
 export const metadata = {
   title: 'ZJH.ASIA',
-  description: 'homepage of zjh.asia',
+  description: 'ZJH.ASIA',
 }
 
 export default function RootLayout({ children }) {

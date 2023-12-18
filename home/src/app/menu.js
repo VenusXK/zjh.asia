@@ -15,14 +15,14 @@ function Menu_list() {
     link.display === true
   );
   const menu_items = link_avaliable.map(link_avaliable =>
-    <div key={link_avaliable.id} className="px-1 py-1 border-b border-white dark:border-black text-white dark:text-black">
+    <div key={link_avaliable.id} className="px-1 py-1 border-b border-white dark:border-black text-white dark:text-black !important">
       <a href={link_avaliable.link_href} target='_blank'>
         <Menu.Item>
           {({ active }) => (                    
               <button
                 className={`${
                   active ? 'underline' : ''
-                } group text-right w-full items-center px-2 py-2 text-lg md:text-base sm:text-sm`}
+                }  group text-right w-full items-center px-2 py-2 text-lg md:text-base sm:text-xl`}
               >
 
                 {link_avaliable.link_title}
@@ -44,7 +44,7 @@ export default function TheMenu() {
           <Menu.Button className="backdrop-invert inline-flex w-full justify-center mb-1 px-4 py-2 text-sm font-medium">
           {/* <span className='text-lg -translate-y-1 tracking-wide'>jeyhin</span> */}
           <CubeTransparentIcon
-            className="-mr-1 ml-2 h-10 md:h-8 sm:h-6 duration-1000 text-white dark:text-black "
+            className="-mr-1 ml-2 h-10 md:h-9 sm:h-18 duration-1000 text-white dark:text-black !important"
             aria-hidden="false"
           />
           </Menu.Button>
