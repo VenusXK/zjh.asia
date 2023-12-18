@@ -2,16 +2,50 @@ import { Menu, Transition } from '@headlessui/react'
 import { Fragment, useEffect, useRef, useState } from 'react'
 import { CubeTransparentIcon } from '@heroicons/react/20/solid'
 
+const link_bucket = [
+  { id: 0, link_title: '生活记录', display: true, link_href: 'http://zjh.asia/life' },
+  { id: 1, link_title: '笔记', display: true, link_href: 'http://zjh.asia/notebook' },
+  { id: 2, link_title: 'Jupyter Notebook', display: true, link_href: 'http://zjh.asia:8888' },
+  { id: 3, link_title: '肖秀荣', display: true , link_href: 'https://weibo.com/u/1227078145'},
+  { id: 4, link_title: '武忠祥', display: true, link_href: 'https://www.weibo.com/n/%E6%AD%A6%E5%BF%A0%E7%A5%A5%E8%80%81%E5%B8%88' },
+]
+
+function Menu_list() {
+  const link_avaliable = link_bucket.filter(link =>
+    link.display === true
+  );
+  const menu_items = link_avaliable.map(link_avaliable =>
+    <div key={link_avaliable.id} className="px-1 py-1 border-b border-white dark:border-black text-white dark:text-black">
+      <a href={link_avaliable.link_href} target='_blank'>
+        <Menu.Item>
+          {({ active }) => (                    
+              <button
+                className={`${
+                  active ? 'underline' : ''
+                } group text-right w-full items-center px-2 py-2 text-lg md:text-base sm:text-sm`}
+              >
+
+                {link_avaliable.link_title}
+
+              </button>
+          )}
+        </Menu.Item>
+      </a>
+    </div>
+  );
+  return <div>{menu_items}</div>;
+}
+
 export default function TheMenu() {
   return (
     <>
     <Menu as="div" className="relative inline-block text-left">
         <div>
-          <Menu.Button className="inline-flex w-full justify-center rounded-md bg-none px-4 py-2 text-sm font-medium text-black  hover:text-gray-900/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
+          <Menu.Button className="backdrop-invert inline-flex w-full justify-center mb-1 px-4 py-2 text-sm font-medium">
           {/* <span className='text-lg -translate-y-1 tracking-wide'>jeyhin</span> */}
           <CubeTransparentIcon
-            className="-mr-1 ml-2 h-10 md:h-8 sm:h-6 duration-1000 text-black"
-            aria-hidden="true"
+            className="-mr-1 ml-2 h-10 md:h-8 sm:h-6 duration-1000 text-white dark:text-black "
+            aria-hidden="false"
           />
           </Menu.Button>
         </div>
@@ -24,34 +58,9 @@ export default function TheMenu() {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className="absolute right-0 w-[300px] origin-top-right">
-            <div className="px-1 py-1 ">
-              <a href='http://zjh.asia:8888' target='_blank'>
-                
-                <Menu.Item>
-                  {({ active }) => (
-                    <>
-                    
-                    <button
-                      className={`${
-                        active ? 'underline' : ''
-                      } group flex w-full items-center rounded-md px-2 py-2 text-lg md:text-base sm:text-sm`}
-                    >
-                    
-                      {/* <EditActiveIcon
-                          className="mr-2 h-5 w-5"
-                          aria-hidden="true"
-                        /> */}
-                        <div className='text-right w-full'>
-                        Jupyter Notebook
-                        </div>
-                      
-                    </button>
-                    </>
-                  )}
-                </Menu.Item>
-              </a>
-            </div>
+          <Menu.Items className=" backdrop-invert backdrop-blur-sm bg-opacity-30 absolute right-0 w-max origin-top-right">
+          <Menu_list></Menu_list>
+
           </Menu.Items>
           
         </Transition>
