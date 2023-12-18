@@ -1,7 +1,7 @@
 import { Noto_Sans_SC } from 'next/font/google'
 import './globals.css'
 
-const notoSansSC = Noto_Sans_SC({weight:['600', '900'], subsets: ['latin'] })
+const notoSansSC = Noto_Sans_SC({weight:['600'], subsets: ['latin'] })
 export const metadata = {
   title: 'ZJH.ASIA',
   description: 'ZJH.ASIA',
