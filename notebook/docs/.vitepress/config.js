@@ -54,8 +54,10 @@ module.exports = {
         nav: [
           {
             text: '考试', items:[
+              { text: '计算机25考研', items: [
+                { text: '201：考研英语', link: '/Master-Application-2/201/HongBaoShu/Unit-2'},
+              ]},
               { text: '山东大学：计算机专硕24考研', items: [
-                // { text: '高等数学', link: '/Mathematics/SDU/Advanced-Mathematics/chapter-1'},
                 { text: '302：线性代数', link: '/Master-Application/SDU/302-2/chapter-1'},
                 { text: '832：数据结构与算法', link: '/Master-Application/SDU/832-1/2022'},
                 { text: '832：组成原理', link: '/Master-Application/SDU/832-2/2023'},
@@ -112,6 +114,13 @@ module.exports = {
         sidebarMenuLabel: "Menu",
         sidebar: {
           'Master-Application':[
+            { text: '计算机25考研', items: [
+              { text: '201：考研英语', collapsed: true, items: [
+                {text: '红宝书：考研英语词汇', items:[
+                  { text: 'Unit 2', link: '/Master-Application-2/201/HongBaoShu/Unit-2'},
+                ]}
+              ]},
+            ]},
             { text: '山东大学：计算机专硕24考研',  items:[
               { text: '302：线性代数', collapsed: true, items:[
                 {text: '汤家凤：线性代数辅导讲义', items:[

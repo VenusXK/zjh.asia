@@ -5,8 +5,6 @@ layout: doc
 title: 首页
 ---
 
-
-
 <div class="home-title">
 <h1  style="font-family: 'Liu Jian Mao Cao'; font-size:100px;">笔记</h1>
 </div>
