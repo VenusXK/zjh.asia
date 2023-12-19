@@ -3,12 +3,9 @@ import { Fragment, useEffect, useRef, useState } from 'react'
 import { CubeTransparentIcon } from '@heroicons/react/20/solid'
 
 const link_bucket = [
-  { id: 0, link_title: '生活记录(Life)', display: true, link_href: 'http://zjh.asia/life' },
-  { id: 1, link_title: '笔记(Notebook)', display: true, link_href: 'http://zjh.asia/notebook' },
-  { id: 2, link_title: 'Jupyter Notebook', display: true, link_href: 'http://zjh.asia:8888' },
-  { id: 4, link_title: '关于我(Bio)', display: true, link_href: 'https://bento.me/zjh' },
-  // { id: 3, link_title: '肖秀荣', display: true , link_href: 'https://weibo.com/u/1227078145'},
-  // { id: 4, link_title: '武忠祥', display: true, link_href: 'https://www.weibo.com/n/%E6%AD%A6%E5%BF%A0%E7%A5%A5%E8%80%81%E5%B8%88' },
+  { id: 0, link_title: '生活记录 / Life', display: true, link_href: 'http://zjh.asia/life' },
+  { id: 1, link_title: '笔记 / Notebook', display: true, link_href: 'http://zjh.asia/notebook' },
+  { id: 2, link_title: '关于我 / Bio', display: true, link_href: 'https://bento.me/zjh' },
 ]
 
 function Menu_list() {
@@ -59,7 +56,7 @@ export default function TheMenu() {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className=" backdrop-invert backdrop-blur-sm bg-opacity-40  absolute right-0 w-max origin-top-right">
+          <Menu.Items className=" backdrop-invert backdrop-blur-sm bg-opacity-20 sm:bg-opacity-40  absolute right-0 w-max origin-top-right">
           <Menu_list></Menu_list>
 
           </Menu.Items>

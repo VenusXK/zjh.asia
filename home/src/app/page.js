@@ -8,14 +8,14 @@ function ShadeEachChar(){
   const shade = text_split.map((char, index) => {
     if(char.at(0) === "开"){
       return <>
-      <span key={index} className='duration-100 ease-in hover:text-white hover:bg-purple-500 dark:hover:bg-amber-500 z-10 hover:cursor-default'>
+      <span key={index} className='duration-100 ease-in hover:text-amber-300 dark:hover:text-purple-500 hover:bg-purple-500 dark:hover:bg-amber-300 z-10 hover:cursor-default'>
         <span className='underline decoration-wavy'>开心</span>
         {char.slice(2)}</span>
       </>
       
     }
     else{
-      return <span key={index} className='duration-500 hover:text-stone-500 dark:hover:text-white hover:cursor-default'>{char}</span>
+      return <span key={index} className='duration-500 hover:text-black dark:hover:text-white hover:cursor-default'>{char}</span>
     }
   })
   return <div>{shade}</div>
