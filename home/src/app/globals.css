@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply  min-h-screen dark:bg-gradient-to-br via-purple-800 from-blue-600 to-purple-900 pt-[10%] sm:pt-[15%];
+  @apply select-none min-h-screen dark:bg-gradient-to-br via-purple-800 from-blue-600 to-purple-900 pt-[10%] sm:pt-[15%];
 }
-/* select-none */
+/*  */
 
 .theMenu{
   @apply fixed float-right right-10 top-10 z-10 sm:right-5
