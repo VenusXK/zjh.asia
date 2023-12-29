@@ -8,8 +8,8 @@ mkdir "${deploy_root_path}notebook";
 
 # home deploy
 cd "${dev_root_path}home/" && 
-yarn run build && 
-cp -rf ./out/*  $deploy_root_path
+yarn run tw:dev && 
+cp -rf output.css index.html $deploy_root_path
 
 # life deploy
 cd "${dev_root_path}life/" && 
