@@ -8,7 +8,7 @@ mkdir "${deploy_root_path}notebook";
 
 # home deploy
 cd "${dev_root_path}home/" && 
-yarn run tw:dev && 
+# yarn run tw:dev && 
 cp -rf output.css awards.txt index.html $deploy_root_path
 
 # life deploy
