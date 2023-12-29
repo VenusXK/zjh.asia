@@ -9,7 +9,7 @@ mkdir "${deploy_root_path}notebook";
 # home deploy
 cd "${dev_root_path}home/" && 
 yarn run tw:dev && 
-cp -rf output.css index.html $deploy_root_path
+cp -rf output.css awards.txt index.html $deploy_root_path
 
 # life deploy
 cd "${dev_root_path}life/" && 
