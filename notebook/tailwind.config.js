@@ -2,7 +2,6 @@
 module.exports = {
   important: true,
   darkMode: 'class',
-  // content: ["./docs/.vitepress/theme/input.css"],
   theme: {
     extend: {},
     screens: {
