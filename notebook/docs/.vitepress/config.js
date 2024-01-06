@@ -29,7 +29,7 @@ module.exports = {
         outline: false,
         aside: false,
         darkModeSwitchLabel: '亮 / 暗',
-        // siteTitle: 'zjh.asia',
+        // siteTitle: 'this_site',
 
         
         
@@ -55,7 +55,8 @@ module.exports = {
           {
             text: '考试', items:[
               { text: '25考研', items: [
-                { text: '英语(一)', link: '/Master-Application-2/201/HongBaoShu/Unit-2'},
+                { text: '政治', link: '/Examination/Master-Application/Master-Application-2/101/2024bssc/chapter-1.md'},
+                { text: '英语(一)', link: '/Examination/Master-Application/Master-Application-2/201/hbs'},
               ]},
               { text: '山东大学：计算机专硕24考研', items: [
                 { text: '数学(二) - 线性代数', link: '/Examination/Master-Application/SDU/302-2/chapter-1'},
@@ -82,7 +83,7 @@ module.exports = {
             { text: '石油大学期间', items:[
               // { text: '大创：面向视频流的目标检测系统设计', link: '/Project/listen_or_not/AndroidStudio-ENV'},
               { text: '王勃AWS云上部署Hadoop实验', link: '/Project/Hadoop/Wangbo-51790-1'},
-              { text: 'ZJH.ASIA搭建', link: '/Project/zjh.asia/Env-Config'},
+              { text: '此网站搭建', link: '/Project/this_site/Env-Config'},
             ]},
             
             
@@ -115,7 +116,16 @@ module.exports = {
         sidebar: {
           'Examination':[
             { text: '25考研', items: [
+              { text: '政治', collapsed: true, items: [
+                { text: '24肖背诵手册背诵重点', collapsed: true, items: [
+                  { text: '马克思主义基本原理', link: '/Examination/Master-Application/Master-Application-2/101/2024bssc/chapter-1'}
+                ]},
+              ]},
               { text: '英语(一)', collapsed: true, items: [
+                { text: '红宝书生词汇总', link: '/Examination/Master-Application/Master-Application-2/201/hbs'},
+              ]},
+              { text: '计算机统考(408)', collapsed: true, items: [
+                  { text: '传输层背诵内容', link: '/Examination/Master-Application/Master-Application-2/408/chapter-5'}
               ]},
             ]},
             { text: '山东大学：计算机专硕24考研',  items:[
@@ -164,9 +174,9 @@ module.exports = {
                 { text: 'Hadoop实验基础部分(2节点)', link: '/Project/Hadoop/Wangbo-51790-1'},
                 { text: 'Hadoop实验扩展部分(9节点)', link: '/Project/Hadoop/Wangbo-51790-2'},
               ]},
-              { text: 'ZJH.ASIA搭建', collapsed: true, items:[
-                { text: '服务器环境配置', link: '/Project/zjh.asia/Env-Config'},
-                { text: 'JupyterNotebook搭建', link: '/Project/zjh.asia/Jupyter-Notebook'},
+              { text: '此网站搭建', collapsed: true, items:[
+                { text: '服务器环境配置', link: '/Project/this_site/Env-Config'},
+                { text: 'JupyterNotebook搭建', link: '/Project/this_site/Jupyter-Notebook'},
               ]},
             ]},
           ],
